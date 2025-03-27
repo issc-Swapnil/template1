@@ -1,13 +1,8 @@
 <?php 
-<<<<<<< HEAD
 include 'header.php'; 
 ?>
 
 
-=======
-include('header.php');
-?>
->>>>>>> c9201a1626ca7b16d532252a9581f3bfafb1d18e
         <!-- Blog Start -->
         <div class="container-fluid blog py-5">
             <div class="container py-5">
@@ -102,13 +97,9 @@ include('header.php');
             </div>
         </div>
         <!-- Blog End -->
-<<<<<<< HEAD
 
 
         <!-- Footer Start -->
         <?php 
 include 'footer.php'; 
 ?>
-=======
-        <?php include('footer.php');?>
->>>>>>> c9201a1626ca7b16d532252a9581f3bfafb1d18e

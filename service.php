@@ -1,14 +1,8 @@
-<<<<<<< HEAD
 <?php 
 include 'header.php'; 
 ?>
 
 
-=======
-<?php
-    include('header.php');
-?>
->>>>>>> c9201a1626ca7b16d532252a9581f3bfafb1d18e
         <!-- Service Start -->
         <div class="container-fluid service py-5">
             <div class="container py-5">
@@ -194,13 +188,8 @@ include 'header.php';
         </div>
         <!-- Testimonial End -->
 
-<<<<<<< HEAD
 
         <!-- Footer Start -->
         <?php 
 include 'footer.php'; 
-=======
-<?php
-    include('footer.php');
->>>>>>> c9201a1626ca7b16d532252a9581f3bfafb1d18e
 ?>
