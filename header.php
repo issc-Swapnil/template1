@@ -28,7 +28,10 @@
 
         <!-- Template Stylesheet -->
         <link href="css/style.css" rel="stylesheet">
+<<<<<<< HEAD
         <link href="css/new-style.css" rel="stylesheet">
+=======
+>>>>>>> c9201a1626ca7b16d532252a9581f3bfafb1d18e
     </head>
 
     <body>
@@ -102,16 +105,28 @@
                                     <span class="dropdown-toggle">Pages</span>
                                 </a>
                                 <div class="dropdown-menu">
+<<<<<<< HEAD
                                     <a href="career.php" class="dropdown-item">Careers</a>
                                     <a href="team.php" class="dropdown-item">Our team</a>
                                     <a href="testimonial.php" class="dropdown-item">Testimonial</a>
                                     <a href="faq.php" class="dropdown-item">FAQs</a>
                                     <a href="about1.php" class="dropdown-item">About</a>
+=======
+                                    <a href="feature.php" class="dropdown-item">Our Features</a>
+                                    <a href="team.php" class="dropdown-item">Our team</a>
+                                    <a href="testimonial.php" class="dropdown-item">Testimonial</a>
+                                    <a href="FAQ.php" class="dropdown-item">FAQs</a>
+                                    <!-- <a href="404.html" class="dropdown-item">404 Page</a> -->
+>>>>>>> c9201a1626ca7b16d532252a9581f3bfafb1d18e
                                 </div>
                                 </div>
                             <a href="contact.php" class="nav-item nav-link">Contact</a>
                             <div class="nav-btn px-3">
+<<<<<<< HEAD
                                 <a href="#" class="btn btn-primary rounded-pill py-2 px-4 ms-3 flex-shrink-0">Let's Talk</a>
+=======
+                                <a href="#" class="btn btn-primary rounded-pill py-2 px-4 ms-3 flex-shrink-0"> Get a Quote</a>
+>>>>>>> c9201a1626ca7b16d532252a9581f3bfafb1d18e
                             </div>
                         </div>
                     </div>
@@ -130,8 +145,29 @@
                 </nav>
             </div>
         </div>
+<<<<<<< HEAD
         <!-- Navbar & Hero End -->
 
     </body>
 
 </html>
+=======
+     </body>
+     <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        let currentPage = window.location.pathname.split("/").pop(); // Get current page filename
+        let navLinks = document.querySelectorAll(".navbar-nav .nav-link");
+
+        navLinks.forEach(link => {
+            if (link.getAttribute("href") === currentPage) {
+                link.classList.add("active"); // Add active class to the current link
+            }
+        });
+      });
+     </script>
+
+    </html>
+
+
+        <!-- Navbar & Hero End -->
+>>>>>>> c9201a1626ca7b16d532252a9581f3bfafb1d18e
