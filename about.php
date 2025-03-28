@@ -159,16 +159,8 @@ include 'header.php';
                 });
             });
         </script>
-<<<<<<< HEAD
 
         <!-- Footer Start -->
         <?php 
 include 'footer.php'; 
 ?>
-=======
-        <?php 
-            include('footer.php');
-        ?>
-
-        
->>>>>>> c9201a1626ca7b16d532252a9581f3bfafb1d18e
