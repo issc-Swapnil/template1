@@ -33,6 +33,35 @@
 
     <body>
 
+          <!-- Popup Container -->
+         <div id="subscribeModal" class="modal fade" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content p-4"
+                style="background: #3099D5; color: white; border-radius: 20px; text-align: center; box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.2);">
+                
+                <!-- Modal Header -->
+                <div class="modal-header border-0">
+                    <h5 class="modal-title w-100 text-center fw-bold" style="font-size: 1.5rem; letter-spacing: 1px;">📩 Subscribe Now</h5>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                
+                <!-- Modal Body -->
+                <div class="modal-body">
+                    <p style="font-size: 1rem; opacity: 0.9;">Stay updated with our latest news and offers.</p>
+                    <input type="email" class="form-control text-black mt-3" placeholder="ENTER YOUR EMAIL"
+                        style="border-radius: 10px; border: none; text-align: center; padding: 12px; font-size: 16px; background: white; color: black; box-shadow: inset 0 2px 5px rgba(0, 0, 0, 0.1);">
+                </div>
+                
+                <!-- Modal Footer -->
+                <div class="modal-footer border-0 justify-content-center">
+                    <button type="button" class="btn" style="background: white; border: none; padding: 12px 30px; font-weight: bold; border-radius: 30px; color: #3099D5; font-size: 16px; transition: all 0.3s ease-in-out;"
+                        onmouseover="this.style.background='#0056b3'; this.style.color='white';"
+                        onmouseout="this.style.background='white'; this.style.color='black';">SUBSCRIBE</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
         <!-- Spinner Start -->
         <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
             <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
@@ -51,17 +80,17 @@
                                 <a href="#" class="text-muted small"><i class="fas fa-map-marker-alt text-primary me-2"></i>Find A Location</a>
                             </div>
                             <div class="ps-3">
-                                <a href="mailto:example@gmail.com" class="text-muted small"><i class="fas fa-envelope text-primary me-2"></i>example@gmail.com</a>
+                                <a href="mailto:example@gmail.com" class="text-muted small"><i class="fas fa-envelope text-primary me-2"></i>contact@rdigs.com</a>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-4 text-center text-lg-end">
                         <div class="d-flex justify-content-end">
                             <div class="d-flex border-end border-primary pe-3">
-                                <a class="btn p-0 text-primary me-3" href="#"><i class="fab fa-facebook-f"></i></a>
-                                <a class="btn p-0 text-primary me-3" href="#"><i class="fab fa-twitter"></i></a>
-                                <a class="btn p-0 text-primary me-3" href="#"><i class="fab fa-instagram"></i></a>
-                                <a class="btn p-0 text-primary me-0" href="#"><i class="fab fa-linkedin-in"></i></a>
+                                <a class="btn p-0 text-primary me-3" href="https://www.facebook.com/RDInfoGlobalSolutions"><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn p-0 text-primary me-3" href="https://twitter.com/rdigsb2b"><i class="fab fa-twitter"></i></a>
+                                <a class="btn p-0 text-primary me-3" href="https://www.instagram.com/rdinfoglobalsolutions/"><i class="fab fa-instagram"></i></a>
+                                <a class="btn p-0 text-primary me-0" href="https://www.linkedin.com/company/rd-info-global-solutions/"><i class="fab fa-linkedin-in"></i></a>
                             </div>
                             <div class="dropdown ms-3">
                                 <a href="#" class="dropdown-toggle text-dark" data-bs-toggle="dropdown"><small><i class="fas fa-globe-europe text-primary me-2"></i> English</small></a>
@@ -94,24 +123,46 @@
                     <div class="collapse navbar-collapse" id="navbarCollapse">
                         <div class="navbar-nav mx-0 mx-lg-auto">
                             <a href="index.php" class="nav-item nav-link">Home</a>
-                            <a href="about1.php" class="nav-item nav-link">About</a>
+                            <div class="nav-item dropdown">
+                                <a href="#" class="nav-link" data-bs-toggle="dropdown">
+                                    <span class="dropdown-toggle">Company</span>
+                                </a>
+                                <div class="dropdown-menu">
+                                    <a href="about1.php" class="dropdown-item">About</a>
+                                    <a href="team.php" class="dropdown-item">Our Differentiation</a>
+                                    <a href="testimonial.php" class="dropdown-item">Career</a>
+                                    <a href="lifeatrdigs.php" class="dropdown-item">Life At RDIGS</a>
+                                </div>
+                            </div>
                             <a href="service.php" class="nav-item nav-link">Services</a>
                             <a href="blog.php" class="nav-item nav-link">Blog</a>
                             <div class="nav-item dropdown">
                                 <a href="#" class="nav-link" data-bs-toggle="dropdown">
-                                    <span class="dropdown-toggle">Pages</span>
+                                    <span class="dropdown-toggle">Strategies</span>
                                 </a>
                                 <div class="dropdown-menu">
-                                    <a href="career.php" class="dropdown-item">Careers</a>
-                                    <a href="team.php" class="dropdown-item">Our team</a>
-                                    <a href="testimonial.php" class="dropdown-item">Testimonial</a>
-                                    <a href="faq.php" class="dropdown-item">FAQs</a>
-                                    <a href="about1.php" class="dropdown-item">About</a>
+                                    <a href="career.php" class="dropdown-item">ABM</a>
+                                    <a href="team.php" class="dropdown-item">B2b Demand Generation</a>
+                                    <a href="testimonial.php" class="dropdown-item">Intent Based Maketing</a>
+                                    <!-- <a href="lifeatrdigs.php" class="dropdown-item">Life At RDIGS</a> -->
+                                    <!-- <a href="about1.php" class="dropdown-item">About</a> -->
+                                </div>
+                            </div>
+                            <div class="nav-item dropdown">
+                                <a href="#" class="nav-link" data-bs-toggle="dropdown">
+                                    <span class="dropdown-toggle">Resources</span>
+                                </a>
+                                <div class="dropdown-menu">
+                                    <a href="career.php" class="dropdown-item">Case Studies</a>
+                                    <a href="team.php" class="dropdown-item">Coroprate Desk</a>
+                                    <a href="testimonial.php" class="dropdown-item"></a>
+                                    <!-- <a href="lifeatrdigs.php" class="dropdown-item">Life At RDIGS</a> -->
+                                    <!-- <a href="about1.php" class="dropdown-item">About</a> -->
                                 </div>
                                 </div>
                             <a href="contact.php" class="nav-item nav-link">Contact</a>
                             <div class="nav-btn px-3">
-                                <a href="#" class="btn btn-primary rounded-pill py-2 px-4 ms-3 flex-shrink-0">Let's Talk</a>
+                                <a href="contact.php" class="btn btn-primary rounded-pill py-2 px-4 ms-3 flex-shrink-0">Let's Talk</a>
                             </div>
                         </div>
                     </div>
@@ -124,7 +175,7 @@
                         </a>
                         <div class="d-flex flex-column ms-3">
                             <span>Call to Our Experts</span>
-                            <a href="tel:+ 0123 456 7890"><span class="text-dark">Free: + 0123 456 7890</span></a>
+                            <a href="tel:+ 0123 456 7890"><span class="text-dark">Free: +91 848-404-0734</span></a>
                         </div>
                     </div>
                 </nav>
@@ -132,6 +183,4 @@
         </div>
         <!-- Navbar & Hero End -->
 
-    </body>
-
-</html>
+   
