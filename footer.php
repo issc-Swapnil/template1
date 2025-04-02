@@ -184,14 +184,20 @@
 
     <!-- Copyright Start -->
     <div class="container-fluid py-4" style="background-color: #2c3e50;">
-     <div class="container text-center">
-        <span class="text-body text-white">
-            <a href="https://rdigs.com/" class="border-bottom text-white">
+    <div class="container d-flex justify-content-between align-items-center">
+        <div>
+            <a href="https://rdigs.com/" class="border-bottom text-white" target="_blank" rel="noopener noreferrer">
                 <i class="fas fa-copyright text-light me-2"></i>RD Info Global Services
-            </a>, All rights reserved by
-        </span>
-     </div>
-   </div>
+            </a>, All rights reserved.
+        </div>
+        <div>
+            <a href="privacypolicy.php" class="text-white me-3" target="_blank" rel="noopener noreferrer">Privacy Policy</a>
+            <a href="ccpa.php" class="text-white me-3" target="_blank" rel="noopener noreferrer">CCPA</a>
+            <a href="terms.php" class="text-white" target="_blank" rel="noopener noreferrer">Terms cnd conditions</a>
+        </div>
+    </div>
+</div>
+
     <!-- Copyright End -->
 
 
