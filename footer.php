@@ -1,6 +1,6 @@
 
     <!-- Footer Start -->
-    <div class="container-fluid footer py-5 wow fadeIn" data-wow-delay="0.2s">
+    <div class="container-fluid footer wow fadeIn" data-wow-delay="0.2s">
         <div class="container py-5">
             <div class="row g-5">
                 <div class="col-xl-9">
@@ -11,16 +11,15 @@
                                     <a href="index.html" class="p-0">
                                     <img src="https://rolanddcosta.com/assets/images/logo.webp" alt="Logo">
                                     </a>
-                                    <p class="text-white mb-4">Dolor amet sit justo amet elitr clita ipsum elitr
-                                        est.Lorem ipsum dolor sit amet, consectetur adipiscing...</p>
+                                    <p class="text-white mb-4">To achieve our client’s marketing and ROI goals, our team of industry veterans is committed to exceeding their expectations at every turn.</p>
                                     <div class="footer-btn d-flex">
-                                        <a class="btn btn-md-square rounded-circle me-3" href="#"><i
+                                        <a class="btn btn-md-square rounded-circle me-3" href="https://www.facebook.com/RDInfoGlobalSolutions"><i
                                                 class="fab fa-facebook-f"></i></a>
-                                        <a class="btn btn-md-square rounded-circle me-3" href="#"><i
+                                        <a class="btn btn-md-square rounded-circle me-3" href="https://twitter.com/rdigsb2b"><i
                                                 class="fab fa-twitter"></i></a>
-                                        <a class="btn btn-md-square rounded-circle me-3" href="#"><i
+                                        <a class="btn btn-md-square rounded-circle me-3" href="https://www.instagram.com/rdinfoglobalsolutions/"><i
                                                 class="fab fa-instagram"></i></a>
-                                        <a class="btn btn-md-square rounded-circle me-0" href="#"><i
+                                        <a class="btn btn-md-square rounded-circle me-0" href="https://www.linkedin.com/company/rd-info-global-solutions/"><i
                                                 class="fab fa-linkedin-in"></i></a>
                                     </div>
                                 </div>
@@ -28,12 +27,12 @@
                             <div class="col-md-6 col-lg-6 col-xl-3">
                                 <div class="footer-item">
                                     <h4 class="text-white mb-4">Useful Links</h4>
-                                    <a href="#"><i class="fas fa-angle-right me-2"></i> About Us</a>
-                                    <a href="#"><i class="fas fa-angle-right me-2"></i> Features</a>
-                                    <a href="#"><i class="fas fa-angle-right me-2"></i> Services</a>
-                                    <a href="#"><i class="fas fa-angle-right me-2"></i> FAQ's</a>
-                                    <a href="#"><i class="fas fa-angle-right me-2"></i> Blogs</a>
-                                    <a href="#"><i class="fas fa-angle-right me-2"></i> Contact</a>
+                                    <a href="about1.php"><i class="fas fa-angle-right me-2"></i> About Us</a>
+                                    <a href="features.php"><i class="fas fa-angle-right me-2"></i> Features</a>
+                                    <a href="service.php"><i class="fas fa-angle-right me-2"></i> Services</a>
+                                    <a href="faq.php"><i class="fas fa-angle-right me-2"></i> FAQ's</a>
+                                    <a href="blog.php"><i class="fas fa-angle-right me-2"></i> Blogs</a>
+                                    <a href="contact.php"><i class="fas fa-angle-right me-2"></i> Contact</a>
                                 </div>
                             </div>
                             <div class="col-md-6 col-lg-6 col-xl-4">
@@ -116,7 +115,8 @@
                                             </div>
                                             <div>
                                                 <h4 class="text-white">Address</h4>
-                                                <p class="mb-0">123 Street New York.USA</p>
+                                                <p class="mb-0">23, 5th Floor, B Wing, Downtown City Vista, Kharadi, Pune - 411014.
+                                            </p>
                                             </div>
                                         </div>
                                     </div>
@@ -127,7 +127,7 @@
                                             </div>
                                             <div>
                                                 <h4 class="text-white">Mail Us</h4>
-                                                <p class="mb-0">info@example.com</p>
+                                                <p class="mb-0">contact@rdigs.com</p>
                                             </div>
                                         </div>
                                     </div>
@@ -138,8 +138,10 @@
                                             </div>
                                             <div>
                                                 <h4 class="text-white">Telephone</h4>
-                                                <p class="mb-0">(+012) 3456 7890</p>
+                                                <p class="mb-0">+91 848-404-0734<br>
+                                            </p>
                                             </div>
+                                            
                                         </div>
                                     </div>
                                 </div>
@@ -151,13 +153,12 @@
                 <div class="col-xl-3">
                     <div class="footer-item">
                         <h4 class="text-white mb-4">Newsletter</h4>
-                        <p class="text-white mb-3">Dolor amet sit justo amet elitr clita ipsum elitr est.Lorem ipsum
-                            dolor sit amet, consectetur adipiscing elit.</p>
+                        <p class="text-white mb-3">Stay updated with the latest news, insights, and exclusive offers directly in your inbox. Subscribe to our newsletter and never miss an important update or special promotion from us. Join our community today!</p>
                         <div class="position-relative rounded-pill mb-4">
                             <input class="form-control rounded-pill w-100 py-3 ps-4 pe-5" type="text"
                                 placeholder="Enter your email">
                             <button type="button"
-                                class="btn btn-primary rounded-pill position-absolute top-0 end-0 py-2 mt-2 me-2">SignUp</button>
+                                class="btn btn-primary rounded-pill position-absolute top-0 end-0 py-2 mt-2 me-2">Subscribe</button>
                         </div>
                         <div class="d-flex flex-shrink-0">
                             <div class="footer-btn">
@@ -171,7 +172,7 @@
                             </div>
                             <div class="d-flex flex-column ms-3 flex-shrink-0">
                                 <span>Call to Our Experts</span>
-                                <a href="tel:+ 0123 456 7890"><span class="text-white">Free: + 0123 456 7890</span></a>
+                                <a href="tel:+ 0123 456 7890"><span class="text-white">Free: +91 848-404-0734</span></a>
                             </div>
                         </div>
                     </div>
@@ -182,23 +183,15 @@
     <!-- Footer End -->
 
     <!-- Copyright Start -->
-    <div class="container-fluid copyright py-4">
-        <div class="container">
-            <div class="row g-4 align-items-center">
-                <div class="col-md-6 text-center text-md-end mb-md-0">
-                    <span class="text-body"><a href="#" class="border-bottom text-white"><i
-                                class="fas fa-copyright text-light me-2"></i>Your Site Name</a>, All right
-                        reserved.</span>
-                </div>
-                <div class="col-md-6 text-center text-md-start text-body">
-                    <!--/*** This template is free as long as you keep the below author’s credit link/attribution link/backlink. ***/-->
-                    <!--/*** If you'd like to use the template without the below author’s credit link/attribution link/backlink, ***/-->
-                    <!--/*** you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". ***/-->
-                    Designed By <a class="border-bottom text-white" href="https://htmlcodex.com">HTML Codex</a>
-                </div>
-            </div>
-        </div>
-    </div>
+    <div class="container-fluid py-4" style="background-color: #2c3e50;">
+     <div class="container text-center">
+        <span class="text-body text-white">
+            <a href="https://rdigs.com/" class="border-bottom text-white">
+                <i class="fas fa-copyright text-light me-2"></i>RD Info Global Services
+            </a>, All rights reserved by
+        </span>
+     </div>
+   </div>
     <!-- Copyright End -->
 
 
@@ -219,3 +212,18 @@
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            // Show the modal after 3 seconds
+            setTimeout(function () {
+                var subscribeModal = new bootstrap.Modal(document.getElementById("subscribeModal"));
+                subscribeModal.show();
+            }, 3000); // 3000ms = 3 seconds
+        });
+    </script>
+
+    </body>
+
+</html>
