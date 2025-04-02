@@ -1,9 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap');
+* {
+  font-family: "DM Sans", sans-serif;
+}
+
 .aboutimg {
     display: flex;
     justify-content: center; /* Centers horizontally */
     align-items: center; /* Centers vertically (if height is set) */
     height: 40vh; /* Optional: Centers vertically within the viewport */
-}
+}      
 
 /* feature */
 .feature-img {
@@ -66,7 +71,7 @@
     padding-left: 0px;
     line-height: 20px;
     color: #8D9EC0;
-    font-size: 14px;
+    font-size: 13px;
     margin-top: 0px;
     margin-right: 0px;
     margin-bottom: 40px;

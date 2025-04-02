@@ -3,33 +3,32 @@ include 'header.php';
 ?>
 
     <!-- banner Start -->
-    <div class="header-banner bg-primary">
-        <div class="banner-caption">
-            <div class="container">
-                <div class="row g-4 align-items-center">
-                    <div class="col-lg-7">
-                        <div class="text-sm-center text-md-start">
-                            <h3 class="text-white subheading">
-                                Fuel Your B2B Sales Funnel with <br> Programmatic Advertising
-                            </h3>
-                            <h1 class="text-white animated-heading">
-                                Powered by Technology | <br> Driven by Data | <br> Delivered with a Human Touch
-                            </h1>
-                            <div class="d-flex justify-content-center justify-content-md-start">
-                                <a class="btn btn-dark rounded-pill py-3 px-4 px-md-5" href="#">Discover More..</a>
-                            </div>
+    <div class="header-banner">
+    <div class="banner-caption">
+        <div class="container">
+            <div class="row g-4 align-items-center">
+                <div class="col-lg-7">
+                    <div class="text-center text-md-start">
+                        <h3 class="subheading">
+                            Fuel Your B2B Sales Funnel with <br> Programmatic Advertising
+                        </h3>
+                        <h1 class="animated-heading">
+                            Powered by Technology | <br> Driven by Data | <br> Delivered with a Human Touch
+                        </h1>
+                        <div class="d-flex justify-content-center justify-content-md-start">
+                            <a class="btn btn-dark rounded-pill py-3 px-4 px-md-5" href="#">Discover More..</a>
                         </div>
                     </div>
-                    <div class="col-lg-5">
-                        <div class="banner-img">
-                            <img src="img/carousel-2.png" class="img-fluid w-100 animated-image" alt="">
-                        </div>
+                </div>
+                <div class="col-lg-5 text-center">
+                    <div class="banner-img">
+                        <img src="img/carousel-2.png" class="img-fluid" alt="Banner Image">
                     </div>
                 </div>
             </div>
         </div>
     </div>
-
+</div>
 
     <!-- banner End -->
 

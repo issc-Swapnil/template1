@@ -339,170 +339,74 @@
     }
 } */
 /* Banner Styling */
-/* 🏆 General Banner Styling */
-/* 🏆 General Banner Styling */
-/* 🏆 General Banner Styling */
-/* 🏆 General Banner Styling */
+//* General Banner Styling */
 .header-banner {
-    height: 650px;
+    height: auto;
     display: flex;
     align-items: center;
+    justify-content: center;
     overflow: hidden;
+    padding: 50px 0;
+    background: linear-gradient(270deg, white, transparent), #3099D5;
+    text-align: center;
 }
 
 .banner-caption {
     width: 100%;
-    height: 100%;
-    background: linear-gradient(270deg, white, transparent);
-    display: flex;
-    align-items: center;
-    padding: 50px 0;
+    padding: 30px 15px;
+    color: white;
 }
 
-/* 🎇 Subheading (Moving Side-to-Side with Extra Space) */
 .subheading {
-    font-size: 20px;
+    font-size: 22px;
     font-weight: 500;
     letter-spacing: 1.2px;
     line-height: 1.6;
     margin-bottom: 15px;
-    opacity: 0;
-    animation: fadeIn 1.5s ease-in-out forwards, moveSideToSide 2s ease-in-out infinite;
+    color: white;
 }
 
-/* 🏆 Main Heading (More Spacing & Effects) */
 .animated-heading {
     font-size: 34px;
     font-weight: 700;
-    letter-spacing: 2.5px;
+    letter-spacing: 2px;
     text-transform: uppercase;
-    text-align: left;
     line-height: 1.5;
-    text-shadow: 3px 3px 8px rgba(255, 255, 255, 0.5);
-    background: linear-gradient(90deg, #ffffff, #e3f2fd, #ffffff);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    opacity: 0;
-    animation: fadeIn 1.5s ease-in-out forwards, glowEffect 2s infinite alternate, scaleUpDown 3s infinite ease-in-out;
+    color: white;
 }
 
-/* 🖼️ Image Animation (Faster Floating, Rotating & Scaling) */
-.animated-image {
-    opacity: 0;
-    transform: scale(0.95) rotate(-3deg);
-    animation: fadeIn 1s ease-out forwards, floatUp 2s ease-in-out infinite alternate, rotateSlightly 4s infinite ease-in-out;
+.banner-img img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
 }
 
-/* 🎇 Keyframes for Animations */
-
-/* Fade-In Effect */
-@keyframes fadeIn {
-    from {
-        opacity: 0;
-    }
-    to {
-        opacity: 1;
-    }
-}
-
-/* Move Subheading Side-to-Side */
-@keyframes moveSideToSide {
-    0%, 100% {
-        transform: translateX(0);
-    }
-    50% {
-        transform: translateX(15px);
-    }
-}
-
-/* Glowing Effect for Heading */
-@keyframes glowEffect {
-    from {
-        text-shadow: 2px 2px 6px rgba(255, 255, 255, 0.3);
-    }
-    to {
-        text-shadow: 4px 4px 12px rgba(255, 255, 255, 0.7);
-    }
-}
-
-/* Scale Up & Down Effect for Heading */
-@keyframes scaleUpDown {
-    0%, 100% {
-        transform: scale(1);
-    }
-    50% {
-        transform: scale(1.05);
-    }
-}
-
-/* Faster Floating Effect for Image */
-@keyframes floatUp {
-    0%, 100% {
-        transform: translateY(0) scale(0.95);
-    }
-    50% {
-        transform: translateY(-15px) scale(1);
-    }
-}
-
-/* Faster Rotate Slightly Effect for Image */
-@keyframes rotateSlightly {
-    0%, 100% {
-        transform: rotate(-3deg);
-    }
-    50% {
-        transform: rotate(3deg);
-    }
-}
-
-/* Responsive Adjustments */
+/* Responsive Design */
 @media (max-width: 991px) {
     .header-banner {
-        height: 550px;
+        padding: 40px 20px;
     }
     .animated-heading {
-        font-size: 30px;
+        font-size: 28px;
     }
 }
 
 @media (max-width: 767px) {
     .header-banner {
-        height: auto;
-        padding: 30px 0;
+        padding: 30px 15px;
     }
     .animated-heading {
-        font-size: 26px;
+        font-size: 24px;
         letter-spacing: 1.5px;
     }
     .subheading {
         font-size: 18px;
     }
+    .banner-caption {
+        text-align: center;
+    }
 }
-
-/*** Carousel Hero Header End ***/
-
-
-/*** Single Page Hero Header Start ***/
-.bg-breadcrumb {
-    position: relative;
-    overflow: hidden;
-    background: linear-gradient(rgba(1, 95, 201, 0.9), rgba(0, 0, 0, 0.2)), url(../img/bg-breadcrumb.jpg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding: 60px 0 60px 0;
-    transition: 0.5s;
-}
-
-.bg-breadcrumb .breadcrumb {
-    position: relative;
-}
-
-.bg-breadcrumb .breadcrumb .breadcrumb-item a {
-    color: var(--bs-white);
-}
-/*** Single Page Hero Header End ***/
-
 
 /*** Feature Start ***/
 /* .feature-img {
