@@ -32,6 +32,11 @@ include 'header.php';
 
     <!-- banner End -->
 
+    <!-- carousel start -->
+  
+
+    <!-- carousel end -->
+
     <!-- Feature Start -->
     <div class="container-fluid feature bg-light py-5">
     <div class="container py-5">
@@ -46,7 +51,7 @@ include 'header.php';
                         <img src="img/b2bleadgeneration.jpeg" class="img-fluid" alt="B2B Lead Generation">
                     </div>
                     <h4 class="mb-4">B2B Lead Generation</h4>
-                    <p class="mb-4">Empower Your Sales Team and Drive Results with RDIGS’ Account-Based Marketing Services</p>
+                    <p class="mb-4">Empower Your Sales Team and Drive Results with Us Account-Based marketing services</p>
                     <a class="btn btn-primary rounded-pill py-2 px-4" href="#">Learn More</a>
                 </div>
             </div>

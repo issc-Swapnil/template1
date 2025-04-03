@@ -1,8 +1,7 @@
 <?php 
 include 'header.php'; 
 ?>
-<h1>career page
-</h1>
+this is corporate page
 <?php 
 include 'footer.php'; 
 ?>

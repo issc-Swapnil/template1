@@ -129,8 +129,8 @@
                                 </a>
                                 <div class="dropdown-menu">
                                     <a href="about1.php" class="dropdown-item">About</a>
-                                    <a href="team.php" class="dropdown-item">Our Differentiation</a>
-                                    <a href="testimonial.php" class="dropdown-item">Career</a>
+                                    <a href="ourdifferentiation.php" class="dropdown-item">Our Differentiation</a>
+                                    <a href="career.php" class="dropdown-item">Career</a>
                                     <a href="lifeatrdigs.php" class="dropdown-item">Life At RDIGS</a>
                                 </div>
                             </div>
@@ -141,9 +141,9 @@
                                     <span class="dropdown-toggle">Strategies</span>
                                 </a>
                                 <div class="dropdown-menu">
-                                    <a href="career.php" class="dropdown-item">ABM</a>
-                                    <a href="team.php" class="dropdown-item">B2b Demand Generation</a>
-                                    <a href="testimonial.php" class="dropdown-item">Intent Based Maketing</a>
+                                    <a href="abm.php" class="dropdown-item">ABM</a>
+                                    <a href="b2bdemandgeneration.php" class="dropdown-item">B2b Demand Generation</a>
+                                    <a href="intentbasedmarketing.php" class="dropdown-item">Intent Based Maketing</a>
                                     <!-- <a href="lifeatrdigs.php" class="dropdown-item">Life At RDIGS</a> -->
                                     <!-- <a href="about1.php" class="dropdown-item">About</a> -->
                                 </div>
@@ -153,9 +153,9 @@
                                     <span class="dropdown-toggle">Resources</span>
                                 </a>
                                 <div class="dropdown-menu">
-                                    <a href="career.php" class="dropdown-item">Case Studies</a>
-                                    <a href="team.php" class="dropdown-item">Coroprate Desk</a>
-                                    <a href="testimonial.php" class="dropdown-item"></a>
+                                    <a href="casestudies.php" class="dropdown-item">Case Studies</a>
+                                    <a href="corporatedesk.php" class="dropdown-item">Coroprate Desk</a>
+                                    <!-- <a href="blog.php" class="dropdown-item">Blogs</a> -->
                                     <!-- <a href="lifeatrdigs.php" class="dropdown-item">Life At RDIGS</a> -->
                                     <!-- <a href="about1.php" class="dropdown-item">About</a> -->
                                 </div>
@@ -183,4 +183,6 @@
         </div>
         <!-- Navbar & Hero End -->
 
-   
+    </body>
+
+</html>
