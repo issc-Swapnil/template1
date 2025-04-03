@@ -3,54 +3,54 @@ include 'header.php';
 ?>
 
 
-
 <div class="lifeatrdigs bg-light about pb-5 pt-5">
-    <div class="container pb-5">
-        <div class="row g-5">
-            <!-- Left Side - Text Content -->
-            <div class="col-xl-6 fadeInLeft">
-                <div class="about-item-content bg-white rounded p-5 h-100">
-                    <h4 class="text-primary">Life At RDIGS</h4>
-                    <h1 class="display-4 mb-4">RDIGS Where Employees Thrive Together</h1>
-                    <p>At RDIGS, we foster an employee-centric environment where every team member is valued as part of our family. 
-                    We stand by the belief that "Employees are the voice of every organization." Our commitment goes beyond just work—we strive to 
-                    excel in everything we do, whether it's achieving professional milestones or creating memorable moments of fun.</p>
-                    <hr>
-                    <div class="d-flex gap-4 mt-6">
-                        <div class="counter-box">
-                            <h2 class="fw-bold text-primary"><span data-count="35">35</span>+</h2>
-                            <p>Team Members</p>
-                        </div>
-                        <div class="counter-box">
-                            <h2 class="fw-bold text-primary"><span data-count="12">12</span>+</h2>
-                            <p>Years of Experience</p>
-                        </div>
-                        <div class="counter-box">
-                            <h2 class="fw-bold text-primary"><span data-count="8">8</span>+</h2>
-                            <p>Projects Completed</p>
+    <div class="lifeatrdigs bg-light about pb-5 pt-5">
+        <div class="container pb-5">
+            <div class="row g-5">
+                <!-- Left Side - Text Content -->
+                <div class="col-xl-6 fadeInLeft">
+                    <div class="about-item-content bg-white rounded p-5 h-100">
+                        <h4 class="text-primary">Life At RDIGS</h4>
+                        <h1 class="display-4 mb-4">RDIGS Where Employees Thrive Together</h1>
+                        <p>At RDIGS, we foster an employee-centric environment where every team member is valued as part of our family. 
+                        We stand by the belief that "Employees are the voice of every organization." Our commitment goes beyond just work—we strive to 
+                        excel in everything we do, whether it's achieving professional milestones or creating memorable moments of fun.</p>
+                        <hr>
+                        <div class="d-flex gap-4 mt-6">
+                            <div class="counter-box">
+                                <h2 class="fw-bold text-primary"><span data-count="35">35</span>+</h2>
+                                <p>Team Members</p>
+                            </div>
+                            <div class="counter-box">
+                                <h2 class="fw-bold text-primary"><span data-count="12">12</span>+</h2>
+                                <p>Years of Experience</p>
+                            </div>
+                            <div class="counter-box">
+                                <h2 class="fw-bold text-primary"><span data-count="8">8</span>+</h2>
+                                <p>Projects Completed</p>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
 
-            <div class="col-xl-6 fadeInRight">
-             <div class="image-grid">
-                <img src="img/1.webp" class="grid-img" alt="Life at RDIGS">
-                <img src="img/1.webp" class="grid-img" alt="Teamwork at RDIGS">
-                <img src="img/1.webp" class="grid-img" alt="RDIGS Events">
-                <img src="img/1.webp" class="grid-img" alt="Work Culture">
-                <img src="img/1.webp" class="grid-img" alt="Fun at RDIGS">
-                <img src="img/1.webp" class="grid-img" alt="Success Stories">
-                <img src="img/1.webp" class="grid-img" alt="Innovation">
-                <img src="img/1.webp" class="grid-img" alt="Growth">
-                <img src="img/1.webp" class="grid-img" alt="Team Spirit">
+                <div class="col-xl-6 fadeInRight">
+                <div class="image-grid">
+                    <img src="img/1.webp" class="grid-img" alt="Life at RDIGS">
+                    <img src="img/1.webp" class="grid-img" alt="Teamwork at RDIGS">
+                    <img src="img/1.webp" class="grid-img" alt="RDIGS Events">
+                    <img src="img/1.webp" class="grid-img" alt="Work Culture">
+                    <img src="img/1.webp" class="grid-img" alt="Fun at RDIGS">
+                    <img src="img/1.webp" class="grid-img" alt="Success Stories">
+                    <img src="img/1.webp" class="grid-img" alt="Innovation">
+                    <img src="img/1.webp" class="grid-img" alt="Growth">
+                    <img src="img/1.webp" class="grid-img" alt="Team Spirit">
+                </div>
+                </div>
              </div>
-            </div>
         </div>
     </div>
-</div>
 
-<div class="benefits-container mt-5 mb-5">
+<div class="container mt-5 mb-5">
         <h4 class="benefits-title">Benefits At RDIGS</h4>
         <p class="benefits-description">
             We encourage our creative RDIGS team to push themselves to new limits each day. 
@@ -70,7 +70,7 @@ include 'header.php';
                 <p>All work and no play. Our employees enjoy a healthy balance of work and fun with a weekly session of fun games, team activities along with informative sessions.</p>
             </div>
             <div class="card learning-growth">
-                <img src="img/adverb2b.jpeg alt="Learning & Growth">
+                <img src="img/adverb2b.jpeg" alt="Learning & Growth">
                 <h5>Bi-Yearly Parties</h5>
                 <p>Work hard and party harder. RDIGS does not limit itself to a yearly corporate gig. We sing, we dance, we laugh, and our parties are filled with glamour and fun.</p>
             </div>
@@ -131,6 +131,7 @@ include 'header.php';
         </div>
     </div>
     </div>
+</div>
 </div>
 
 <?php 

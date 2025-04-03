@@ -619,6 +619,10 @@
 
 
 /*** Testimonial Start ***/
+.testimonial-item {
+    height: 450px;
+}
+
 .testimonial-carousel .owl-stage-outer {
     margin-top: 58px;
     margin-right: -1px;
