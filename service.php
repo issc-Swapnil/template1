@@ -2,7 +2,6 @@
 include 'header.php'; 
 ?>
 
-
         <!-- Service Start -->
         <div class="container-fluid service py-5">
             <div class="container py-5">
@@ -14,7 +13,7 @@ include 'header.php';
                 </div>
                 <div class="row g-4 justify-content-center pt-5">
                     <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.2s">
-                        <div class="service-item">
+                        <div class="service-item" style="height: 80%">
                             <div class="service-img">
                                 <img src="img/b3b lead.webp" class="img-fluid rounded-top w-100" alt="">
                                 <!-- <div class="service-icon p-3">
@@ -27,7 +26,7 @@ include 'header.php';
                                     <p class="mb-4">
                                      Empower Your Sales Team and Drive Results with RDIGS’ Account-Based Marketing Services
                                     </p>
-                                    <a class="btn btn-primary rounded-pill py-2 px-4" href="#">Read More</a>
+                                    <a class="btn btn-primary rounded-pill py-2 px-4" href="b2bservice.php">Read More</a>
                                 </div>
                             </div>
                         </div>
@@ -45,7 +44,7 @@ include 'header.php';
                                     <a href="#" class="d-inline-block h4 mb-4">B2B Advertising</a>
                                     <p class="mb-4">Drive Sustainable Growth for Your Sales and Marketing Efforts with Data-Driven Strategies
                                     </p>
-                                    <a class="btn btn-primary rounded-pill py-2 px-4" href="#">Read More</a>
+                                    <a class="btn btn-primary rounded-pill py-2 px-4" href="b2badvertising.php">Read More</a>
                                 </div>
                             </div>
                         </div>
@@ -63,7 +62,7 @@ include 'header.php';
                                     <a href="#" class="d-inline-block h4 mb-4">B2B SDR as a Service</a>
                                     <p class="mb-4">Unlock the Power of Precision Marketing with RDIGS’ Intent-Based Marketing Services
                                    </p>
-                                    <a class="btn btn-primary rounded-pill py-2 px-4" href="#">Read More</a>
+                                    <a class="btn btn-primary rounded-pill py-2 px-4" href="b2bsdrasaservice.php">Read More</a>
                                 </div>
                             </div>
                         </div>
@@ -80,7 +79,7 @@ include 'header.php';
                                 <div class="service-content-inner">
                                     <a href="#" class="d-inline-block h4 mb-4">Content Syndication</a>
                                     <p class="mb-4">Now is the time to Propel Your B2B Growth & Boost Your Sales Performance with RDIGS Sales</p>
-                                    <a class="btn btn-primary rounded-pill py-2 px-4" href="#">Read More</a>
+                                    <a class="btn btn-primary rounded-pill py-2 px-4" href="contentsyndication.php">Read More</a>
                                 </div>
                             </div>
                         </div>
