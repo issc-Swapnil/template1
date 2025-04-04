@@ -12,51 +12,57 @@
 
 /* feature */
 .feature-img {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    overflow: hidden; /* Ensures the image stays inside the container */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
 }
 
+/* Fixed size for card */
+.feature-item {
+  width: 100%;
+  height: 400px; /* Adjust height as needed */
+  border-radius: 10px;
+  background: var(--bs-white);
+  transition: background 0.5s;
+  overflow: hidden;
+  text-align: center;
+}
+
+/* Fixed image size inside the card */
 .feature-img img {
-    width: 80px;
-    height: 80px;
-    object-fit: contain;
-    transition: transform 0.5s ease-in-out;
+  width: 75px;
+  height: 75px;
+  object-fit: contain;
+  transition: transform 0.5s ease-in-out;
 }
 
 /* Zoom effect on hover */
 .feature-item:hover .feature-img img {
-    transform: scale(1.2);
+  transform: scale(1.2);
 }
 
 /* Hover effects for the card */
-.feature-item {
-    border-radius: 10px;
-    background: var(--bs-white);
-    transition: background 0.5s;
-    overflow: hidden;
-}
-
 .feature-item:hover {
-    background: var(--bs-primary);
+  background: var(--bs-primary);
 }
 
 /* Change text and button colors on hover */
 .feature-item:hover h4,
 .feature-item:hover p {
-    color: var(--bs-white);
+  color: var(--bs-white);
 }
 
 .feature-item:hover a.btn {
-    background: var(--bs-white);
-    color: var(--bs-primary);
+  background: var(--bs-white);
+  color: var(--bs-primary);
 }
 
 .feature-item:hover a.btn:hover {
-    background: var(--bs-dark);
-    color: var(--bs-white);
+  background: var(--bs-dark);
+  color: var(--bs-white);
 }
+
 /* featureend */
 
 /* about1 */
@@ -449,43 +455,9 @@
   }
 }
 
-/* benifits cards */
-/* Container */
-.benefits-title {
-  font-size: 1.8rem;
-  font-weight: 600;
-  color: #3099D5;
-  margin-bottom: 10px;
-  text-align: center;
-}
-
-/* Description */
-.benefits-description {
-  font-size: 1rem;
-  color: #555;
-  margin-bottom: 30px;
-  line-height: 1.6;
-  text-align: center;
-  max-width: 800px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-/* Grid Layout */
-.benefits-grid {
-  margin-left: 20px;
-  margin-right: 20px;
-  display: grid;
-  grid-template-columns: repeat(4, 0fr);
-  gap: 50px; /* Reduced gap between cards */
-  justify-content: center;
-  padding: 0 20px; /* Left and Right Margin */
-}
 
 /* Card Styles */
 .card {
-  width: 270px; /* Fixed card width */
-  height: 330px; /* Fixed card height */
   background: white;
   padding: 15px;
   border-radius: 10px;
@@ -496,17 +468,9 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-}
+  border-top: 4px solid #3099D5;
 
-/* Unique Card Borders */
-.work-life { border-top: 4px solid #3099D5; }
-.health-wellness { border-top: 4px solid #3099D5; }
-.learning-growth { border-top: 4px solid #3099D5; }
-.team-building { border-top: 4px solid #3099D5; }
-.employee-recognition { border-top: 4px solid #3099D5; }
-.innovation-culture { border-top: 4px solid #3099D5; }
-.career-growth { border-top: 4px solid #3099D5; }
-.financial-benefits { border-top: 4px solid #3099D5 }
+}
 
 /* Card Hover Effect */
 .card:hover {
@@ -535,27 +499,7 @@
 }
 
 /* Responsive Design */
-@media (max-width: 1024px) {
-  .benefits-grid {
-      grid-template-columns: repeat(3, 1fr);
-  }
-}
-
-@media (max-width: 768px) {
-  .benefits-grid {
-      grid-template-columns: repeat(2, 1fr);
-  }
-  .card {
-      width: 90%;
-  }
-}
-
-@media (max-width: 480px) {
-  .benefits-grid {
-      grid-template-columns: repeat(1, 1fr);
-  }
-}
-
+/* 
 /* events start */
 .benefits-description2 {
   font-size: 35px;

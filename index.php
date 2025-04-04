@@ -39,60 +39,61 @@ include 'header.php';
 
     <!-- Feature Start -->
     <div class="container-fluid feature bg-light py-5">
-    <div class="container py-5">
-        <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
-            <h4 class="text-primary">Explore Services</h4>
-            <h1 class="display-4 mb-4">We Assist Partners To Win New Businesses & Fuel Revenue</h1>
-        </div>
-        <div class="row g-4">
-            <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.2s">
-                <div class="feature-item p-4 pt-0">
-                    <div class="feature-img p-4 mb-4">
-                        <img src="img/b2bleadgeneration.jpeg" class="img-fluid" alt="B2B Lead Generation">
+        <div class="container py-5">
+            <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
+                <h4 class="text-primary">Explore Services</h4>
+                <h1 class="display-4 mb-4">We Assist Partners To Win New Businesses & Fuel Revenue</h1>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.2s">
+                    <div class="feature-item p-4 pt-0">
+                        <div class="feature-img p-4 mb-4">
+                            <img src="img/b2bleadgeneration.jpeg" class="img-fluid" alt="B2B Lead Generation">
+                        </div>
+                        <h4 class="mb-4">B2B Lead Generation</h4>
+                        <p class="mb-4">Empower Your Sales Team and Drive Results with Us Account-Based marketing services</p>
+                        <a class="btn btn-primary rounded-pill py-2 px-4" href="#">Learn More</a>
                     </div>
-                    <h4 class="mb-4">B2B Lead Generation</h4>
-                    <p class="mb-4">Empower Your Sales Team and Drive Results with Us Account-Based marketing services</p>
-                    <a class="btn btn-primary rounded-pill py-2 px-4" href="#">Learn More</a>
+                </div>
+                <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.4s">
+                    <div class="feature-item p-4 pt-0">
+                        <div class="feature-img p-4 mb-4">
+                            <img src="img/adverb2b.jpeg" class="img-fluid" alt="B2B Advertising">
+                        </div>
+                        <h4 class="mb-4">B2B Advertising</h4>
+                        <p class="mb-4">Drive Sustainable Growth for Your Sales and Marketing Efforts with Data-Driven Strategies</p>
+                        <a class="btn btn-primary rounded-pill py-2 px-4" href="#">Learn More</a>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.6s">
+                    <div class="feature-item p-4 pt-0">
+                        <div class="feature-img p-4 mb-4">
+                            <img src="img/b2bsdrasaservice.jpeg" class="img-fluid" alt="B2B SDR as a Service">
+                        </div>
+                        <h4 class="mb-4">B2B SDR as a Service</h4>
+                        <p class="mb-4">Unlock the Power of Precision Marketing with RDIGS’ Intent-Based Marketing Services</p>
+                        <a class="btn btn-primary rounded-pill py-2 px-4" href="#">Learn More</a>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.8s">
+                    <div class="feature-item p-4 pt-0">
+                        <div class="feature-img p-4 mb-4">
+                            <img src="img/contentsyndication.jpeg" class="img-fluid" alt="Content Syndication">
+                        </div>
+                        <h4 class="mb-4">Content Syndication</h4>
+                        <p class="mb-4">Now is the time to Propel Your B2B Growth & Boost Your Sales Performance with RDIGS Sales</p>
+                        <a class="btn btn-primary rounded-pill py-2 px-4" href="#">Learn More</a>
+                    </div>
                 </div>
             </div>
-            <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.4s">
-                <div class="feature-item p-4 pt-0">
-                    <div class="feature-img p-4 mb-4">
-                        <img src="img/adverb2b.jpeg" class="img-fluid" alt="B2B Advertising">
-                    </div>
-                    <h4 class="mb-4">B2B Advertising</h4>
-                    <p class="mb-4">Drive Sustainable Growth for Your Sales and Marketing Efforts with Data-Driven Strategies</p>
-                    <a class="btn btn-primary rounded-pill py-2 px-4" href="#">Learn More</a>
-                </div>
-            </div>
-            <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.6s">
-                <div class="feature-item p-4 pt-0">
-                    <div class="feature-img p-4 mb-4">
-                        <img src="img/b2bsdrasaservice.jpeg" class="img-fluid" alt="B2B SDR as a Service">
-                    </div>
-                    <h4 class="mb-4">B2B SDR as a Service</h4>
-                    <p class="mb-4">Unlock the Power of Precision Marketing with RDIGS’ Intent-Based Marketing Services</p>
-                    <a class="btn btn-primary rounded-pill py-2 px-4" href="#">Learn More</a>
-                </div>
-            </div>
-            <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.8s">
-                <div class="feature-item p-4 pt-0">
-                    <div class="feature-img p-4 mb-4">
-                        <img src="img/contentsyndication.jpeg" class="img-fluid" alt="Content Syndication">
-                    </div>
-                    <h4 class="mb-4">Content Syndication</h4>
-                    <p class="mb-4">Now is the time to Propel Your B2B Growth & Boost Your Sales Performance with RDIGS Sales</p>
-                    <a class="btn btn-primary rounded-pill py-2 px-4" href="#">Learn More</a>
-                </div>
-            </div>
-        </div>
 
-        <!-- Button Below the Services -->
-        <div class="text-center mt-4">
-            <a href="service.php" class="btn btn-primary rounded-pill py-3 px-5">View All Services</a>
+            <!-- Button Below the Services -->
+            <div class="text-center mt-4">
+                <a href="service.php" class="btn btn-primary rounded-pill py-3 px-5">View All Services</a>
+            </div>
         </div>
     </div>
-</div>
+
 
 
     <!-- <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.2s">

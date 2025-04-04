@@ -34,33 +34,47 @@
     <body>
 
           <!-- Popup Container -->
-         <div id="subscribeModal" class="modal fade" tabindex="-1" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered">
-            <div class="modal-content p-4"
-                style="background: #3099D5; color: white; border-radius: 20px; text-align: center; box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.2);">
-                
-                <!-- Modal Header -->
-                <div class="modal-header border-0">
-                    <h5 class="modal-title w-100 text-center fw-bold" style="font-size: 1.5rem; letter-spacing: 1px;">📩 Subscribe Now</h5>
-                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                
-                <!-- Modal Body -->
-                <div class="modal-body">
-                    <p style="font-size: 1rem; opacity: 0.9;">Stay updated with our latest news and offers.</p>
-                    <input type="email" class="form-control text-black mt-3" placeholder="ENTER YOUR EMAIL"
-                        style="border-radius: 10px; border: none; text-align: center; padding: 12px; font-size: 16px; background: white; color: black; box-shadow: inset 0 2px 5px rgba(0, 0, 0, 0.1);">
-                </div>
-                
-                <!-- Modal Footer -->
-                <div class="modal-footer border-0 justify-content-center">
-                    <button type="button" class="btn" style="background: white; border: none; padding: 12px 30px; font-weight: bold; border-radius: 30px; color: #3099D5; font-size: 16px; transition: all 0.3s ease-in-out;"
-                        onmouseover="this.style.background='#0056b3'; this.style.color='white';"
-                        onmouseout="this.style.background='white'; this.style.color='black';">SUBSCRIBE</button>
-                </div>
+         <!-- Subscribe Modal -->
+<div id="subscribeModal" class="modal fade" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered d-flex align-items-center justify-content-center">
+        <div class="modal-content p-3" 
+            style="background: #3099D5; color: white; border-radius: 15px; text-align: center; 
+                   box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2); max-width: 350px; width: 90%;">
+
+            <!-- Modal Header -->
+            <div class="modal-header border-0 p-2">
+                <h6 class="modal-title w-100 fw-bold" 
+                    style="font-size: 1.1rem; letter-spacing: 0.5px;">
+                    📩 Subscribe Now
+                </h6>
+                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+
+            <!-- Modal Body -->
+            <div class="modal-body p-2">
+                <p style="font-size: 0.85rem; opacity: 0.9; margin-bottom: 10px;">Stay updated with our latest news and offers.</p>
+                <input type="email" class="form-control text-black" placeholder="Enter your email"
+                    style="border-radius: 8px; border: none; text-align: center; padding: 8px; 
+                           font-size: 14px; background: white; color: black; 
+                           box-shadow: inset 0 2px 5px rgba(0, 0, 0, 0.1); width: 100%;">
+            </div>
+
+            <!-- Modal Footer -->
+            <div class="modal-footer border-0 justify-content-center p-2">
+                <button type="button" class="btn w-100" 
+                    style="background: white; border: none; padding: 8px 15px; font-weight: bold; 
+                           border-radius: 20px; color: #3099D5; font-size: 13px; 
+                           transition: all 0.3s ease-in-out;"
+                    onmouseover="this.style.background='#0056b3'; this.style.color='white';"
+                    onmouseout="this.style.background='white'; this.style.color='#3099D5';">
+                    SUBSCRIBE
+                </button>
             </div>
         </div>
     </div>
+</div>
+
+
 
         <!-- Spinner Start -->
         <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
@@ -131,11 +145,11 @@
                                     <a href="about1.php" class="dropdown-item">About</a>
                                     <a href="ourdifferentiation.php" class="dropdown-item">Our Differentiation</a>
                                     <a href="career.php" class="dropdown-item">Career</a>
-                                    <a href="lifeatrdigs.php" class="dropdown-item">Life At RDIGS</a>
+                                    <a href="life.php" class="dropdown-item">Life At RDIGS</a>
                                 </div>
                             </div>
                             <a href="service.php" class="nav-item nav-link">Services</a>
-                            <a href="blog.php" class="nav-item nav-link">Blog</a>
+                            <!-- <a href="blog.php" class="nav-item nav-link">Blog</a> -->
                             <div class="nav-item dropdown">
                                 <a href="#" class="nav-link" data-bs-toggle="dropdown">
                                     <span class="dropdown-toggle">Strategies</span>
