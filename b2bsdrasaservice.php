@@ -2,86 +2,103 @@
 include 'header.php'; 
 ?>
 
-<div class="container mt-4 mb-5 py-5 position-relative">
-    <!-- Vertical Line in the Center -->
-    <div class="vertical-line d-none d-md-block"></div>
-
-    <!-- Left Side -->
+<div class="container py-5 position-relative">
     <div class="row mb-5 align-items-center">
-        <div class="col-12 col-md-5 text-center text-md-start pe-md-4">
-            <h4 class="text-primary">B2B SDR as a Service</h4>
-            <h1 class="mt-1">B2B SDR as a Service</h1>
-            <div class="info-box">
-                <p>
-                Create predictable sales pipelines and establish market share in new verticals with RDIGS’s SDR as a Service. Reach more prospects quickly and efficiently. Turn marketing-qualified leads into sales-qualified leads. Set appointments with high-quality leads, close more deals and grow your sales revenue.
-                </p>
-                <a class="btn btn-primary rounded-pill py-2 px-4" href="#">Know More</a>
+            <!-- Left Side -->
+            <div class="col-12 col-md-6 text-center text-md-start mb-4 mb-md-0">
+                <h4 class="text-primary">B2B SDR as a Service</h4>
+                <h1 class="mt-1">
+                B2B SDR as a Service</h1>
+                <div class="info-box">
+                    <p>
+                    Create predictable sales pipelines and establish market share in new verticals with RDIGS’s SDR as a Service. Reach more prospects quickly and efficiently. Turn marketing-qualified leads into sales-qualified leads. Set appointments with high-quality leads, close more deals and grow your sales revenue.
+                    </p>
+                    <a class="btn btn-primary rounded-pill py-2 px-4" href="#">Read More</a>
+                </div>
+            </div>
+
+            <!-- Right Side Image -->
+            <div class="col-12 col-md-6 text-center text-md-start">
+                <img src="img/b2bsdr1.png" alt="Expertise Image" class="img-fluid" style="max-width: 100%; height: auto;">
             </div>
         </div>
-        <div class="col-md-2 d-none d-md-block"></div>
-        <div class="col-12 col-md-5 text-center text-md-start ps-md-4">
-            <img src="img/b2bsdr1.png" alt="Expertise Image" class="small-img img-fluid">
-        </div>
-    </div>
 
-    <div class="row mb-5 align-items-center">
-        <div class="col-12 col-md-5 text-center text-md-end pe-md-4">
-            <img src="img/b2bsdr2.png" alt="Expertise Image" class="small-img img-fluid">
-        </div>
-        <div class="col-md-2 d-none d-md-block"></div>
-         <div class="col-12 col-md-5 text-center text-md-start ps-md-4">
-            <h4 class="text-primary">Resource Efficiency</h4>
-            <h1 class="mt-1">Do More with Your Marketing Budget</h1>
-            <div class="info-box">
-                <p>
-                Maximize your marketing spend. Eliminate costs like travel, accommodation, and in-person meetings with potential leads. Save time and scale marketing processes by selling from the convenience of your office.
-                </p>
-                <a class="btn btn-primary rounded-pill py-2 px-4" href="#">Know More</a>
+        <div class="row align-items-center">
+            <!-- Image Column (Left on Desktop, Bottom on Mobile) -->
+            <div class="col-md-6 order-1 order-md-0 text-center mb-4 mb-md-0">
+            <img src="img/b2bsdr2.png" alt="Expertise Image" class="img-fluid" style="max-width: 100%; height: auto;">
             </div>
-        </div>
-    </div>
-
-    <div class="row mb-5 align-items-center">
-        <div class="col-12 col-md-5 text-center text-md-start pe-md-4">
-            <h4 class="text-primary">Data-Driven Pridiction</h4>
-            <h1 class="mt-1">Predict Revenue Based on Performance</h1>
-            <div class="info-box">
-                <p>
-                Predict revenue flow based on inside sales reps performance. Keep tabs on day-to-day data like the number of calls made, demos booked, price quotes sent, and contracts signed among others. Adjust and improve your sales process accordingly to boost revenue.
+            <!-- Text Column (Right on Desktop, Top on Mobile) -->
+            <div class="col-md-6 order-0 order-md-1">
+                <h4 class="text-primary mb-2">  RESOURCE EFFICIENCY</h4>
+                <h1 class="h3 mb-3">Do More with Your Marketing Budget</h1>
+                <p class="mb-3" style="font-size: 16px;">Maximize your marketing spend. Eliminate costs like travel, accommodation, and in-person meetings with potential leads. Save time and scale marketing processes by selling from the convenience of your office.
                 </p>
                 <a class="btn btn-primary rounded-pill py-2 px-4" href="#">Read More</a>
             </div>
         </div>
-        <div class="col-md-2 d-none d-md-block"></div>
-        <div class="col-12 col-md-5 text-center text-md-start ps-md-4">
-            <img src="img/b2bsdr3.png" alt="Expertise Image" class="small-img img-fluid">
-        </div>
-    </div>
 
-    <div class="row mb-5 align-items-center">
-        <div class="col-12 col-md-5 text-center text-md-end pe-md-4">
-            <img src="img/b2bsdr4.png" alt="Expertise Image" class="small-img img-fluid">
+        <div class="row mb-5 align-items-center">
+            <!-- Left Side -->
+            <div class="col-12 col-md-6 text-center text-md-start mb-4 mb-md-0">
+                <h4 class="text-primary">DATA-DRIVEN PREDICTION</h4>
+                <h1 class="mt-1">Predict Revenue Based on Performance</h1>
+                <div class="info-box">
+                    <p>Predict revenue flow based on inside sales reps performance. Keep tabs on day-to-day data like the number of calls made, demos booked, price quotes sent, and contracts signed among others. Adjust and improve your sales process accordingly to boost revenue.
+                    </p>
+                    <a class="btn btn-primary rounded-pill py-2 px-4" href="#">Read More</a>
+                </div>
+            </div>
+
+            <!-- Right Side Image -->
+            <div class="col-12 col-md-6 text-center text-md-start">
+                <img src="img/b2bsdr3.png" alt="Expertise Image" class="img-fluid" style="max-width: 100%; height: auto;">
+            </div>
         </div>
-        <div class="col-md-2 d-none d-md-block"></div>
-        <div class="col-12 col-md-5 text-center text-md-start ps-md-4">
-            <h4 class="text-primary">Better Experience</h4>
-            <h1 class="mt-1">Target Leads with Custom Sales Pitches</h1>
-            <div class="info-box">
-                <p>Adapt your sales pitch to individual prospect’s needs and preferences. Give leads prompt responses to their concerns and queries. Close more deals and grow sales revenue with positive lead experiences.</p>
-                <a class="btn btn-primary rounded-pill py-2 px-4" href="#">Know More</a>
+
+        <div class="row align-items-center">
+            <!-- Image Column (Left on Desktop, Bottom on Mobile) -->
+            <div class="col-md-6 order-1 order-md-0 text-center mb-4 mb-md-0">
+            <img src="img/b2bsdr4.png" alt="Expertise Image" class="img-fluid" style="max-width: 100%; height: auto;">
+            </div>
+            <!-- Text Column (Right on Desktop, Top on Mobile) -->
+            <div class="col-md-6 order-0 order-md-1">
+                <h4 class="text-primary mb-2">BETTER EXPERIENCE</h4>
+                <h1 class="h3 mb-3">Target Leads with Custom Sales Pitches</h1>
+                <p class="mb-3" style="font-size: 16px;">Adapt your sales pitch to individual prospect’s needs and preferences. Give leads prompt responses to their concerns and queries. Close more deals and grow sales revenue with positive lead experiences.
+                </p>
+                <a class="btn btn-primary rounded-pill py-2 px-4" href="#">Read More</a>
+            </div>
+        </div>
+
+        <div class="row mb-5 align-items-center">
+            <!-- Left Side -->
+            <div class="col-12 col-md-6 text-center text-md-start mb-4 mb-md-0">
+                <h4 class="text-primary">WIDER REACH</h4>
+                <h1 class="mt-1">Access Cross-Border Markets</h1>
+                <div class="info-box">
+                    <p>Eliminate distance barriers. Expand your geographic reach and grow your customer base. Reach potential buyers across regional and country borders at affordable costs.
+                    </p>
+                    <a class="btn btn-primary rounded-pill py-2 px-4" href="#">Read More</a>
+                </div>
+            </div>
+
+            <!-- Right Side Image -->
+            <div class="col-12 col-md-6 text-center text-md-start">
+                <img src="img/b2bsdr5.png" alt="Expertise Image" class="img-fluid" style="max-width: 100%; height: auto;">
             </div>
         </div>
     </div>
 </div>
 
-<!-- steps starts -->
-
+<!-- steps start -->
 
 <div class="container text-center py-5">
     <div class="mx-auto" style="max-width: 800px;">
         <h4 class="text-primary">INSIDE SALES MARKETING APPROACH</h4>
         <h1 class="display-6 mb-4">Grow Your Sales with RDIGS’s 6-Step Inside Sales Process</h1>
     </div>
+</div>
 
     <div class="row g-4 justify-content-center">
         <!-- Card 1 -->
@@ -175,8 +192,6 @@ include 'header.php';
     </div> 
   
 </div>
-
-    
 
 <?php 
 include 'footer.php'; 

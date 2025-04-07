@@ -1,86 +1,165 @@
 <?php 
 include 'header.php'; 
 ?>
-
-<div class="container mt-4 mb-5 py-5 position-relative">
-    <!-- Vertical Line in the Center -->
-    <div class="vertical-line d-none d-md-block"></div>
-
-    <!-- Left Side -->
-    <div class="row mb-5 align-items-center">
-        <div class="col-12 col-md-5 text-center text-md-start pe-md-4">
-            <h4 class="text-primary">B2B Lead Generation Services</h4>
-            <h1 class="mt-1">B2B Lead Generation Services</h1>
-            <div class="info-box">
-                <p>
-                    In B2B lead generation, achieving a balance between quantity and quality is crucial. By focusing on high-quality leads, you minimize the time spent on unproductive follow-ups, leading to more efficient nurturing and a higher likelihood of successful conversions.
-                </p>
-                <a class="btn btn-primary rounded-pill py-2 px-4" href="#">Read More</a>
+<div class="container py-5">
+  <div class="lifeatrdigs bg-light about pb-5 pt-5">
+    <div class="container pb-5">
+      <div class="row g-5 align-items-center">
+        <!-- Left Side - Text Content -->
+        <div class="col-lg-6">
+          <div class="bg-white rounded p-4 h-100 d-flex flex-column justify-content-between">
+            <div>
+              <h1 class="display-5 mb-4">Join Our Team Ignite Your Career</h1>
+              <p>
+                There’s more to life than a paycheck, and that’s why we prioritize family over everything else.
+                We recognize that the quest for a meaningful and rewarding career can feel daunting at times.
+                Therefore, we endeavor to streamline the process and provide you with an exceptional work environment.
+              </p>
+              <p>
+                Begin your journey with us today by exploring the range of exciting opportunities we have for you.
+                Let’s unlock the door to a fulfilling career together, where your passion aligns with your purpose.
+              </p>
             </div>
+            <div class="mt-3">
+              <a class="btn btn-primary rounded-pill py-2 px-4" href="#">Know More</a>
+            </div>
+          </div>
         </div>
-        <div class="col-md-2 d-none d-md-block"></div>
-        <div class="col-12 col-md-5 text-center text-md-start ps-md-4">
-            <img src="img/career2.png" alt="Expertise Image" class="small-img img-fluid">
+
+        <!-- Right Side - Award Card + Image -->
+        <div class="col-lg-6 d-flex flex-column align-items-center">
+          <!-- Award Card -->
+          <div class="card rounded text-center p-4 mb-3 w-100" style="background-color: white; border: 1px solid #ddd;">
+            <div class="d-flex flex-column align-items-center">
+              <i class="bi bi-award-fill" style="font-size: 2rem; color: #ffc107;"></i>
+              <h5 class="mt-2 mb-1">We have <strong>25+</strong> award-winning projects</h5>
+            </div>
+          </div>
+
+          <!-- Image -->
+          <img
+            src="img/careerpageimg.webp"
+            class="img-fluid rounded shadow"
+            alt="Life at RDIGS"
+            style="max-width: 100%; height: auto; max-height: 440px; object-fit: cover;"
+          />
         </div>
+      </div>
     </div>
+  </div>
 
-    <div class="row mb-5 align-items-center">
-        <div class="col-12 col-md-5 text-center text-md-end pe-md-4">
-            <img src="img/career1.png" alt="Expertise Image" class="small-img img-fluid">
-        </div>
-        <div class="col-md-2 d-none d-md-block"></div>
-        <div class="col-12 col-md-5 text-center text-md-start ps-md-4">
-            <h4 class="text-primary">MQL GENERATION</h4>
-            <h1 class="mt-1">Top of the Funnel Lead Generation Services</h1>
-            <div class="info-box">
-                <p>
-                    In marketing parameters, marketing qualified leads (MQL) are defined as leads that have a high conversion potential. They are typically at the top of the sales funnel. MQLs that we provide will have shown high interest in your product by interacting with your content. 
-                </p>
-                <a class="btn btn-primary rounded-pill py-2 px-4" href="#">Read More</a>
-            </div>
-        </div>
+
+
+
+ <!-- job cards starts -->
+
+    <div class="text-center mx-auto pb-5 mt-4 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
+        <h4 class="text-primary">Explore Services</h4>
+        <h1 class="display-4 mb-4">We’re Always Looking For Talented People</h1>
     </div>
+    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4 g-4">
 
-    <div class="row mb-5 align-items-center">
-        <div class="col-12 col-md-5 text-center text-md-start pe-md-4">
-            <h4 class="text-primary">MQL QUALIFICATION</h4>
-            <h1 class="mt-1">Multi-Touch High Quality Lead Generation Services</h1>
-            <div class="info-box">
-                <p>
-                    Our rock-solid qualification process for your MQLs starts with prospects showing clear intent. We cross-check parameters to leave out leads that are less likely to convert. To nail the MQL qualification, we tele-verify them and ensure they are inside sales-ready.
-                </p>
-                <a class="btn btn-primary rounded-pill py-2 px-4" href="#">Read More</a>
+     <!-- Repeatable Card -->
+        <div class="col">
+        <div class="card text-center"
+            style="border: 1px solid rgba(48, 153, 213, 0.3); border-radius: 15px;
+                    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1); 
+                    height: 300px; transition: all 0.2s ease;"
+            onmouseover="this.style.transform='scale(1.05)'; this.style.boxShadow='0 10px 25px rgba(0, 0, 0, 0.2)'; this.style.height='300px';"
+            onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='0 6px 20px rgba(0, 0, 0, 0.1)'; this.style.height='300px';">
+            <div class="card-body d-flex flex-column justify-content-center align-items-center">
+            <img src="https://via.placeholder.com/60" class="mb-4" alt="Logo">
+            <h5 class="card-title">Graphics Designer</h5>
+            <button class="btn mt-4"
+                    style="color: #3099D5; border: 1px solid #3099D5; background: transparent;"
+                    data-bs-toggle="modal" data-bs-target="#applyModal">
+                Apply Now
+            </button>
             </div>
         </div>
-        <div class="col-md-2 d-none d-md-block"></div>
-        <div class="col-12 col-md-5 text-center text-md-start ps-md-4">
-            <img src="img/career2.png" alt="Expertise Image" class="small-img img-fluid">
         </div>
-    </div>
 
-    <div class="row mb-5 align-items-center">
-        <div class="col-12 col-md-5 text-center text-md-end pe-md-4">
-            <img src="img/career3.png" alt="Expertise Image" class="small-img img-fluid">
-        </div>
-        <div class="col-md-2 d-none d-md-block"></div>
-        <div class="col-12 col-md-5 text-center text-md-start ps-md-4">
-            <h4 class="text-primary">BANT QUALIFICATION</h4>
-            <h1 class="mt-1">BANT Lead Generation Services</h1>
-            <div class="info-box">
-                <p>Budget, Authority, Need, and Timing. Our MQL generation focuses on these parameters for high-quality leads. We’ll also check:</p>
-                <ul class="list-unstyled">
-                    <h6>To know how close they are to a buying decision:</h6>
-                    <li><i class="text-success fas fa-check-circle"></i> We take confirmed consent to be contacted.</li>
-                    <li><i class="text-success fas fa-check-circle"></i> Identify the current solution the prospect is using.</li>
-                    <li><i class="text-success fas fa-check-circle"></i> Identify the number of locations they operate from.</li>
-                    <li><i class="text-success fas fa-check-circle"></i> Identify any challenges or pain points they might have.</li>
-                    <li><i class="text-success fas fa-check-circle"></i> Identify the time frame to change the current solution.</li>
-                </ul>
-                <a class="btn btn-primary rounded-pill py-2 px-4" href="#">Read More</a>
+        <!-- Copy above div.col three more times for 4 cards -->
+        <div class="col">
+        <div class="card text-center" style="border: 1px solid rgba(48, 153, 213, 0.3); border-radius: 15px;
+                    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1); 
+                    height: 300px; transition: all 0.2s ease;"
+            onmouseover="this.style.transform='scale(1.05)'; this.style.boxShadow='0 10px 25px rgba(0, 0, 0, 0.2)'; this.style.height='300px';"
+            onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='0 6px 20px rgba(0, 0, 0, 0.1)'; this.style.height='300px';">
+            <div class="card-body d-flex flex-column justify-content-center align-items-center">
+            <img src="https://via.placeholder.com/60" class="mb-4" alt="Logo">
+            <h5 class="card-title">Frontend Developer</h5>
+            <button class="btn mt-4" style="color: #3099D5; border: 1px solid #3099D5; background: transparent;" data-bs-toggle="modal" data-bs-target="#applyModal">Apply Now</button>
             </div>
+        </div>
+        </div>
+
+        <div class="col">
+        <div class="card text-center" style="border: 1px solid rgba(48, 153, 213, 0.3); border-radius: 15px;
+                    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1); 
+                    height: 300px; transition: all 0.2s ease;"
+            onmouseover="this.style.transform='scale(1.05)'; this.style.boxShadow='0 10px 25px rgba(0, 0, 0, 0.2)'; this.style.height='300px';"
+            onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='0 6px 20px rgba(0, 0, 0, 0.1)'; this.style.height='300px';">
+            <div class="card-body d-flex flex-column justify-content-center align-items-center">
+            <img src="https://via.placeholder.com/60" class="mb-4" alt="Logo">
+            <h5 class="card-title">Lead Generation Executive</h5>
+            <button class="btn mt-4" style="color: #3099D5; border: 1px solid #3099D5; background: transparent;" data-bs-toggle="modal" data-bs-target="#applyModal">Apply Now</button>
+            </div>
+        </div>
+        </div>
+
+        <div class="col">
+        <div class="card text-center" style="border: 1px solid rgba(48, 153, 213, 0.3); border-radius: 15px;
+                    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1); 
+                    height: 300px; transition: all 0.2s ease;"
+            onmouseover="this.style.transform='scale(1.05)'; this.style.boxShadow='0 10px 25px rgba(0, 0, 0, 0.2)'; this.style.height='300px';"
+            onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='0 6px 20px rgba(0, 0, 0, 0.1)'; this.style.height='300px';">
+            <div class="card-body d-flex flex-column justify-content-center align-items-center">
+            <img src="https://via.placeholder.com/60" class="mb-4" alt="Logo">
+            <h5 class="card-title">Demand Generation Executive</h5>
+            <button class="btn mt-4" style="color: #3099D5; border: 1px solid #3099D5; background: transparent;" data-bs-toggle="modal" data-bs-target="#applyModal">Apply Now</button>
+            </div>
+        </div>
         </div>
     </div>
 </div>
+
+<!-- Modal Start -->
+<div class="modal fade" id="applyModal" tabindex="-1" aria-labelledby="applyModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" style="max-width: 500px;">
+    <div class="modal-content" style="border-radius: 12px; padding: 20px;">
+      <div class="modal-header">
+        <h5 class="modal-title" id="applyModalLabel">Apply for Position</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <form>
+          <div class="mb-3">
+            <label class="form-label">Full Name</label>
+            <input type="text" class="form-control" placeholder="Enter your name">
+          </div>
+          <div class="mb-3">
+            <label class="form-label">Email address</label>
+            <input type="email" class="form-control" placeholder="Enter email">
+          </div>
+          <div class="mb-3">
+            <label class="form-label">Contact Number</label>
+            <input type="tel" class="form-control" placeholder="Enter phone number">
+          </div>
+          <div class="mb-3">
+            <label class="form-label">Upload Resume</label>
+            <input type="file" class="form-control">
+          </div>
+          <button type="submit" class="btn btn-primary w-100">Submit Application</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+</div>
+
 
 <?php 
 include 'footer.php'; 

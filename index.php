@@ -2,33 +2,29 @@
 include 'header.php'; 
 ?>
 
-    <!-- banner Start -->
-    <div class="header-banner">
-    <div class="banner-caption">
-        <div class="container">
-            <div class="row g-4 align-items-center">
-                <div class="col-lg-7">
-                    <div class="text-center text-md-start">
-                        <h3 class="subheading">
-                            Fuel Your B2B Sales Funnel with <br> Programmatic Advertising
-                        </h3>
-                        <h1 class="animated-heading">
-                            Powered by Technology | <br> Driven by Data | <br> Delivered with a Human Touch
-                        </h1>
-                        <div class="d-flex justify-content-center justify-content-md-start">
-                            <a class="btn btn-dark rounded-pill py-3 px-4 px-md-5" href="#">Discover More..</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-5 text-center">
-                    <div class="banner-img">
-                        <img src="img/carousel-2.png" class="img-fluid" alt="Banner Image">
-                    </div>
-                </div>
+<div class="container-fluid" 
+     style="background-image: url('img/bannerimg.jpg'); background-size: cover; background-position: center; background-repeat: no-repeat; padding: 50px; color: #fff;">
+
+    <div class="container">
+        <div class="row justify-content-start text-start">
+            <div class="col-lg-8">
+                <h3 style="font-size: 1.15rem; font-weight: 700; margin-bottom: 20px;">
+                    Fuel Your B2B Sales Funnel with <br> Programmatic Advertising
+                </h3>
+
+                <h1 style="font-size: 2.75rem; font-weight: 700; line-height: 1.4; margin-bottom: 30px;">
+                    Powered by Technology | <br> Driven by Data | <br> Delivered with a Human Touch
+                </h1>
+
+                <a href="#" class="btn btn-dark rounded-pill py-3 px-4 px-md-5">
+                    Discover More..
+                </a>
             </div>
         </div>
     </div>
 </div>
+
+
 
     <!-- banner End -->
 
