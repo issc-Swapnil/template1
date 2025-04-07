@@ -3,9 +3,9 @@ include 'header.php';
 ?>
 
 <div class="container py-5">
-       <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width:   800px;">
-                <h1 class="display-4 mb-4">We Assist Partners To Win New Businesses & Fuel Revenue</h1>
-       </div>
+    <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width:   800px;">
+        <h1 class="display-4 mb-4">We Assist Partners To Win New Businesses & Fuel Revenue</h1>
+    </div>
          <!-- Bootstrap CSS -->
         <link href="https://stackpath.bootstrapcdn.com/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
         <!-- Animate.css -->
@@ -30,6 +30,7 @@ include 'header.php';
                 </div>
             </div>
 
+
             <!-- Second Row - 3rd Paragraph (Centered Below 1 & 2) -->
             <div class="row mb-4 justify-content-center">
                 <div class="col-md-8 text-center wow animate__animated animate__fadeInUp">
@@ -39,79 +40,91 @@ include 'header.php';
                     </p>
                 </div>
             </div>
-        </div>
+
 
         <!-- Bootstrap JS & WOW.js -->
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
         <script> new WOW().init(); </script>
-        
+
         <!-- categories card started -->
-            <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
-                     <h4 class="text-primary">Top categories</h4>
-                <h1 class="display-4 mb-4">What will you get by working with us?</h1>
-            </div>
-            <div class="row g-3 justify-content-center">
-            <!-- Card 1 -->
-            <div class="col-md-auto">
-                <div class="card text-center" style="width: 220px; height: 150px; border: 1px solid #ccc;">
-                    <div class="card-body d-flex flex-column justify-content-center align-items-center">
-                        <img src="img/categories1.png" alt="" style="width: 65px; height: 65px;">
-                        <h6 class="card-title mt-2" style="font-size: 14px;">Content Marketing</h6>
-                    </div>
+    <div class="container text-center py-5">
+        <div class="mx-auto" style="max-width: 800px;">
+            <h4 class="text-primary">Top Categories</h4>
+            <h1 class="display-6 mb-4">What will you get by working with us?</h1>
+        </div>
+
+        <div class="row g-4 justify-content-center">
+         <!-- Card 1 -->
+            <div class="col-lg-2 col-md-4 col-sm-6 d-flex justify-content-center">
+                <div class="card text-center shadow" 
+                  style="width: 200px; height: 170px; border: 1px solid #ccc;">
+                  <div class="card-body d-flex flex-column align-items-center">
+                      <img src="img/categories1.png" alt="Content Marketing" style="width: 60px; height: 60px;">
+                      <h6 class="mt-3" style="font-size: 14px;">Content Marketing</h6>
+                  </div>
                 </div>
             </div>
 
             <!-- Card 2 -->
-            <div class="col-md-auto">
-                <div class="card text-center" style="width: 220px; height: 150px; border: 1px solid #ccc;">
-                    <div class="card-body d-flex flex-column justify-content-center align-items-center">
-                        <img src="img/categories2.png" alt="" style="width: 65px; height: 65px;">
-                        <h6 class="card-title mt-2" style="font-size: 14px;">Account Based Marketing</h6>
+            <div class="col-lg-2 col-md-4 col-sm-6 d-flex justify-content-center">
+                <div class="card text-center shadow" 
+                    style="width: 200px; height: 170px; border: 1px solid #ccc;">
+                    <div class="card-body d-flex flex-column align-items-center">
+                        <img src="img/categories2.png" alt="Account Based Marketing" style="width: 60px; height: 60px;">
+                        <h6 class="mt-3" style="font-size: 14px;">Account Based Marketing</h6>
                     </div>
                 </div>
             </div>
 
             <!-- Card 3 -->
-            <div class="col-md-auto">
-                <div class="card text-center" style="width: 220px; height: 150px; border: 1px solid #ccc;">
-                    <div class="card-body d-flex flex-column justify-content-center align-items-center">
-                        <img src="img/categories3.png" alt="" style="width: 65px; height: 65px;">
-                        <h6 class="card-title mt-2" style="font-size: 14px;">Intent Fused Marketing</h6>
+            <div class="col-lg-2 col-md-4 col-sm-6 d-flex justify-content-center">
+                <div class="card text-center shadow" 
+                    style="width: 200px; height: 170px; border: 1px solid #ccc;">
+                    <div class="card-body d-flex flex-column align-items-center">
+                        <img src="img/categories3.png" alt="Intent Fused Marketing" style="width: 60px; height: 60px;">
+                        <h6 class="mt-3" style="font-size: 14px;">Intent Fused Marketing</h6>
                     </div>
                 </div>
             </div>
 
-            <!-- Card 4 -->
-            <div class="col-md-auto">
-                <div class="card text-center" style="width: 220px; height: 150px; border: 1px solid #ccc;">
-                    <div class="card-body d-flex flex-column justify-content-center align-items-center">
-                        <img src="img/categories4.png" alt="" style="width: 65px; height: 65px;">
-                        <h6 class="card-title mt-2" style="font-size: 14px;">Install Base Marketing</h6>
+             <!-- Card 4 -->
+
+
+            <div class="col-lg-2 col-md-4 col-sm-6 d-flex justify-content-center">
+                <div class="card text-center shadow" 
+                    style="width: 200px; height: 170px; border: 1px solid #ccc;">
+                    <div class="card-body d-flex flex-column align-items-center">
+                        <img src="img/categories4.png" alt="Install Base Marketing" style="width: 60px; height: 60px;">
+                        <h6 class="mt-3" style="font-size: 14px;">Install Base Marketing</h6>
                     </div>
                 </div>
             </div>
 
             <!-- Card 5 -->
-            <div class="col-md-auto">
-                <div class="card text-center" style="width: 220px; height: 150px; border: 1px solid #ccc;">
-                    <div class="card-body d-flex flex-column justify-content-center align-items-center">
-                        <img src="img/categories4.png" alt="" style="width: 65px; height: 65px;">
-                        <h6 class="card-title mt-2" style="font-size: 14px;">Webinar/Event Marketing</h6>
+            <div class="col-lg-2 col-md-4 col-sm-6 d-flex justify-content-center">
+                <div class="card text-center shadow" 
+                    style="width: 200px; height: 170px; border: 1px solid #ccc;">
+                    <div class="card-body d-flex flex-column align-items-center">
+                        <img src="img/categories5.png" alt="Webinar/Event Marketing" style="width: 60px; height: 60px;">
+                        <h6 class="mt-3" style="font-size: 14px;">Webinar/Event Marketing</h6>
                     </div>
                 </div>
             </div>
-        </div> 
+       </div>
+    </div>
+
         <!-- categories card end -->
 
         <!-- <div class="container pb-5"> -->
+        
             <div class="row g-5 align-items-center">
                 <!-- Left Side - Text Content -->
                 <div class="col-xl-6 d-flex">
                     <div class="about-item-content bg-white p-5 w-100 d-flex flex-column justify-content-center">
                         <h4 class="text-primary">Why Use Us</h4>
                         <h1 class="display-4 mb-4">Get Better Data & Deeper Insights
-                        with RDIGSr</h1>
+                        with RDIGS</h1>
                         <p>
                         Improve your sales outreach by using intent data and intelligent insights. Marketing empowers the sales team by creating brand awareness and engaging prospects' interest to nurture them further. Adopt a data-driven approach to convert leads into potential opportunities.
                         </p>
@@ -144,9 +157,9 @@ include 'header.php';
                 </div>
 
             </div>
-        <!-- </div> -->
 
-  <div class="container py-5">
+
+ 
     <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
         <h4 class="text-primary mt-4">Core Features</h4>
         <h1 class="display-4 mb-4">We stand out by generating HQLs and MQLs within hours of launching a campaign</h1>
@@ -219,11 +232,11 @@ include 'header.php';
             </div>
         </div>
     </div>
-</div>
+
     <!-- FAQs Start -->
      
     <div class="container-fluid faq-section bg-light py-5">
-    <div class="container py-5">
+     <div class="container py-5">
         <div class="row g-5 justify-content-center">
             <!-- FAQ Heading -->
             <div class="col-lg-8 text-center wow animate__animated animate__fadeInUp" data-wow-delay="0.2s">
@@ -327,10 +340,11 @@ include 'header.php';
                 </div>
             </div>
         </div>
+     </div>    
     </div>
 </div> 
     <!-- FAQs End -->
-</div>
+
 
 <?php 
 include 'footer.php'; 

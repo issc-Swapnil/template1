@@ -105,7 +105,23 @@ if (isset($_SESSION['success_message'])) {
                 </div>
             </div>
         </div>
-    </div>
+
+        <!-- map starts -->
+                <!-- <h1 class="display-4 mb-4">Insurance Provide you a Better Future</h1>
+
+        <div class="row justify-content-center">
+        <div class="col-lg-8 col-md-10">
+            <div class="ratio ratio-16x9 shadow rounded">
+            <iframe
+                src="https://www.google.com/maps/d/embed?mid=1u1mZFqHADzGfAJOkFhhZ6gFudVAYVG8&ehbc=2E312F&ll=39.74547001079035%2C-75.54751634605756&z=18"
+                style="border:0;"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+            </div>
+        </div>
+            </div> -->
 </div>
 <!-- Contact Form End -->
 
