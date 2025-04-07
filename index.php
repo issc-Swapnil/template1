@@ -29,7 +29,24 @@ include 'header.php';
     <!-- banner End -->
 
     <!-- carousel start -->
-  
+    <div class="container">
+        <div class="text-center mx-auto pb-2 pt-4 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
+            <h4 class="text-primary">Our Clients</h4>
+            <h1 class="display-4">Partnering for Your Success</h1>
+        </div>
+        <div class="logos">
+            <div class="logos-slide">
+                <img src="https://tmb001.vercel.app/images/partners/logo-pointsmaker.png" />
+                <img src="https://tmb001.vercel.app/images/partners/logo-buyersforpoints.png" />
+                <img src="https://tmb001.vercel.app/images/partners/logo-dealandrunner.png" />
+                <img src="https://tmb001.vercel.app/images/partners/logo-buyformeretail.png" />
+                <img src="https://tmb001.vercel.app/images/partners/logo-buyinggroup.png" />
+                <img src="https://tmb001.vercel.app/images/partners/logo-embdeals.png" />
+                <img src="https://tmb001.vercel.app/images/partners/logo-buygetrewards.png" />
+                <img src="https://tmb001.vercel.app/images/partners/logo-maxoutdeals.png" />
+            </div>
+        </div>
+    </div>
 
     <!-- carousel end -->
 
