@@ -1,11 +1,52 @@
 <?php 
 include 'header.php'; 
 ?>
-<div class="responsive-container-block bigContainer">
+
+<div class="container py-5">
+  <div class="row g-0"> <!-- g-0 removes gutter between columns -->
+
+    <!-- Left container (About Us content) -->
+    <div class="col-md-6 d-flex flex-column justify-content-center">
+      <div class="px-4"> <!-- Keep some internal padding for content readability -->
+        <h1 class="display-4 mb-4">About Us</h1>
+        <p class="text-muted" style="font-size: 1.1rem;">
+          RDIGS was founded by a group of individuals who all came from sales and B2B lead generation backgrounds and brought 15+ years of experience to the table. They noticed a significant gap in the market and were determined to eliminate it. Despite being technology-driven, the company values the importance of human connection and ensures every client receives a personalized experience. At RDIGS, we pride ourselves on our ability to bridge the gap between technology and human interaction to provide exceptional lead generation services.
+        </p>
+      </div>
+    </div>
+
+    <!-- Right container (Images) -->
+    <div class="col-md-6 d-flex flex-column justify-content-between align-items-center">
+      
+      <!-- Top two images -->
+      <div class="row mb-3">
+        <div class="col-6 d-flex justify-content-center">
+          <img src="img/pageabout1.png" class="img-fluid rounded shadow-sm" alt="Image 1"
+               style="max-width: 185px; height: auto;">
+        </div>
+        <div class="col-6 d-flex justify-content-center">
+          <img src="img/pageabout2.png" class="img-fluid rounded shadow-sm" alt="Image 2"
+               style="max-width: 185px; height: auto;">
+        </div>
+      </div>
+
+      <!-- Center bottom image -->
+      <div class="d-flex justify-content-center">
+        <img src="img/pageabout4.webp" class="img-fluid rounded shadow" alt="Image 3"
+             style="max-height: 180px; object-fit: contain;">
+      </div>
+    </div>
+
+  </div>
+</div>
+
+
+
+<!-- <div class="responsive-container-block bigContainer">
   <div class="responsive-container-block Container">
     <div class="responsive-container-block leftSide">
       <p class="text-blk heading">
-        <h4>About Us</h4>
+      <h1 class="display-4">About Us</h1>
       </p>
       <p class="text-blk subHeading">
       RDIGS was founded by a group of individuals who all came from sales and B2B lead generation backgrounds and brought 15+ years of experience to the table. They noticed a significant gap in the market and were determined to eliminate it. Despite being technology- driven, the company values the importance of human connection and ensures every client receives a personalized experience. At RDIGS, we pride ourselves on our ability to bridge the gap between technology and human interaction to provide exceptional lead generation services.
@@ -14,15 +55,10 @@ include 'header.php';
     <div class="responsive-container-block rightSide">
       <img class="number1img" src="img/pageabout1.png">
       <img class="number2img" src="img/pageabout2.png">
-      <img class="number3img" src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/b245.png">
-      <img class="number5img" src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/Customer supports.png">
-      <iframe allowfullscreen="allowfullscreen" class="number4vid" poster="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/b242.png" src="https://www.youtube.com/embed/svg%3E?">
-        </iframe>
-      <img class="number7img" src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/d51.png">
       <img class="number6img" src="img/pageabout4.webp">
     </div>
   </div>
-</div>
+</div> -->
 <div style="padding: 50px 0; background-color: #ffffff; color: #212529;">
     <div class="container py-5">
         <div class="row align-items-center" style="padding: 50px 0; background-color: #f8f9fa;">
@@ -30,7 +66,8 @@ include 'header.php';
                 <img src="img/about-2.jpeg" class="img-fluid rounded" alt="Our Beginning" style="max-width: 100%; border-radius: 10px;">
             </div>
             <div class="col-md-6 text-center">
-                <h1 style="margin-bottom: 20px;">Our Beginning</h1>
+                <h1 class="display-4">Our Beginning</h1>
+                <!-- <h1 style="margin: bottom 20px;">Our Beginning</h1> -->
                 <p style="line-height: 1.6; text-align: justify;">
                 Our journey started in 2016 and since then we have been one of the fastest-growing global providers of B2B lead and demand generation company. Over the years, we have become pioneers in our industry. We work closely with our clients to understand their unique needs and deliver customized solutions that meet and exceed expectations.
                     Our commitment to excellence, cutting-edge technology, and industry expertise position us as a trusted B2B lead generation partner. We believe in adapting to new technologies and utilizing data-driven insights to serve our clients better.
@@ -44,7 +81,8 @@ include 'header.php';
                 <img src="img/about-3.jpeg" class="img-fluid rounded" alt="Our Mission" style="max-width: 100%; border-radius: 10px;">
             </div>
             <div class="col-md-6 text-center order-md-1">
-                <h1 style="margin-bottom: 20px;">Our Mission</h1>
+            <h1 class="display-4">Our Mission</h1>
+                
                 <p style="line-height: 1.6; text-align: justify;">
                 Our primary intent is to assist businesses in expanding their customer base by generating new B2B leads, nurturing existing leads, and ultimately generating more ROI. Our mission is to accomplish this through implementing innovative approaches, state-of-the-art technologies, and a highly skilled team of professionals committed to delivering exceptional outcomes. Each of our campaigns has a committed group of business development specialists who work ardently to produce timely deliverables since we operate under the philosophy of becoming partners with our clients rather than vendors.
                 </p>
@@ -56,7 +94,7 @@ include 'header.php';
                 <img src="img/about-4.jpg" class="img-fluid rounded" alt="Our Vision" style="max-width: 100%; border-radius: 10px;">
             </div>
             <div class="col-md-6 text-center">
-                <h1 style="margin-bottom: 20px;">Our Vision</h1>
+            <h1 class="display-4">Our Vision</h1>
                 <p style="line-height: 1.6; text-align: justify;">
                 Our vision at RDIGS is to revolutionize the B2B industry by delivering intelligent, growth- driven solutions that enable businesses to realize their full potential. We foresee a future where organizations benefit from cutting-edge technologies and methodologies, allowingthem to effectively engage with their desired audience, procure high-quality leads, and accomplish their marketing goals
                 </p>
@@ -68,7 +106,7 @@ include 'header.php';
                 <img src="img/about-5.jpeg" class="img-fluid rounded" alt="Why Choose Us" style="max-width: 100%; border-radius: 10px;">
             </div>
             <div class="col-md-6 text-center order-md-1">
-                <h1 style="margin-bottom: 20px;">Why Choose Us</h1>
+            <h1 class="display-4">Why Choose Us</h1>
                 <p style="line-height: 1.6; text-align: justify;">
                 We stand out from the competition thanks to our synergistic qualities in content marketing, lead generation, data management, and in-house developed sector-specific technology. Together with our customers, we seek to comprehend the one-of-a-kind commercial objectives they have established, and then we develop individualized approaches to provide for their particular requirements. Our team of industry professionals is dedicated to providing outstanding service and results to all of our prospects to help them accomplish their marketing goals and increase their revenue.
                 We believe in forming long-lasting partnerships with our customers by working closely with them to understand the specific requirements and objectives they have set for themselves. To provide remarkable outcomes for our customers, our team’s veterans are dedicated to lifelong experience and progress. They strive to stay current with the most recent technological and methodology developments.</

@@ -38,7 +38,7 @@ include 'header.php';
         <!-- Text Column (Right on Desktop, Top on Mobile) -->
         <div class="col-md-6 order-0 order-md-1">
             <h4 class="text-primary mb-2"> ACCOUNT-BASED MARKETING</h4>
-            <h1 class="h3 mb-3">Segment Key Accounts with Precision</h1>
+            <h1 class="mt-1">Segment Key Accounts with Precision</h1>
             <p class="mb-3" style="font-size: 16px;">
             Work with our advertising team to create custom audience profiles based on geo location, industry, company size, job titles, and intent signals. Apply data and sophisticated segmentation techniques to target the right decision makers with customized advertising (display, native, article, video) for maximum engagement and impact.
             </p>
@@ -72,7 +72,7 @@ include 'header.php';
         <!-- Text Column (Right on Desktop, Top on Mobile) -->
         <div class="col-md-6 order-0 order-md-1">
             <h4 class="text-primary mb-2">INTENT-BASED TARGETING</h4>
-            <h1 class="h3 mb-3">Enhance Your Advertising Precision with Intent-Level Targeting</h1>
+            <h1 class="mt-1">Enhance Your Advertising Precision with Intent-Level Targeting</h1>
             <p class="mb-3" style="font-size: 16px;">
                 Unlock precision in your advertising with Intent-Level Targeting through programmatic ads. Reach your audience with pinpoint accuracy, delivering the right message at the right moment. Elevate your campaign performance and maximize ROI by connecting with users based on their specific interests and behaviors.
             </p>
@@ -107,7 +107,7 @@ include 'header.php';
         <!-- Text Column (Right on Desktop, Top on Mobile) -->
         <div class="col-md-6 order-0 order-md-1">
             <h4 class="text-primary mb-2">CAMPAIGN OPTIMIZATION</h4>
-            <h1 class="h3 mb-3">Tech-Driven Campaign Optimization</h1>
+            <h1 class="mt-1">Tech-Driven Campaign Optimization</h1>
             <p class="mb-3" style="font-size: 16px;">
             Replace manual ad buying and optimization processes with automated ad campaigns. Work with our team to optimize ad campaigns with ML and AI driven data insights, advanced algorithms, and real-time bidding for wider reach, higher impact and better returns.
             </p>

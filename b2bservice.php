@@ -30,7 +30,8 @@ include 'header.php';
             <!-- Text Column (Right on Desktop, Top on Mobile) -->
             <div class="col-md-6 order-0 order-md-1">
                 <h4 class="text-primary mb-2"> MQL GENERATION</h4>
-                <h1 class="h3 mb-3">Top of the Funnel Lead Generation Services</h1>
+                <h1 class="mt-1">
+                Top of the Funnel Lead Generation Services</h1>
                 <p class="mb-3" style="font-size: 16px;">In marketing parameters, marketing qualified leads (MQL) are defined as leads that have a high conversion potential. They are typically at the top of the sales funnel. MQLs that we provide, will have shown high interest in your product by interacting with your content on our publishing platform. To double it down, our first-party intent-based content syndication program finds deep, actionable insights. So, you can bet on us to deliver quality and volume in abundance. An intent-based content syndication program is run to unveil deeper insights about the identified leads. An AI-powered automation tool helps us capture and interpret behavioral data from the leads.
                 </p>
                 <a class="btn btn-primary rounded-pill py-2 px-4" href="#">Read More</a>
@@ -63,7 +64,7 @@ include 'header.php';
             <!-- Text Column (Right on Desktop, Top on Mobile) -->
             <div class="col-md-6 order-0 order-md-1">
                 <h4 class="text-primary mb-2"> BANT QUALIFICATION</h4>
-                <h1 class="h3 mb-3">BANT Lead Generation Services</h1>
+                <h1 class="mt-1">BANT Lead Generation Services</h1>
                 <p class="mb-3" style="font-size: 16px;">Budget, Authority, Need, and Timing. Our MQL generation focuses on meeting these parameters for no non-sense leads. We’ll also check their current solutions, the challenges they’re facing, and their time frame for change. Basically, RDIGS finds matches made in heaven for you.
                 </p>
                 <ul class="list-unstyled">

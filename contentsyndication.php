@@ -30,7 +30,7 @@ include 'header.php';
             <!-- Text Column (Right on Desktop, Top on Mobile) -->
             <div class="col-md-6 order-0 order-md-1">
                 <h4 class="text-primary mb-2"> ABM-BASED SYNDICATION</h4>
-                <h1 class="h3 mb-3">Target Key Accounts with Custom Content</h1>
+                <h1 class="mt-1">Target Key Accounts with Custom Content</h1>
                 <p class="mb-3" style="font-size: 16px;">
                     Engage target accounts with relevant, highly personalized content assets that resonate with their needs and preferences. Increase your sales revenue by building relationships with high-quality leads and keeping them engaged.
                 </p>
@@ -64,7 +64,7 @@ include 'header.php';
             <!-- Text Column (Right on Desktop, Top on Mobile) -->
             <div class="col-md-6 order-0 order-md-1">
                 <h4 class="text-primary mb-2">INSTALL BASE TARGETING</h4>
-                <h1 class="h3 mb-3">Sniper-Targeted Leads</h1>
+                <h1 class="mt-1">Sniper-Targeted Leads</h1>
                 <p class="mb-3" style="font-size: 16px;">
                 Target accounts with specific technology and boost conversions, reduce costs, and maximize returns on your marketing spend. Our technography landscape tracks 7000+ technology install base across 2 million businesses worldwide.
                 </p>

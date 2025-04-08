@@ -36,14 +36,16 @@ include 'header.php';
         </div>
         <div class="logos">
             <div class="logos-slide">
-                <img src="https://tmb001.vercel.app/images/partners/logo-pointsmaker.png" />
-                <img src="https://tmb001.vercel.app/images/partners/logo-buyersforpoints.png" />
-                <img src="https://tmb001.vercel.app/images/partners/logo-dealandrunner.png" />
-                <img src="https://tmb001.vercel.app/images/partners/logo-buyformeretail.png" />
-                <img src="https://tmb001.vercel.app/images/partners/logo-buyinggroup.png" />
-                <img src="https://tmb001.vercel.app/images/partners/logo-embdeals.png" />
-                <img src="https://tmb001.vercel.app/images/partners/logo-buygetrewards.png" />
-                <img src="https://tmb001.vercel.app/images/partners/logo-maxoutdeals.png" />
+                <img src="img/Goto.webp" />
+                <img src="img/knowbe4.webp" />
+                <img src="img/netsuit.webp" />
+                <img src="img/ozontel.webp" />
+                <img src="img/ringcentral.webp" />
+                <img src="img/spectrum.webp" />
+                <img src="img/wholehouse3.webp" />
+                <img src="img\Taas.webp" />
+                <img src="img/Panterra.webp" />
+                <img src="img/Inside2.webp" />
             </div>
         </div>
     </div>
