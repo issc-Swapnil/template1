@@ -41,7 +41,7 @@ if (isset($_SESSION['success_message'])) {
             <div class="col-xl-6">
                 <div class="contact-img d-flex justify-content-center">
                     <div class="contact-img-inner">
-                        <img src="img/contact-img.png" class="img-fluid w-100" alt="Image">
+                        <img src="img/Contact-Image.png" class="img-fluid w-100" alt="Image">
                     </div>
                 </div>
             </div>

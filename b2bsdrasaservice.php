@@ -31,7 +31,7 @@ include 'header.php';
             <!-- Text Column (Right on Desktop, Top on Mobile) -->
             <div class="col-md-6 order-0 order-md-1">
                 <h4 class="text-primary mb-2">  RESOURCE EFFICIENCY</h4>
-                <h1 class="h3 mb-3">Do More with Your Marketing Budget</h1>
+                <h1 class="mt-1">Do More with Your Marketing Budget</h1>
                 <p class="mb-3" style="font-size: 16px;">Maximize your marketing spend. Eliminate costs like travel, accommodation, and in-person meetings with potential leads. Save time and scale marketing processes by selling from the convenience of your office.
                 </p>
                 <a class="btn btn-primary rounded-pill py-2 px-4" href="#">Read More</a>
@@ -64,7 +64,7 @@ include 'header.php';
             <!-- Text Column (Right on Desktop, Top on Mobile) -->
             <div class="col-md-6 order-0 order-md-1">
                 <h4 class="text-primary mb-2">BETTER EXPERIENCE</h4>
-                <h1 class="h3 mb-3">Target Leads with Custom Sales Pitches</h1>
+                <h1 class="mt-1">Target Leads with Custom Sales Pitches</h1>
                 <p class="mb-3" style="font-size: 16px;">Adapt your sales pitch to individual prospect’s needs and preferences. Give leads prompt responses to their concerns and queries. Close more deals and grow sales revenue with positive lead experiences.
                 </p>
                 <a class="btn btn-primary rounded-pill py-2 px-4" href="#">Read More</a>
@@ -94,11 +94,11 @@ include 'header.php';
 <!-- steps start -->
 
 <div class="container text-center py-5">
-    <div class="mx-auto" style="max-width: 800px;">
+    <div class="mx-auto" style="max-width: 700px;">
         <h4 class="text-primary">INSIDE SALES MARKETING APPROACH</h4>
         <h1 class="display-6 mb-4">Grow Your Sales with RDIGS’s 6-Step Inside Sales Process</h1>
     </div>
-</div>
+
 
     <div class="row g-4 justify-content-center">
         <!-- Card 1 -->

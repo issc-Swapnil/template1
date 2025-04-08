@@ -31,7 +31,7 @@ include 'header.php';
         <!-- Text Column (Right on Desktop, Top on Mobile) -->
         <div class="col-md-6 order-0 order-md-1">
             <h4 class="text-primary mb-2">Do More</h4>
-            <h1 class="h3 mb-3">You Know Your ICP, but Your ICP Know You?</h1>
+            <h1 class="mt-1">You Know Your ICP, but Your ICP Know You?</h1>
             <p class="mb-3" style="font-size: 16px;">
                 Supercharge your content marketing strategy. Publish white papers, case studies and webinars to target the right audience at the right time. Syndicate content assets smartly across our network with B2B content marketing.
             </p>
@@ -74,7 +74,7 @@ include 'header.php';
         <!-- Text Column (Right on Desktop, Top on Mobile) -->
         <div class="col-md-6 order-0 order-md-1">
             <h4 class="text-primary mb-2">Wider Reach</h4>
-            <h1 class="h3 mb-3">Accelerate Pipeline Growth</h1>
+            <h1 class="mt-1">Accelerate Pipeline Growth</h1>
             <p class="mb-3" style="font-size: 16px;">
                 Focus your marketing resources on high-value accounts to achieve maximum ROI. Our targeted approach will help you gain:
 
@@ -116,7 +116,7 @@ include 'header.php';
         <!-- Text Column (Right on Desktop, Top on Mobile) -->
         <div class="col-md-6 order-0 order-md-1">
             <h4 class="text-primary mb-2">Wider Reach</h4>
-            <h1 class="h3 mb-3">  Scale Your Marketing Impact</h1>
+            <h1 class="mt-1">  Scale Your Marketing Impact</h1>
             <p class="mb-3" style="font-size: 16px;">
                 Maximize the impact of your marketing efforts through scaling by:
 

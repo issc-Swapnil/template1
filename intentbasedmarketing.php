@@ -29,7 +29,7 @@ include 'header.php';
             </div>
             <!-- Text Column (Right on Desktop, Top on Mobile) -->
             <div class="col-md-6 order-0 order-md-1">
-                <h1 class="h3 mb-3">Data-Driven Marketing Decisions</h1>
+                <h1 class="mt-1">Data-Driven Marketing Decisions</h1>
                 <p class="mb-3" style="font-size: 16px;">
                 Find sales-ready leads with precision. Pick intent signals from prospects and predict their purchase behavior. Focus on the most valuable leads, and target them at the right time.
                 </p>
@@ -70,7 +70,7 @@ include 'header.php';
             <!-- Text Column (Right on Desktop, Top on Mobile) -->
             <div class="col-md-6 order-0 order-md-1">
                 <h4 class="text-primary mb-2">Targeted Ads</h4>
-                <h1 class="h3 mb-3">Reach Prospects with Intuitive Ads</h1>
+                <h1 class="mt-1">Reach Prospects with Intuitive Ads</h1>
                 <p class="mb-3" style="font-size: 16px;">Combine purchase-intent and buyer data to develop and disseminate ads that are informed by past search activities, interests and habits.
                 </p>
                 <a class="btn btn-primary rounded-pill py-2 px-4" href="#">Read More</a>

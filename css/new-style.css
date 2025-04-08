@@ -70,7 +70,7 @@
     font-family: "DM Sans", sans-serif;
   }
   
-  .text-blk {
+  /* .text-blk {
     padding-top: 0px;
     padding-right: 0px;
     padding-bottom: 0px;
@@ -97,7 +97,6 @@
     margin-top: 0px;
     margin-right: auto;
     margin-bottom: 0px;
-    margin-left: auto;
     justify-content: flex-start;
   }
   
@@ -116,12 +115,11 @@
     padding-right: 20px;
     padding-bottom: 10px;
     padding-left: 20px;
-    /* margin: 0 0 0 0; */
+   
   }
   
   .responsive-container-block.Container {
     max-width: 1300px;
-    align-items: center;
     justify-content: center;
     margin-top: 70px;
     margin-right: auto;
@@ -151,9 +149,9 @@
   
   .text-blk.heading {
     font-family: "DM Sans", sans-serif;
-    font-size: 45px;
+    font-weight: 400px;
     line-height: 64px;
-    /* font-weight: 900; */
+    
     color: #00B2EB;
     margin-top: 0px;
     margin-right: 0px;
@@ -268,7 +266,7 @@
   }
   
   .text-blk.subHeading {
-    font-size: 20px;
+    font-size: 16px;
     line-height: 25px;
     content: auto-fit;
   }
@@ -342,7 +340,7 @@
   
     .responsive-container-block.rightSide {
       width: 100%;
-      height: 250px;
+      height: 200px;
       margin-top: 0px;
       margin-right: 0px;
       margin-bottom: 100px;
@@ -360,7 +358,7 @@
     }
   
     .text-blk.heading {
-      font-size: 25px;
+      font-size: 40px;
       line-height: 40px;
       max-width: 370px;
       width: auto;
@@ -374,7 +372,7 @@
     .responsive-container-block.leftSide {
       width: 120%;
     }
-  }
+  } */
 
   /* lifeat  */
 
@@ -724,5 +722,31 @@
 }
 .logos-slide img{
   height:50px;
-  margin: 0 40px;
+  margin: 0 20px;
 }
+
+/* events page  */
+.events-section {
+  border: 5px solid #00c3e5;
+  border-radius: 20px;
+  padding: 30px;
+  margin: 40px auto;
+  max-width: 1200px;
+}
+
+.events-section img {
+  border-radius: 15px;
+  width: 100%;
+  height: auto;
+}
+
+.event-btn {
+  background-color: #007bff;
+  color: white;
+  font-weight: 500;
+}
+
+.event-btn:hover {
+  background-color: #0056b3;
+}
+
