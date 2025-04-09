@@ -45,7 +45,7 @@ include 'header.php';
             <div class="col-12 col-md-6 text-center text-md-start mb-4 mb-md-0">
                 <h1 class="mt-1">Target your ICP with Optimized Content that Speaks to Them</h1>
                 <div class="info-box">
-                    <p>Drive engagement to your content with RDIGS Initiate. Our solution optimizes your existing copy with compelling messaging that resonates and adds value to your target audience in their discovery phase.
+                    <p>Drive engagement to your content with RDIGS Initiate. Our solution optimizes your existing copy with compelling messaging that resonates and adds value to your target audience in their discovery phase.</p>
                     <a class="btn btn-primary rounded-pill py-2 px-4" href="#">Read More</a>
                 </div>
             </div>

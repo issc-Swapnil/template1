@@ -68,7 +68,7 @@
         <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4">
             <div class="col">
                 <div class="card h-100 text-center p-3 shadow">
-                    <img src="img/adverb2b.jpeg" class="mx-auto" alt="Work-Life Balance" width="50">
+                    <img src="img/Growin.png" class="mx-auto" alt="Work-Life Balance" width="50">
                     <h5 class="mt-3">Growing</h5>
                     <p>RDIGS provides all employees with the opportunity to grow both professionally and personally through exciting internal jobs and promotions.</p>
                 </div>
@@ -76,7 +76,7 @@
                 
                 <div class="col">
                     <div class="card h-100 text-center p-3 shadow">
-                        <img src="img/adverb2b.jpeg" class="mx-auto" alt="Fun Fridays" width="50">
+                        <img src="img/Fun-Fridays.png" class="mx-auto" alt="Fun Fridays" width="50">
                         <h5 class="mt-3">Fun Friday's</h5>
                         <p>All work and no play. Our employees enjoy a healthy balance of work and fun with a weekly session of fun games, team activities along with informative sessions.</p>
                     </div>
@@ -84,7 +84,7 @@
                 
                 <div class="col">
                     <div class="card h-100 text-center p-3 shadow">
-                        <img src="img/adverb2b.jpeg" class="mx-auto" alt="Bi-Yearly Parties" width="50">
+                        <img src="img/Bi-yearly-parties.png" class="mx-auto" alt="Bi-Yearly Parties" width="50">
                         <h5 class="mt-3">Bi-Yearly Parties</h5>
                         <p>Work hard and party harder. RDIGS does not limit itself to a yearly corporate gig. We sing, we dance, we laugh, and our parties are filled with glamour and fun.</p>
                     </div>
@@ -92,7 +92,7 @@
                 
                 <div class="col">
                     <div class="card h-100 text-center p-3 shadow">
-                        <img src="img/adverb2b.jpeg" class="mx-auto" alt="Health Benefits" width="50">
+                        <img src="img/Uncapped-Incentives.png" class="mx-auto" alt="Health Benefits" width="50">
                         <h5 class="mt-3">Uncaped Incentives</h5>
                         <p>We recognize our stars and reward our performers. Our employees are self-driven and earn uncapped incentives every month..</p>
                     </div>
@@ -101,7 +101,7 @@
                 <!-- Add 4 more cards to complete the 4x4 layout -->
                 <div class="col">
                     <div class="card h-100 text-center p-3 shadow">
-                        <img src="img/adverb2b.jpeg" class="mx-auto" alt="Flexible Hours" width="50">
+                        <img src="img/Fixed-Weekend-offs.png" class="mx-auto" alt="Flexible Hours" width="50">
                         <h5 class="mt-3">Fixed Weekend off's</h5>
                         <p>We believe that spending time with family and having some alone time is very important, RDIGS discourages shift extensions and makes sure that all our employees get the well-deserved time off</p>
                     </div>
@@ -109,7 +109,7 @@
                 
                 <div class="col">
                     <div class="card h-100 text-center p-3 shadow">
-                        <img src="img/adverb2b.jpeg" class="mx-auto" alt="Learning & Development" width="50">
+                        <img src="img/Team-Outfits.png" class="mx-auto" alt="Learning & Development" width="50">
                         <h5 class="mt-3">Team Outfit's</h5>
                         <p>The best therapy in the work is spending time with your mates and there is no time to be bored in a world as beautiful as ours. RDIGS Team enjoys team outings to beaches, mountains, valleys and villas.</p>
                     </div>
@@ -117,7 +117,7 @@
                 
                 <div class="col">
                     <div class="card h-100 text-center p-3 shadow">
-                        <img src="img/adverb2b.jpeg" class="mx-auto" alt="Team Outings" width="50">
+                        <img src="img/Open-door-policy.png" class="mx-auto" alt="Team Outings" width="50">
                         <h5 class="mt-3">Open Door Policy</h5>
                         <p>We believe in an open-door policy and encourage communication, our employees always have access and authority to speak, complaint, question and compliment at all times.</p>
                     </div>
@@ -125,7 +125,7 @@
                 
                 <div class="col">
                     <div class="card h-100 text-center p-3 shadow">
-                        <img src="img/adverb2b.jpeg" class="mx-auto" alt="Recognition & Rewards" width="50">
+                        <img src="img/Annual-Awards.png" class="mx-auto" alt="Recognition & Rewards" width="50">
                         <h5 class="mt-3">Annual Award's</h5>
                         <p>We work throughout in hopes of success, RDIGS acknowledges the hard work our team puts in place for the growth of the company. our stars receive 6 figure sums for their hard work and dedicatio.</p>
                     </div>

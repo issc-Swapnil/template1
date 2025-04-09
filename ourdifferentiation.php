@@ -60,7 +60,7 @@ include 'header.php';
                 <div class="card text-center shadow" 
                   style="width: 200px; height: 170px; border: 1px solid #ccc;">
                   <div class="card-body d-flex flex-column align-items-center">
-                      <img src="img/categories1.png" alt="Content Marketing" style="width: 60px; height: 60px;">
+                      <img src="img/content.png" alt="Content Marketing" style="width: 60px; height: 60px;">
                       <h6 class="mt-3" style="font-size: 14px;">Content Marketing</h6>
                   </div>
                 </div>
@@ -71,7 +71,7 @@ include 'header.php';
                 <div class="card text-center shadow" 
                     style="width: 200px; height: 170px; border: 1px solid #ccc;">
                     <div class="card-body d-flex flex-column align-items-center">
-                        <img src="img/categories2.png" alt="Account Based Marketing" style="width: 60px; height: 60px;">
+                        <img src="img/Account-Based.png" alt="Account Based Marketing" style="width: 60px; height: 60px;">
                         <h6 class="mt-3" style="font-size: 14px;">Account Based Marketing</h6>
                     </div>
                 </div>
@@ -82,7 +82,7 @@ include 'header.php';
                 <div class="card text-center shadow" 
                     style="width: 200px; height: 170px; border: 1px solid #ccc;">
                     <div class="card-body d-flex flex-column align-items-center">
-                        <img src="img/categories3.png" alt="Intent Fused Marketing" style="width: 60px; height: 60px;">
+                        <img src="img/Intent-Fused.png" alt="Intent Fused Marketing" style="width: 60px; height: 60px;">
                         <h6 class="mt-3" style="font-size: 14px;">Intent Fused Marketing</h6>
                     </div>
                 </div>
@@ -95,7 +95,7 @@ include 'header.php';
                 <div class="card text-center shadow" 
                     style="width: 200px; height: 170px; border: 1px solid #ccc;">
                     <div class="card-body d-flex flex-column align-items-center">
-                        <img src="img/categories4.png" alt="Install Base Marketing" style="width: 60px; height: 60px;">
+                        <img src="img/Installbase.png" alt="Install Base Marketing" style="width: 60px; height: 60px;">
                         <h6 class="mt-3" style="font-size: 14px;">Install Base Marketing</h6>
                     </div>
                 </div>
@@ -106,7 +106,7 @@ include 'header.php';
                 <div class="card text-center shadow" 
                     style="width: 200px; height: 170px; border: 1px solid #ccc;">
                     <div class="card-body d-flex flex-column align-items-center">
-                        <img src="img/categories5.png" alt="Webinar/Event Marketing" style="width: 60px; height: 60px;">
+                        <img src="img/webinar.png" alt="Webinar/Event Marketing" style="width: 60px; height: 60px;">
                         <h6 class="mt-3" style="font-size: 14px;">Webinar/Event Marketing</h6>
                     </div>
                 </div>
@@ -134,7 +134,7 @@ include 'header.php';
                 <!-- Right Side - Single Image (Smaller Image) -->
                 <div class="col-xl-6 d-flex justify-content-center">
                     <div style="width: 80%; max-height: 350px;">
-                        <img src="img/whyuseus.webp" class="img-fluid rounded shadow w-100 h-100 object-fit-cover" alt="Life at RDIGS">
+                        <img src="img/whyuseus.webp" class="img-fluid w-100 h-100 object-fit-cover" alt="Life at RDIGS">
                     </div>
                 </div>
             </div>
@@ -142,7 +142,7 @@ include 'header.php';
             <div class="row g-5 align-items-center">
                 <div class="col-xl-6 d-flex justify-content-center">
                     <div style="width: 80%; max-height: 350px;">
-                        <img src="img/whyuseus2.webp" class="img-fluid rounded shadow w-100 h-100 object-fit-cover" alt="Life at RDIGS">
+                        <img src="img/whyuseus2.webp" class="img-fluid w-100 h-100 object-fit-cover" alt="Life at RDIGS">
                     </div>
                 </div>
                 <!-- Left Side - Text Content -->
@@ -167,7 +167,7 @@ include 'header.php';
     <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4">
             <div class="col">
                 <div class="card h-100 text-center p-3 shadow">
-                    <img src="img/adverb2b.jpeg" class="mx-auto" alt="Work-Life Balance" width="50">
+                    <img src="img\Goal-oriented-B2B-technology-marketing-solutions.png" class="mx-auto" alt="Work-Life Balance" width="50">
                     <h5 class="mt-3">Goal-oriented B2B technology marketing solutions</h5>
                     <!-- <p>RDIGS provides all employees with the opportunity to grow both professionally and personally through exciting internal jobs and promotions.</p> -->
                 </div>
@@ -175,7 +175,7 @@ include 'header.php';
                 
                 <div class="col">
                     <div class="card h-100 text-center p-3 shadow">
-                        <img src="img/adverb2b.jpeg" class="mx-auto" alt="Fun Fridays" width="50">
+                        <img src="img\Customised,-Flexible-and-risk-free-engagement.png" class="mx-auto" alt="Fun Fridays" width="50">
                         <h5 class="mt-3">Customised, Flexible and risk-free engagement</h5>
                         <!-- <p>All work and no play. Our employees enjoy a healthy balance of work and fun with a weekly session of fun games, team activities along with informative sessions.</p> -->
                     </div>
@@ -183,7 +183,7 @@ include 'header.php';
                 
                 <div class="col">
                     <div class="card h-100 text-center p-3 shadow">
-                        <img src="img/adverb2b.jpeg" class="mx-auto" alt="Bi-Yearly Parties" width="50">
+                        <img src="img\Services-focused-on-conversions-and-achieving-your-goals.png" class="mx-auto" alt="Bi-Yearly Parties" width="50">
                         <h5 class="mt-3">Services focused on conversions and achieving your goals</h5>
                         <!-- <p>Work hard and party harder. RDIGS does not limit itself to a yearly corporate gig. We sing, we dance, we laugh, and our parties are filled with glamour and fun.</p> -->
                     </div>
@@ -191,7 +191,7 @@ include 'header.php';
                 
                 <div class="col">
                     <div class="card h-100 text-center p-3 shadow">
-                        <img src="img/adverb2b.jpeg" class="mx-auto" alt="Health Benefits" width="50">
+                        <img src="img\A-trained-team-of-professional-to-support-targeted-marketing.png" class="mx-auto" alt="Health Benefits" width="50">
                         <h5 class="mt-3">A trained team of professional to support targeted marketing.</h5>
                         <!-- <p>We recognize our stars and reward our performers. Our employees are self-driven and earn uncapped incentives every month..</p> -->
                     </div>
@@ -200,7 +200,7 @@ include 'header.php';
                 <!-- Add 4 more cards to complete the 4x4 layout -->
                 <div class="col">
                     <div class="card h-100 text-center p-3 shadow">
-                        <img src="img/adverb2b.jpeg" class="mx-auto" alt="Flexible Hours" width="50">
+                        <img src="img\Higher-marketing-impact-with-a-lower-budget.png" class="mx-auto" alt="Flexible Hours" width="50">
                         <h5 class="mt-3">Higher marketing impact with a lower budget.</h5>
                         <!-- <p>We believe that spending time with family and having some alone time is very important, RDIGS discourages shift extensions and makes sure that all our employees get the well-deserved time off</p> -->
                     </div>
@@ -208,7 +208,7 @@ include 'header.php';
                 
                 <div class="col">
                     <div class="card h-100 text-center p-3 shadow">
-                        <img src="img/adverb2b.jpeg" class="mx-auto" alt="Learning & Development" width="50">
+                        <img src="img\Multi-Channel-Outreach.png" class="mx-auto" alt="Learning & Development" width="50">
                         <h5 class="mt-3">Multi-Channel Outreach</h5>
                         <!-- <p>The best therapy in the work is spending time with your mates and there is no time to be bored in a world as beautiful as ours. RDIGS Team enjoys team outings to beaches, mountains, valleys and villas.</p> -->
                     </div>
@@ -216,7 +216,7 @@ include 'header.php';
                 
                 <div class="col">
                     <div class="card h-100 text-center p-3 shadow">
-                        <img src="img/adverb2b.jpeg" class="mx-auto" alt="Team Outings" width="50">
+                        <img src="img\Dynamic-Campaign-Monitoring-and-Optimization.png" class="mx-auto" alt="Team Outings" width="50">
                         <h5 class="mt-3">Dynamic Campaign Monitoring and Optimization</h5>
                         <!-- <p>We believe in an open-door policy and encourage communication, our employees always have access and authority to speak, complaint, question and compliment at all times.</p> -->
                     </div>
@@ -224,7 +224,7 @@ include 'header.php';
                 
                 <div class="col">
                     <div class="card h-100 text-center p-3 shadow">
-                        <img src="img/adverb2b.jpeg" class="mx-auto" alt="Recognition & Rewards" width="50">
+                        <img src="img\Scalable-Database-Enrichment.png" class="mx-auto" alt="Recognition & Rewards" width="50">
                         <h5 class="mt-3">Scalable Database Enrichment</h5>
                         <!-- <p>We work throughout in hopes of success, RDIGS acknowledges the hard work our team puts in place for the growth of the company. our stars receive 6 figure sums for their hard work and dedicatio.</p> -->
                     </div>

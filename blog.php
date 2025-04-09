@@ -16,7 +16,7 @@ include 'header.php';
                     <div class="col-lg-6 col-xl-4 wow fadeInUp" data-wow-delay="0.2s">
                         <div class="blog-item">
                             <div class="blog-img">
-                                <img src="img/blog-1.png" class="img-fluid rounded-top w-100" alt="">
+                                <img src="img/blog1.webp" class="img-fluid rounded-top w-100" alt="">
                                 <div class="blog-categiry py-2 px-4">
                                     <span>Business</span>
                                 </div>
@@ -27,8 +27,8 @@ include 'header.php';
                                     <div class="small"><span class="fa fa-calendar text-primary"></span> 30 Dec 2025</div>
                                     <div class="small"><span class="fa fa-comment-alt text-primary"></span> 6 Comments</div>
                                 </div>
-                                <a href="#" class="h4 d-inline-block mb-3">Which allows you to pay down insurance bills</a>
-                                <p class="mb-3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius libero soluta impedit eligendi? Quibusdam, laudantium.</p>
+                                <a href="#" class="h4 d-inline-block mb-3">A Guide to B2B Lead Qualification</a>
+                                <p class="mb-3">B2B lead qualification is the process of evaluating and determining the quality and suitability of potential B2B leads.</p>
                                 <a href="#" class="btn p-0">Read More  <i class="fa fa-arrow-right"></i></a>
                             </div>
                         </div>
@@ -36,7 +36,7 @@ include 'header.php';
                     <div class="col-lg-6 col-xl-4 wow fadeInUp" data-wow-delay="0.2s">
                         <div class="blog-item">
                             <div class="blog-img">
-                                <img src="img/blog-1.png" class="img-fluid rounded-top w-100" alt="">
+                                <img src="img/blog2.jpg" class="img-fluid rounded-top w-100" alt="">
                                 <div class="blog-categiry py-2 px-4">
                                     <span>Business</span>
                                 </div>
@@ -47,8 +47,8 @@ include 'header.php';
                                     <div class="small"><span class="fa fa-calendar text-primary"></span> 30 Dec 2025</div>
                                     <div class="small"><span class="fa fa-comment-alt text-primary"></span> 6 Comments</div>
                                 </div>
-                                <a href="#" class="h4 d-inline-block mb-3">Which allows you to pay down insurance bills</a>
-                                <p class="mb-3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius libero soluta impedit eligendi? Quibusdam, laudantium.</p>
+                                <a href="#" class="h4 d-inline-block mb-3">Data Silos: The Hidden Barrier to Effective B2B Decision-Making</a>
+                                <p class="mb-3">LData silos have a profound impact on decision-making processes in B2B organizations. </p>
                                 <a href="#" class="btn p-0">Read More  <i class="fa fa-arrow-right"></i></a>
                             </div>
                         </div>
@@ -56,7 +56,7 @@ include 'header.php';
                     <div class="col-lg-6 col-xl-4 wow fadeInUp" data-wow-delay="0.4s">
                         <div class="blog-item">
                             <div class="blog-img">
-                                <img src="img/blog-2.png" class="img-fluid rounded-top w-100" alt="">
+                                <img src="img/blog2.jpg" class="img-fluid rounded-top w-100" alt="">
                                 <div class="blog-categiry py-2 px-4">
                                     <span>Business</span>
                                 </div>
@@ -67,13 +67,13 @@ include 'header.php';
                                     <div class="small"><span class="fa fa-calendar text-primary"></span> 30 Dec 2025</div>
                                     <div class="small"><span class="fa fa-comment-alt text-primary"></span> 6 Comments</div>
                                 </div>
-                                <a href="#" class="h4 d-inline-block mb-3">Leverage agile frameworks to provide</a>
-                                <p class="mb-3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius libero soluta impedit eligendi? Quibusdam, laudantium.</p>
+                                <a href="#" class="h4 d-inline-block mb-3">LB2B Customer Journey Orchestration & Touch Points</a>
+                                <p class="mb-3">Journey orchestration maps personalized campaigns by analyzing consumer behavior across all channels</p>
                                 <a href="#" class="btn p-0">Read More  <i class="fa fa-arrow-right"></i></a>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-6 col-xl-4 wow fadeInUp" data-wow-delay="0.6s">
+                    <!-- <div class="col-lg-6 col-xl-4 wow fadeInUp" data-wow-delay="0.6s">
                         <div class="blog-item">
                             <div class="blog-img">
                                 <img src="img/blog-3.png" class="img-fluid rounded-top w-100" alt="">
@@ -91,7 +91,7 @@ include 'header.php';
                                 <p class="mb-3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius libero soluta impedit eligendi? Quibusdam, laudantium.</p>
                                 <a href="#" class="btn p-0">Read More  <i class="fa fa-arrow-right"></i></a>
                             </div>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
             </div>

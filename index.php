@@ -24,11 +24,9 @@ include 'header.php';
     </div>
 </div>
 
+<!-- banner End -->
 
-
-    <!-- banner End -->
-
-    <!-- carousel start -->
+<!-- carousel start -->
     <div class="container">
         <div class="text-center mx-auto pb-2 pt-4 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
             <h4 class="text-primary">Our Clients</h4>
@@ -67,7 +65,7 @@ include 'header.php';
                         </div>
                         <h4 class="mb-4">B2B Lead Generation</h4>
                         <p class="mb-4">Empower Your Sales Team and Drive Results with Us Account-Based marketing services</p>
-                        <a class="btn btn-primary rounded-pill py-2 px-4" href="#">Learn More</a>
+                        <a class="btn btn-primary rounded-pill py-2 px-4" href="b2bservice.php">Learn More</a>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.4s">
@@ -77,7 +75,7 @@ include 'header.php';
                         </div>
                         <h4 class="mb-4">B2B Advertising</h4>
                         <p class="mb-4">Drive Sustainable Growth for Your Sales and Marketing Efforts with Data-Driven Strategies</p>
-                        <a class="btn btn-primary rounded-pill py-2 px-4" href="#">Learn More</a>
+                        <a class="btn btn-primary rounded-pill py-2 px-4" href="b2badvertising.php">Learn More</a>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.6s">
@@ -87,7 +85,7 @@ include 'header.php';
                         </div>
                         <h4 class="mb-4">B2B SDR as a Service</h4>
                         <p class="mb-4">Unlock the Power of Precision Marketing with RDIGS’ Intent-Based Marketing Services</p>
-                        <a class="btn btn-primary rounded-pill py-2 px-4" href="#">Learn More</a>
+                        <a class="btn btn-primary rounded-pill py-2 px-4" href="b2bsdrasaservice.php">Learn More</a>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.8s">
@@ -97,7 +95,7 @@ include 'header.php';
                         </div>
                         <h4 class="mb-4">Content Syndication</h4>
                         <p class="mb-4">Now is the time to Propel Your B2B Growth & Boost Your Sales Performance with RDIGS Sales</p>
-                        <a class="btn btn-primary rounded-pill py-2 px-4" href="#">Learn More</a>
+                        <a class="btn btn-primary rounded-pill py-2 px-4" href="contentsyndication.php">Learn More</a>
                     </div>
                 </div>
             </div>
@@ -108,8 +106,6 @@ include 'header.php';
             </div>
         </div>
     </div>
-
-
 
     <!-- <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.2s">
                         <div class="feature-item p-4 pt-0">
@@ -159,7 +155,7 @@ include 'header.php';
                         <p class="text-dark mb-4"><i class="fa fa-check text-primary me-3"></i>Personalized Experience
                         </p>
                         <p class="text-dark mb-4"><i class="fa fa-check text-primary me-3"></i>Exceptional Service</p>
-                        <a class="btn btn-primary rounded-pill py-3 px-5" href="#">Know More..</a>
+                        <a class="btn btn-primary rounded-pill py-3 px-5" href="about1.php">Know More..</a>
                     </div>
                 </div>
                 <div class="col-xl-6 wow fadeInRight" data-wow-delay="0.2s">
@@ -362,29 +358,27 @@ include 'header.php';
             <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
                 <h4 class="text-primary">From Blog</h4>
                 <h1 class="display-4 mb-4">News And Updates</h1>
-                <p class="mb-0">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur adipisci facilis
-                    cupiditate recusandae aperiam temporibus corporis itaque quis facere, numquam, ad culpa deserunt
-                    sint dolorem autem obcaecati, ipsam mollitia hic.
+                <p class="mb-0">Explore how B2B brands qualify the right leads, break down data silos, and create seamless customer journeys.From lead generation to conversion, get insights that drive smarter decisions. Learn how touchpoints and personalization impact engagement. Fuel growth with content syndication, advertising, and data-driven strategies..
                 </p>
             </div>
             <div class="row g-4 justify-content-center">
                 <div class="col-lg-6 col-xl-4 wow fadeInUp" data-wow-delay="0.2s">
                     <div class="blog-item">
                         <div class="blog-img">
-                            <img src="img/blog-1.png" class="img-fluid rounded-top w-100" alt="">
+                            <img src="img/Blog 11.webp" class="img-fluid rounded-top w-100" alt="">
                             <div class="blog-categiry py-2 px-4">
                                 <span>Business</span>
                             </div>
                         </div>
                         <div class="blog-content p-4">
                             <div class="blog-comment d-flex justify-content-between mb-3">
-                                <div class="small"><span class="fa fa-user text-primary"></span> Martin.C</div>
+                                <!-- <div class="small"><span class="fa fa-user text-primary"></span> Martin.C</div>
                                 <div class="small"><span class="fa fa-calendar text-primary"></span> 30 Dec 2025</div>
-                                <div class="small"><span class="fa fa-comment-alt text-primary"></span> 6 Comments</div>
+                                <div class="small"><span class="fa fa-comment-alt text-primary"></span> 6 Comments</div> -->
                             </div>
-                            <a href="#" class="h4 d-inline-block mb-3">Which allows you to pay down insurance bills</a>
-                            <p class="mb-3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius libero soluta
-                                impedit eligendi? Quibusdam, laudantium.</p>
+                            <a href="#" class="h4 d-inline-block mb-3">A Guide to B2B Lead Qualification</a>
+                            <!-- <p class="mb-3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius libero soluta
+                                impedit eligendi? Quibusdam, laudantium.</p> -->
                             <a href="#" class="btn p-0">Read More <i class="fa fa-arrow-right"></i></a>
                         </div>
                     </div>
@@ -392,20 +386,20 @@ include 'header.php';
                 <div class="col-lg-6 col-xl-4 wow fadeInUp" data-wow-delay="0.4s">
                     <div class="blog-item">
                         <div class="blog-img">
-                            <img src="img/blog-2.png" class="img-fluid rounded-top w-100" alt="">
+                            <img src="img/Blog 12.webp" class="img-fluid rounded-top w-100" alt="">
                             <div class="blog-categiry py-2 px-4">
                                 <span>Business</span>
                             </div>
                         </div>
                         <div class="blog-content p-4">
                             <div class="blog-comment d-flex justify-content-between mb-3">
-                                <div class="small"><span class="fa fa-user text-primary"></span> Martin.C</div>
+                                <!-- <div class="small"><span class="fa fa-user text-primary"></span> Martin.C</div>
                                 <div class="small"><span class="fa fa-calendar text-primary"></span> 30 Dec 2025</div>
-                                <div class="small"><span class="fa fa-comment-alt text-primary"></span> 6 Comments</div>
+                                <div class="small"><span class="fa fa-comment-alt text-primary"></span> 6 Comments</div> -->
                             </div>
-                            <a href="#" class="h4 d-inline-block mb-3">Leverage agile frameworks to provide</a>
-                            <p class="mb-3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius libero soluta
-                                impedit eligendi? Quibusdam, laudantium.</p>
+                            <a href="#" class="h4 d-inline-block mb-3">Data silos block B2B decisions</a>
+                            <!-- <p class="mb-3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius libero soluta
+                                impedit eligendi? Quibusdam, laudantium.</p> -->
                             <a href="#" class="btn p-0">Read More <i class="fa fa-arrow-right"></i></a>
                         </div>
                     </div>
@@ -413,20 +407,20 @@ include 'header.php';
                 <div class="col-lg-6 col-xl-4 wow fadeInUp" data-wow-delay="0.6s">
                     <div class="blog-item">
                         <div class="blog-img">
-                            <img src="img/blog-3.png" class="img-fluid rounded-top w-100" alt="">
+                            <img src="img/Blog 13.webp" class="img-fluid rounded-top w-100" alt="">
                             <div class="blog-categiry py-2 px-4">
                                 <span>Business</span>
                             </div>
                         </div>
                         <div class="blog-content p-4">
                             <div class="blog-comment d-flex justify-content-between mb-3">
-                                <div class="small"><span class="fa fa-user text-primary"></span> Martin.C</div>
+                                <!-- <div class="small"><span class="fa fa-user text-primary"></span> Martin.C</div>
                                 <div class="small"><span class="fa fa-calendar text-primary"></span> 30 Dec 2025</div>
-                                <div class="small"><span class="fa fa-comment-alt text-primary"></span> 6 Comments</div>
+                                <div class="small"><span class="fa fa-comment-alt text-primary"></span> 6 Comments</div> -->
                             </div>
-                            <a href="#" class="h4 d-inline-block mb-3">Leverage agile frameworks to provide</a>
-                            <p class="mb-3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius libero soluta
-                                impedit eligendi? Quibusdam, laudantium.</p>
+                            <a href="#" class="h4 d-inline-block mb-3">B2B Journey & Touchpoints</a>
+                            <!-- <p class="mb-3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius libero soluta
+                                impedit eligendi? Quibusdam, laudantium.</p> -->
                             <a href="#" class="btn p-0">Read More <i class="fa fa-arrow-right"></i></a>
                         </div>
                     </div>
@@ -490,27 +484,7 @@ include 'header.php';
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.6s">
-                    <div class="team-item">
-                        <div class="team-img">
-                            <img src="img/team3.jpeg" class="img-fluid rounded-top w-100" alt="">
-                            <div class="team-icon">
-                                <!-- <a class="btn btn-primary btn-sm-square rounded-pill mb-2" href=""><i
-                                        class="fab fa-facebook-f"></i></a>
-                                <a class="btn btn-primary btn-sm-square rounded-pill mb-2" href=""><i
-                                        class="fab fa-twitter"></i></a> -->
-                                <a class="btn btn-primary btn-sm-square rounded-pill mb-2" href="https://www.linkedin.com/in/rachel-mendis-b846b5179/"><i
-                                        class="fab fa-linkedin-in"></i></a>
-                                <!-- <a class="btn btn-primary btn-sm-square rounded-pill mb-0" href=""><i
-                                        class="fab fa-instagram"></i></a> -->
-                            </div>
-                        </div>
-                        <div class="team-title p-4">
-                            <h4 class="mb-0">Rachel Mendis </h4>
-                            <p class="mb-0">HR Manager</p>
-                        </div>
-                    </div>
-                </div>
+                
                 <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.8s">
                     <div class="team-item">
                         <div class="team-img">
@@ -529,6 +503,27 @@ include 'header.php';
                         <div class="team-title p-4">
                             <h4 class="mb-0">Sharad Salve</h4>
                             <p class="mb-0">CSDO</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.6s">
+                    <div class="team-item">
+                        <div class="team-img">
+                            <img src="img/team3.jpeg" class="img-fluid rounded-top w-100" alt="">
+                            <div class="team-icon">
+                                <!-- <a class="btn btn-primary btn-sm-square rounded-pill mb-2" href=""><i
+                                        class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-primary btn-sm-square rounded-pill mb-2" href=""><i
+                                        class="fab fa-twitter"></i></a> -->
+                                <a class="btn btn-primary btn-sm-square rounded-pill mb-2" href="https://www.linkedin.com/in/rachel-mendis-b846b5179/"><i
+                                        class="fab fa-linkedin-in"></i></a>
+                                <!-- <a class="btn btn-primary btn-sm-square rounded-pill mb-0" href=""><i
+                                        class="fab fa-instagram"></i></a> -->
+                            </div>
+                        </div>
+                        <div class="team-title p-4">
+                            <h4 class="mb-0">Rachel Mendis </h4>
+                            <p class="mb-0">HR Manager</p>
                         </div>
                     </div>
                 </div>
@@ -643,6 +638,7 @@ include 'header.php';
             </div>
         </div>
     </div>
+    
     <!-- Testimonial End -->
     <?php 
 include 'footer.php'; 
