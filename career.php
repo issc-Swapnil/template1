@@ -60,6 +60,34 @@ include 'header.php';
     <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4 g-4">
 
      <!-- Repeatable Card -->
+     <div class="col">
+        <div class="card text-center" style="border: 1px solid rgba(48, 153, 213, 0.3); border-radius: 15px;
+                    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1); 
+                    height: 300px; transition: all 0.2s ease;"
+            onmouseover="this.style.transform='scale(1.05)'; this.style.boxShadow='0 10px 25px rgba(0, 0, 0, 0.2)'; this.style.height='300px';"
+            onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='0 6px 20px rgba(0, 0, 0, 0.1)'; this.style.height='300px';">
+            <div class="card-body d-flex flex-column justify-content-center align-items-center">
+            <img src="https://via.placeholder.com/60" class="mb-4" alt="Logo">
+            <h5 class="card-title">Lead Generation Executive</h5>
+            <button class="btn mt-4" style="color: #3099D5; border: 1px solid #3099D5; background: transparent;" data-bs-toggle="modal" data-bs-target="#applyModal">Apply Now</button>
+            </div>
+        </div>
+        </div>
+
+        <div class="col">
+        <div class="card text-center" style="border: 1px solid rgba(48, 153, 213, 0.3); border-radius: 15px;
+                    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1); 
+                    height: 300px; transition: all 0.2s ease;"
+            onmouseover="this.style.transform='scale(1.05)'; this.style.boxShadow='0 10px 25px rgba(0, 0, 0, 0.2)'; this.style.height='300px';"
+            onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='0 6px 20px rgba(0, 0, 0, 0.1)'; this.style.height='300px';">
+            <div class="card-body d-flex flex-column justify-content-center align-items-center">
+            <img src="https://via.placeholder.com/60" class="mb-4" alt="Logo">
+            <h5 class="card-title">Demand Generation Executive</h5>
+            <button class="btn mt-4" style="color: #3099D5; border: 1px solid #3099D5; background: transparent;" data-bs-toggle="modal" data-bs-target="#applyModal">Apply Now</button>
+            </div>
+        </div>
+        </div>
+
         <div class="col">
         <div class="card text-center"
             style="border: 1px solid rgba(48, 153, 213, 0.3); border-radius: 15px;
@@ -94,33 +122,6 @@ include 'header.php';
         </div>
         </div>
 
-        <div class="col">
-        <div class="card text-center" style="border: 1px solid rgba(48, 153, 213, 0.3); border-radius: 15px;
-                    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1); 
-                    height: 300px; transition: all 0.2s ease;"
-            onmouseover="this.style.transform='scale(1.05)'; this.style.boxShadow='0 10px 25px rgba(0, 0, 0, 0.2)'; this.style.height='300px';"
-            onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='0 6px 20px rgba(0, 0, 0, 0.1)'; this.style.height='300px';">
-            <div class="card-body d-flex flex-column justify-content-center align-items-center">
-            <img src="https://via.placeholder.com/60" class="mb-4" alt="Logo">
-            <h5 class="card-title">Lead Generation Executive</h5>
-            <button class="btn mt-4" style="color: #3099D5; border: 1px solid #3099D5; background: transparent;" data-bs-toggle="modal" data-bs-target="#applyModal">Apply Now</button>
-            </div>
-        </div>
-        </div>
-
-        <div class="col">
-        <div class="card text-center" style="border: 1px solid rgba(48, 153, 213, 0.3); border-radius: 15px;
-                    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1); 
-                    height: 300px; transition: all 0.2s ease;"
-            onmouseover="this.style.transform='scale(1.05)'; this.style.boxShadow='0 10px 25px rgba(0, 0, 0, 0.2)'; this.style.height='300px';"
-            onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='0 6px 20px rgba(0, 0, 0, 0.1)'; this.style.height='300px';">
-            <div class="card-body d-flex flex-column justify-content-center align-items-center">
-            <img src="https://via.placeholder.com/60" class="mb-4" alt="Logo">
-            <h5 class="card-title">Demand Generation Executive</h5>
-            <button class="btn mt-4" style="color: #3099D5; border: 1px solid #3099D5; background: transparent;" data-bs-toggle="modal" data-bs-target="#applyModal">Apply Now</button>
-            </div>
-        </div>
-        </div>
     </div>
 </div>
 

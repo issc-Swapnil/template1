@@ -19,7 +19,7 @@ include 'header.php';
     <div class="col-md-6 d-flex flex-column justify-content-between align-items-center">
       
       <!-- Top two images -->
-      <div class="row mb-3">
+      <!-- <div class="row mb-3">
         <div class="col-6 d-flex justify-content-center">
           <img src="img/pageabout1.png" class="img-fluid rounded shadow-sm" alt="Image 1"
                style="max-width: 185px; height: auto;">
@@ -28,12 +28,11 @@ include 'header.php';
           <img src="img/pageabout2.png" class="img-fluid rounded shadow-sm" alt="Image 2"
                style="max-width: 185px; height: auto;">
         </div>
-      </div>
+      </div> -->
 
       <!-- Center bottom image -->
       <div class="d-flex justify-content-center">
-        <img src="img/pageabout4.webp" class="img-fluid rounded shadow" alt="Image 3"
-             style="max-height: 180px; object-fit: contain;">
+        <img src="img/aboutus.png" class="img-fluid" alt="Image 3">
       </div>
     </div>
 
@@ -59,11 +58,11 @@ include 'header.php';
     </div>
   </div>
 </div> -->
-<div style="padding: 50px 0; background-color: #ffffff; color: #212529;">
+<div style="padding: 20px 0; background-color: #ffffff; color: #212529;">
     <div class="container py-5">
-        <div class="row align-items-center" style="padding: 50px 0; background-color: #f8f9fa;">
+        <div class="row align-items-center" style="padding: 20px 0; background-color: #f8f9fa;">
             <div class="col-md-6 text-center">
-                <img src="img/about-2.jpeg" class="img-fluid rounded" alt="Our Beginning" style="max-width: 100%; border-radius: 10px;">
+                <img src="img/about-2.jpeg" class="img-fluid" alt="Our Beginning" style="max-width: 100%; border-radius: 10px;">
             </div>
             <div class="col-md-6 text-center">
                 <h1 class="display-4">Our Beginning</h1>
@@ -76,40 +75,45 @@ include 'header.php';
             </div>
         </div>
 
-        <div class="row align-items-center" style="padding: 50px 0;">
+        <div class="row align-items-center" style="padding: 0 0;">
             <div class="col-md-6 text-center order-md-2">
-                <img src="img/about-3.jpeg" class="img-fluid rounded" alt="Our Mission" style="max-width: 100%; border-radius: 10px;">
+                <img src="img/Mission.png" class="img-fluid rounded" alt="Our Mission" style="max-width: 100%; border-radius: 10px;">
             </div>
             <div class="col-md-6 text-center order-md-1">
             <h1 class="display-4">Our Mission</h1>
                 
                 <p style="line-height: 1.6; text-align: justify;">
-                Our primary intent is to assist businesses in expanding their customer base by generating new B2B leads, nurturing existing leads, and ultimately generating more ROI. Our mission is to accomplish this through implementing innovative approaches, state-of-the-art technologies, and a highly skilled team of professionals committed to delivering exceptional outcomes. Each of our campaigns has a committed group of business development specialists who work ardently to produce timely deliverables since we operate under the philosophy of becoming partners with our clients rather than vendors.
+                Our goal is to help businesses grow by generating new B2B leads, nurturing existing ones, and driving ROI. We achieve this through innovative strategies, cutting-edge technologies, and a skilled team dedicated to delivering exceptional results. Each campaign is supported by a dedicated group of business development specialists, working as true partners to ensure timely and impactful outcomes.
                 </p>
             </div>
         </div>
 
-        <div class="row align-items-center" style="padding: 50px 0; background-color: #f8f9fa;">
+        <div class="row align-items-center" style="padding: 20px 0; background-color: #f8f9fa;">
             <div class="col-md-6 text-center">
-                <img src="img/about-4.jpg" class="img-fluid rounded" alt="Our Vision" style="max-width: 100%; border-radius: 10px;">
+                <img src="img/Vision.png" class="img-fluid rounded" alt="Our Vision" style="max-width: 100%; border-radius: 10px;">
             </div>
             <div class="col-md-6 text-center">
             <h1 class="display-4">Our Vision</h1>
                 <p style="line-height: 1.6; text-align: justify;">
-                Our vision at RDIGS is to revolutionize the B2B industry by delivering intelligent, growth- driven solutions that enable businesses to realize their full potential. We foresee a future where organizations benefit from cutting-edge technologies and methodologies, allowingthem to effectively engage with their desired audience, procure high-quality leads, and accomplish their marketing goals
+                At RDIGS, our vision is to transform the B2B industry with intelligent, growth-driven solutions that help businesses reach their full potential. We envision a future where organizations leverage advanced technologies and strategies to engage their target audience, generate high-quality leads, and achieve their marketing goals.
                 </p>
             </div>
         </div>
 
-        <div class="row align-items-center" style="padding: 50px 0;">
+        <div class="row align-items-center" style="padding: 20px 0;">
             <div class="col-md-6 text-center order-md-2">
-                <img src="img/about-5.jpeg" class="img-fluid rounded" alt="Why Choose Us" style="max-width: 100%; border-radius: 10px;">
+                <img src="img/Value.png" class="img-fluid rounded" alt="Why Choose Us" style="max-width: 100%; border-radius: 10px;">
             </div>
-            <div class="col-md-6 text-center order-md-1">
-            <h1 class="display-4">Why Choose Us</h1>
+            <div class="col-md-6 order-md-1">
+            <h1 class="display-4">Our Value</h1>
                 <p style="line-height: 1.6; text-align: justify;">
-                We stand out from the competition thanks to our synergistic qualities in content marketing, lead generation, data management, and in-house developed sector-specific technology. Together with our customers, we seek to comprehend the one-of-a-kind commercial objectives they have established, and then we develop individualized approaches to provide for their particular requirements. Our team of industry professionals is dedicated to providing outstanding service and results to all of our prospects to help them accomplish their marketing goals and increase their revenue.
-                We believe in forming long-lasting partnerships with our customers by working closely with them to understand the specific requirements and objectives they have set for themselves. To provide remarkable outcomes for our customers, our team’s veterans are dedicated to lifelong experience and progress. They strive to stay current with the most recent technological and methodology developments.</
+                Care About Our Team Understand what matters to our employees. Give them what they need to do their best work.
+                <ul class="list-unstyled">
+                    <li><i class="text-success fas fa-check-circle"></i>Be Excellent to Each Other</li>
+                    <li><i class="text-success fas fa-check-circle"></i>Pride in What We Do</li>
+                    <li><i class="text-success fas fa-check-circle"></i>Do the Impossible</li>
+                    <li><i class="text-success fas fa-check-circle"></i>Sweat the Small Stuff</li>
+                </ul>
                 </p>
             </div>
         </div>
@@ -168,27 +172,7 @@ include 'header.php';
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.6s">
-                    <div class="team-item">
-                        <div class="team-img">
-                            <img src="img/team3.jpeg" class="img-fluid rounded-top w-100" alt="">
-                            <div class="team-icon">
-                                <!-- <a class="btn btn-primary btn-sm-square rounded-pill mb-2" href=""><i
-                                        class="fab fa-facebook-f"></i></a>
-                                <a class="btn btn-primary btn-sm-square rounded-pill mb-2" href=""><i
-                                        class="fab fa-twitter"></i></a> -->
-                                <a class="btn btn-primary btn-sm-square rounded-pill mb-2" href="https://www.linkedin.com/in/rachel-mendis-b846b5179/"><i
-                                        class="fab fa-linkedin-in"></i></a>
-                                <!-- <a class="btn btn-primary btn-sm-square rounded-pill mb-0" href=""><i
-                                        class="fab fa-instagram"></i></a> -->
-                            </div>
-                        </div>
-                        <div class="team-title p-4">
-                            <h4 class="mb-0">Rachel Mendis </h4>
-                            <p class="mb-0">HR Manager</p>
-                        </div>
-                    </div>
-                </div>
+                
                 <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.8s">
                     <div class="team-item">
                         <div class="team-img">
@@ -207,6 +191,28 @@ include 'header.php';
                         <div class="team-title p-4">
                             <h4 class="mb-0">Sharad Salve</h4>
                             <p class="mb-0">CSDO</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.6s">
+                    <div class="team-item">
+                        <div class="team-img">
+                            <img src="img/team3.jpeg" class="img-fluid rounded-top w-100" alt="">
+                            <div class="team-icon">
+                                <!-- <a class="btn btn-primary btn-sm-square rounded-pill mb-2" href=""><i
+                                        class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-primary btn-sm-square rounded-pill mb-2" href=""><i
+                                        class="fab fa-twitter"></i></a> -->
+                                <a class="btn btn-primary btn-sm-square rounded-pill mb-2" href="https://www.linkedin.com/in/rachel-mendis-b846b5179/"><i
+                                        class="fab fa-linkedin-in"></i></a>
+                                <!-- <a class="btn btn-primary btn-sm-square rounded-pill mb-0" href=""><i
+                                        class="fab fa-instagram"></i></a> -->
+                            </div>
+                        </div>
+                        <div class="team-title p-4">
+                            <h4 class="mb-0">Rachel Mendis </h4>
+                            <p class="mb-0">HR Manager</p>
                         </div>
                     </div>
                 </div>

@@ -15,7 +15,7 @@ include 'header.php';
                     <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.2s">
                         <div class="service-item" style="height: 80%">
                             <div class="service-img">
-                                <img src="img/b3b lead.webp" class="img-fluid rounded-top w-100" alt="">
+                                <img src="img/b2bleadgeneration.png" class="img-fluid rounded-top w-100" alt="">
                                 <!-- <div class="service-icon p-3">
                                     <i class="fa fa-users fa-2x"></i>
                                 </div> -->
@@ -34,7 +34,7 @@ include 'header.php';
                     <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.4s">
                         <div class="service-item">
                             <div class="service-img">
-                                <img src="img/b2badve.jpeg" class="img-fluid rounded-top w-100" alt="">
+                                <img src="img\B2B-Advertising (1).png" class="img-fluid rounded-top w-100" alt="">
                                 <!-- <div class="service-icon p-3">
                                     <i class="fa fa-hospital fa-2x"></i>
                                 </div> -->

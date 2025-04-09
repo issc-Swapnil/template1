@@ -168,10 +168,10 @@
                                 </a>
                                 <div class="dropdown-menu">
                                     <a href="casestudies.php" class="dropdown-item">Case Studies</a>
-                                    <a href="corporatedesk.php" class="dropdown-item">Coroprate Desk</a>
-                                    <!-- <a href="blog.php" class="dropdown-item">Blogs</a> -->
+                                    <a href="corporatedesk.php" class="dropdown-item">Coroprate Deck</a>
+                                    <a href="blog.php" class="dropdown-item">Blogs</a>
                                     <!-- <a href="lifeatrdigs.php" class="dropdown-item">Life At RDIGS</a> -->
-                                    <!-- <a href="about1.php" class="dropdown-item">About</a> -->
+                                    <a href="events.php" class="dropdown-item">Events</a>
                                 </div>
                                 </div>
                             <a href="contact.php" class="nav-item nav-link">Contact</a>
