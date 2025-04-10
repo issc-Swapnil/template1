@@ -28,7 +28,7 @@
                                 <div class="footer-item">
                                     <h4 class="text-white mb-4">Useful Links</h4>
                                     <a href="about1.php"><i class="fas fa-angle-right me-2"></i> About Us</a>
-                                    <a href="features.php"><i class="fas fa-angle-right me-2"></i> Features</a>
+                                    <!-- <a href="features.php"><i class="fas fa-angle-right me-2"></i> Features</a> -->
                                     <a href="service.php"><i class="fas fa-angle-right me-2"></i> Services</a>
                                     <a href="faq.php"><i class="fas fa-angle-right me-2"></i> FAQ's</a>
                                     <a href="blog.php"><i class="fas fa-angle-right me-2"></i> Blogs</a>
@@ -160,14 +160,20 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 
     <script>
-        document.addEventListener("DOMContentLoaded", function () {
-            // Show the modal after 3 seconds
+    document.addEventListener("DOMContentLoaded", function () {
+        const path = window.location.pathname;
+
+        // Show the modal ONLY on the homepage (adjust path if needed)
+        if (path === "/" || path.endsWith("index.php")) {
+            // Show modal after 3 seconds
             setTimeout(function () {
                 var subscribeModal = new bootstrap.Modal(document.getElementById("subscribeModal"));
                 subscribeModal.show();
             }, 3000); // 3000ms = 3 seconds
-        });
-    </script>
+        }
+    });
+</script>
+
 
     </body>
 
