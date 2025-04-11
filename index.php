@@ -2,6 +2,26 @@
 include 'header.php'; 
 ?>
 
+<!-- popup start -->
+<!-- <div id="subscribeModal" class="modal fade" tabindex="-1" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content p-3" style="background: #3099D5; color: white; border-radius: 15px; text-align: center;">
+      <div class="modal-header border-0 p-2">
+        <h6 class="modal-title w-100 fw-bold">📩 Subscribe Now</h6>
+        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
+      </div>
+      <div class="modal-body p-2">
+        <p>Stay updated with our latest news and offers.</p>
+        <input type="email" class="form-control" placeholder="Enter your email">
+      </div>
+      <div class="modal-footer border-0 justify-content-center p-2">
+        <button class="btn btn-light text-primary w-100">SUBSCRIBE</button>
+      </div>
+    </div>
+  </div>
+</div> -->
+
+
 <div class="container-fluid" 
      style="background-image: url('img/bannerimg.jpg'); background-size: cover; background-position: center; background-repeat: no-repeat; padding: 50px; color: #fff;">
 
@@ -27,7 +47,7 @@ include 'header.php';
 <!-- banner End -->
 
 <!-- carousel start -->
-    <div class="container">
+<div class="container">
         <div class="text-center mx-auto pb-2 pt-4 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
             <h4 class="text-primary">Our Clients</h4>
             <h1 class="display-4">Partnering for Your Success</h1>
@@ -105,7 +125,7 @@ include 'header.php';
                 <a href="service.php" class="btn btn-primary rounded-pill py-3 px-5">View All Services</a>
             </div>
         </div>
-    </div>
+</div>
 
     <!-- <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.2s">
                         <div class="feature-item p-4 pt-0">
@@ -379,7 +399,7 @@ include 'header.php';
                             <a href="#" class="h4 d-inline-block mb-3">A Guide to B2B Lead Qualification</a>
                             <!-- <p class="mb-3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius libero soluta
                                 impedit eligendi? Quibusdam, laudantium.</p> -->
-                            <a href="#" class="btn p-0">Read More <i class="fa fa-arrow-right"></i></a>
+                                <a href="#" class="btn p-0">Read More <i class="fa fa-arrow-right"></i></a>
                         </div>
                     </div>
                 </div>
@@ -533,7 +553,7 @@ include 'header.php';
     <!-- Team End -->
 
     <!-- Testimonial Start -->
-    <div class="container-fluid testimonial pb-5">
+    <div class="container-fluid testimonial pb-2">
         <div class="container pb-5">
             <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
                 <h4 class="text-primary">Client's Feedback</h4>
@@ -638,6 +658,30 @@ include 'header.php';
             </div>
         </div>
     </div>
+<div>
+    <h1 class="display-4 mb-2 text-center">Corporate Deck</h1>
+</div>
+
+<<div class="container" style="background-color: #3099D5; color: white; border-radius: 10px; padding: 15px 30px;">
+  <div class="row align-items-center g-0">
+
+    <!-- Left: Text + Button -->
+    <div class="col-md-6" style="padding-right: 10px;">
+      <h5 style="margin: 0; font-size: 1.25rem;">Unlock Opportunities with Our Media Deck - 2025</h5>
+      <p style="margin: 5px 0 10px; font-size: 16px;">We’ve 15+ years of experience in B2B marketing</p>
+      <a href="corporatedesk.php" class="btn" style="background-color: white; color: #3099D5; border: none; padding: 6px 16px; border-radius: 5px; font-size: 0.9rem;">
+        Click Here
+      </a>
+    </div>
+
+    <!-- Right: Image -->
+    <div class="col-md-6 d-flex justify-content-end" style="margin-left: -20px;">
+      <img src="img/corporatedeck.png" alt="Corporate Deck" style="height: 100px; border-radius: 8px;">
+    </div>
+
+  </div>
+</div>
+
     
     <!-- Testimonial End -->
     <?php 
