@@ -126,7 +126,7 @@
     <div class="container d-flex justify-content-between align-items-center">
         <div>
             <a href="https://rdigs.com/" class="border-bottom text-white" target="_blank" rel="noopener noreferrer">
-                <i class="fas fa-copyright text-light me-2"></i>RD Info Global Services
+                <i class="fas fa-copyright text-light me-2"></i>RD Info Global Solutions
             </a>, All rights reserved.
         </div>
         <div>
@@ -153,6 +153,24 @@
     <script src="lib/counterup/counterup.min.js"></script>
     <script src="lib/lightbox/js/lightbox.min.js"></script>
     <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+    const navbarToggler = document.querySelector('.navbar-toggler');
+    const navbarCollapse = document.getElementById('navbarCollapse');
+
+    navbarToggler.addEventListener('click', function () {
+        navbarCollapse.classList.toggle('show');
+    });
+
+    const dropdowns = document.querySelectorAll('.dropdown-toggle');
+    dropdowns.forEach(dropdown => {
+        dropdown.addEventListener('click', function () {
+            const dropdownMenu = this.nextElementSibling;
+            dropdownMenu.classList.toggle('show');
+        });
+    });
+});
+    </script>
 
 
     <!-- Template Javascript -->

@@ -18,19 +18,6 @@ include 'header.php';
 
     <!-- Right container (Images) -->
     <div class="col-md-6 d-flex flex-column justify-content-between align-items-center">
-      
-      <!-- Top two images -->
-      <!-- <div class="row mb-3">
-        <div class="col-6 d-flex justify-content-center">
-          <img src="img/pageabout1.png" class="img-fluid rounded shadow-sm" alt="Image 1"
-               style="max-width: 185px; height: auto;">
-        </div>
-        <div class="col-6 d-flex justify-content-center">
-          <img src="img/pageabout2.png" class="img-fluid rounded shadow-sm" alt="Image 2"
-               style="max-width: 185px; height: auto;">
-        </div>
-      </div> -->
-
       <!-- Center bottom image -->
       <div class="d-flex justify-content-center">
         <img src="img/corporatedeck.png" class="img-fluid" alt="Image 3">

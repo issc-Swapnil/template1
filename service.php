@@ -70,7 +70,7 @@ include 'header.php';
                     <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.8s">
                         <div class="service-item">
                             <div class="service-img">
-                                <img src="img/consy.png" class="img-fluid rounded-top w-100" alt="">
+                                <img src="img/Content-Syandication.png" class="img-fluid rounded-top w-100" alt="">
                                 <!-- <div class="service-icon p-3">
                                     <i class="fa fa-home fa-2x"></i>
                                 </div> -->

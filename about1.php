@@ -32,7 +32,7 @@ include 'header.php';
 
       <!-- Center bottom image -->
       <div class="d-flex justify-content-center">
-        <img src="img/aboutus.png" class="img-fluid" alt="Image 3">
+        <img src="img\about-us\aboutus.png" class="img-fluid" alt="Image 3">
       </div>
     </div>
 
@@ -62,7 +62,7 @@ include 'header.php';
     <div class="container py-5">
         <div class="row align-items-center" style="padding: 20px 0; background-color: #f8f9fa;">
             <div class="col-md-6 text-center">
-                <img src="img/about-2.jpeg" class="img-fluid" alt="Our Beginning" style="max-width: 100%; border-radius: 10px;">
+                <img src="img\about-us\Begining.png" class="img-fluid" alt="Our Beginning" style="max-width: 100%; border-radius: 10px;">
             </div>
             <div class="col-md-6 text-center">
                 <h1 class="display-4">Our Beginning</h1>
@@ -77,7 +77,7 @@ include 'header.php';
 
         <div class="row align-items-center" style="padding: 0 0;">
             <div class="col-md-6 text-center order-md-2">
-                <img src="img/Mission.png" class="img-fluid rounded" alt="Our Mission" style="max-width: 100%; border-radius: 10px;">
+                <img src="img\about-us\Mission.png" class="img-fluid rounded" alt="Our Mission" style="max-width: 100%; border-radius: 10px;">
             </div>
             <div class="col-md-6 text-center order-md-1">
             <h1 class="display-4">Our Mission</h1>
@@ -90,7 +90,7 @@ include 'header.php';
 
         <div class="row align-items-center" style="padding: 20px 0; background-color: #f8f9fa;">
             <div class="col-md-6 text-center">
-                <img src="img/Vision.png" class="img-fluid rounded" alt="Our Vision" style="max-width: 100%; border-radius: 10px;">
+                <img src="img\about-us\Vision.png" class="img-fluid rounded" alt="Our Vision" style="max-width: 100%; border-radius: 10px;">
             </div>
             <div class="col-md-6 text-center">
             <h1 class="display-4">Our Vision</h1>
@@ -102,7 +102,7 @@ include 'header.php';
 
         <div class="row align-items-center" style="padding: 20px 0;">
             <div class="col-md-6 text-center order-md-2">
-                <img src="img/Value.png" class="img-fluid rounded" alt="Why Choose Us" style="max-width: 100%; border-radius: 10px;">
+                <img src="img\about-us\Value.png" class="img-fluid rounded" alt="Why Choose Us" style="max-width: 100%; border-radius: 10px;">
             </div>
             <div class="col-md-6 order-md-1">
             <h1 class="display-4">Our Value</h1>
@@ -133,7 +133,7 @@ include 'header.php';
                 <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.2s">
                     <div class="team-item">
                         <div class="team-img">
-                            <img src="img/team1..jpeg" class="img-fluid rounded-top w-100" alt="">
+                            <img src="img\team\team1..jpeg" class="img-fluid rounded-top w-100" alt="">
                             <div class="team-icon">
                                 <!-- <a class="btn btn-primary btn-sm-square rounded-pill mb-2" href=""><i
                                         class="fab fa-facebook-f"></i></a>
@@ -154,7 +154,7 @@ include 'header.php';
                 <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.4s">
                     <div class="team-item">
                         <div class="team-img">
-                            <img src="img/team2.jpeg" class="img-fluid rounded-top w-100" alt="">
+                            <img src="img\team\team2.jpeg" class="img-fluid rounded-top w-100" alt="">
                             <div class="team-icon">
                                 <!-- <a class="btn btn-primary btn-sm-square rounded-pill mb-2" href=""><i
                                         class="fab fa-facebook-f"></i></a>
@@ -176,7 +176,7 @@ include 'header.php';
                 <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.8s">
                     <div class="team-item">
                         <div class="team-img">
-                            <img src="img/team4.png" class="img-fluid rounded-top w-100" alt="">
+                            <img src="img\team\team4.png" class="img-fluid rounded-top w-100" alt="">
                             <div class="team-icon">
                                 <!-- <a class="btn btn-primary btn-sm-square rounded-pill mb-2" href=""><i
                                         class="fab fa-facebook-f"></i></a>
@@ -195,10 +195,76 @@ include 'header.php';
                     </div>
                 </div>
 
+                <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.8s">
+                    <div class="team-item">
+                        <div class="team-img">
+                            <img src="img\team\Will.png" class="img-fluid rounded-top w-100" alt="">
+                            <div class="team-icon">
+                                <!-- <a class="btn btn-primary btn-sm-square rounded-pill mb-2" href=""><i
+                                        class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-primary btn-sm-square rounded-pill mb-2" href=""><i
+                                        class="fab fa-twitter"></i></a> -->
+                                <a class="btn btn-primary btn-sm-square rounded-pill mb-2" href="https://www.linkedin.com/in/william-k-m-12189737/"><i
+                                        class="fab fa-linkedin-in"></i></a>
+                                <!-- <a class="btn btn-primary btn-sm-square rounded-pill mb-0" href=""><i
+                                        class="fab fa-instagram"></i></a> -->
+                            </div>
+                        </div>
+                        <div class="team-title p-4">
+                            <h4 class="mb-0">William Mathurai</h4>
+                            <p class="mb-0">Chief Revenue Officer</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.8s">
+                    <div class="team-item">
+                        <div class="team-img">
+                            <img src="img\team\Sunil.png" class="img-fluid rounded-top w-100" alt="">
+                            <div class="team-icon">
+                                <!-- <a class="btn btn-primary btn-sm-square rounded-pill mb-2" href=""><i
+                                        class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-primary btn-sm-square rounded-pill mb-2" href=""><i
+                                        class="fab fa-twitter"></i></a> -->
+                                <a class="btn btn-primary btn-sm-square rounded-pill mb-2" href="https://www.linkedin.com/in/sunil-markam-2935511b/"><i
+                                        class="fab fa-linkedin-in"></i></a>
+                                <!-- <a class="btn btn-primary btn-sm-square rounded-pill mb-0" href=""><i
+                                        class="fab fa-instagram"></i></a> -->
+                            </div>
+                        </div>
+                        <div class="team-title p-4">
+                            <h4 class="mb-0">Sunil Makram</h4>
+                            <p class="mb-0">IT Manager</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.8s">
+                    <div class="team-item">
+                        <div class="team-img">
+                            <img src="img\team\Neal.png" class="img-fluid rounded-top w-100" alt="">
+                            <div class="team-icon">
+                                <!-- <a class="btn btn-primary btn-sm-square rounded-pill mb-2" href=""><i
+                                        class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-primary btn-sm-square rounded-pill mb-2" href=""><i
+                                        class="fab fa-twitter"></i></a> -->
+                                <a class="btn btn-primary btn-sm-square rounded-pill mb-2" href="https://www.linkedin.com/in/brookerneal/"><i
+                                        class="fab fa-linkedin-in"></i></a>
+                                <!-- <a class="btn btn-primary btn-sm-square rounded-pill mb-0" href=""><i
+                                        class="fab fa-instagram"></i></a> -->
+                            </div>
+                        </div>
+                        <div class="team-title p-4">
+                            <h4 class="mb-0">Neal Brooker</h4>
+                            <p class="mb-0">Fractional Sales Director, EMEA</p>
+                        </div>
+                    </div>
+                </div>
+
                 <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.6s">
                     <div class="team-item">
                         <div class="team-img">
-                            <img src="img/team3.jpeg" class="img-fluid rounded-top w-100" alt="">
+                            <img src="img\team\team3.jpeg" class="img-fluid rounded-top w-100" alt="">
                             <div class="team-icon">
                                 <!-- <a class="btn btn-primary btn-sm-square rounded-pill mb-2" href=""><i
                                         class="fab fa-facebook-f"></i></a>

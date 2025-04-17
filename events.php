@@ -9,11 +9,11 @@ include 'header.php';
     </div>
     
     <div class="row g-4">
-        <!-- Card 1 -->
+        
         <div class="col-md-6">
             <div class="eventcard h-100 border-0 shadow" style="height: 430px;">
                 <div class="overflow-hidden" style="height: 200px;">
-                <img src="img\b2bmarketexchange.png" 
+                <img src="img\events\454455 (1).jpg" 
                          class="img-fluid w-100 h-100" 
                          alt="Modern Website Design" 
                          style="object-fit: cover; filter: grayscale(100%); transition: filter 0.3s ease;"
@@ -30,11 +30,11 @@ include 'header.php';
             </div>
         </div>
 
-        <!-- Card 2 -->
+        
         <div class="col-md-6">
             <div class="eventcard h-100 border-0 shadow" style="height: 430px;">
                 <div class="overflow-hidden" style="height: 200px;">
-                <img src="img\b2bmarketexchange.png" 
+                <img src="img\events\454455 (1).jpg" 
                          class="img-fluid w-100 h-100" 
                          alt="Modern Website Design" 
                          style="object-fit: cover; filter: grayscale(100%); transition: filter 0.3s ease;"
@@ -65,7 +65,7 @@ include 'header.php';
         <div class="col-md-6">
             <div class="eventcard h-100 border-0 shadow" style="height: 430px;">
                 <div class="overflow-hidden" style="height: 200px;">
-                    <img src="img/marketingconference.png" 
+                    <img src="img\events\Marketing-Confarance-Xpo.jpg" 
                          class="img-fluid w-100 h-100" 
                          alt="Modern Website Design" 
                          style="object-fit: cover; filter: grayscale(100%); transition: filter 0.3s ease;"
@@ -82,11 +82,11 @@ include 'header.php';
             </div>
         </div>
 
-        <!-- Card 2 -->
+        
         <div class="col-md-6">
             <div class="eventcard h-100 border-0 shadow" style="height: 430px;">
                 <div class="overflow-hidden" style="height: 200px;">
-                    <img src="img/b2bmarketleadforum.png" 
+                    <img src="img\events\b2bleadforum.jpeg" 
                          class="img-fluid w-100 h-100" 
                          alt="Mobile App Design" 
                          style="object-fit: cover; filter: grayscale(100%); transition: filter 0.3s ease;"
@@ -103,11 +103,11 @@ include 'header.php';
             </div>
         </div>
 
-        <!-- Card 3 -->
+ 
         <div class="col-md-6">
             <div class="eventcard h-100 border-0 shadow" style="height: 430px;">
                 <div class="overflow-hidden" style="height: 200px;">
-                    <img src="img/b2bmarketingexpo.png" 
+                    <img src="img\events\B2B-Marketing-Expo.jpg" 
                          class="img-fluid w-100 h-100" 
                          alt="B2B Marketing Expo" 
                          style="object-fit: cover; filter: grayscale(100%); transition: filter 0.3s ease;"
@@ -124,11 +124,11 @@ include 'header.php';
             </div>
         </div>
 
-        <!-- Card 4 -->
+        
         <div class="col-md-6">
             <div class="eventcard h-100 border-0 shadow" style="height: 430px;">
                 <div class="overflow-hidden" style="height: 200px;">
-                    <img src="img/gitex.png" 
+                    <img src="img\events\454455 (1).jpg" 
                          class="img-fluid w-100 h-100" 
                          alt="Web Development Meet" 
                          style="object-fit: cover; filter: grayscale(100%); transition: filter 0.3s ease;"

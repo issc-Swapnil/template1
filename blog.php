@@ -14,7 +14,7 @@ include 'header.php';
             <div class="col-lg-6 col-xl-4 wow fadeInUp" data-wow-delay="0.2s">
                 <div class="blog-item">
                         <div class="blog-img">
-                            <img src="img/Blog 11.webp" class="img-fluid rounded-top w-100" alt="">
+                            <img src="img\blog\Blog 11.webp" class="img-fluid rounded-top w-100" alt="">
                             <div class="blog-categiry py-2 px-4">
                                 <span>Business</span>
                             </div>
@@ -34,7 +34,7 @@ include 'header.php';
                 <div class="col-lg-6 col-xl-4 wow fadeInUp" data-wow-delay="0.4s">
                     <div class="blog-item">
                         <div class="blog-img">
-                            <img src="img/Blog 12.webp" class="img-fluid rounded-top w-100" alt="">
+                            <img src="img\blog\Blog 12.webp" class="img-fluid rounded-top w-100" alt="">
                             <div class="blog-categiry py-2 px-4">
                                 <span>Business</span>
                             </div>
@@ -54,7 +54,7 @@ include 'header.php';
                 <div class="col-lg-6 col-xl-4 wow fadeInUp" data-wow-delay="0.6s">
                     <div class="blog-item">
                         <div class="blog-img">
-                            <img src="img/Blog 13.webp" class="img-fluid rounded-top w-100" alt="">
+                            <img src="img\blog\Blog 13.webp" class="img-fluid rounded-top w-100" alt="">
                             <div class="blog-categiry py-2 px-4">
                                 <span>Business</span>
                             </div>
@@ -74,7 +74,7 @@ include 'header.php';
             <div class="col-lg-6 col-xl-4 wow fadeInUp" data-wow-delay="0.2s">
                 <div class="blog-item">
                         <div class="blog-img">
-                            <img src="img/Blog 11.webp" class="img-fluid rounded-top w-100" alt="">
+                            <img src="img\blog\Blog 11.webp" class="img-fluid rounded-top w-100" alt="">
                             <div class="blog-categiry py-2 px-4">
                                 <span>Business</span>
                             </div>
@@ -94,7 +94,7 @@ include 'header.php';
                 <div class="col-lg-6 col-xl-4 wow fadeInUp" data-wow-delay="0.4s">
                     <div class="blog-item">
                         <div class="blog-img">
-                            <img src="img/Blog 12.webp" class="img-fluid rounded-top w-100" alt="">
+                            <img src="img\blog\Blog 12.webp" class="img-fluid rounded-top w-100" alt="">
                             <div class="blog-categiry py-2 px-4">
                                 <span>Business</span>
                             </div>
@@ -114,7 +114,7 @@ include 'header.php';
                 <div class="col-lg-6 col-xl-4 wow fadeInUp" data-wow-delay="0.6s">
                     <div class="blog-item">
                         <div class="blog-img">
-                            <img src="img/Blog 13.webp" class="img-fluid rounded-top w-100" alt="">
+                            <img src="img\blog\Blog 13.webp" class="img-fluid rounded-top w-100" alt="">
                             <div class="blog-categiry py-2 px-4">
                                 <span>Business</span>
                             </div>

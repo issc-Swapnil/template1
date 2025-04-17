@@ -38,7 +38,7 @@ include 'header.php';
 
           <!-- Image -->
           <img
-            src="img/careerpageimg.webp"
+            src="img\career\careerpageimg.webp"
             class="img-fluid rounded shadow"
             alt="Life at RDIGS"
             style="max-width: 100%; height: auto; max-height: 440px; object-fit: cover;"
@@ -67,7 +67,7 @@ include 'header.php';
             onmouseover="this.style.transform='scale(1.05)'; this.style.boxShadow='0 10px 25px rgba(0, 0, 0, 0.2)'; this.style.height='300px';"
             onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='0 6px 20px rgba(0, 0, 0, 0.1)'; this.style.height='300px';">
             <div class="card-body d-flex flex-column justify-content-center align-items-center">
-            <img src="https://via.placeholder.com/60" class="mb-4" alt="Logo">
+            <img src="img\career\Lead-generation.png" class="mb-4" alt="Logo">
             <h5 class="card-title">Lead Generation Executive</h5>
             <button class="btn mt-4" style="color: #3099D5; border: 1px solid #3099D5; background: transparent;" data-bs-toggle="modal" data-bs-target="#applyModal">Apply Now</button>
             </div>
@@ -81,7 +81,7 @@ include 'header.php';
             onmouseover="this.style.transform='scale(1.05)'; this.style.boxShadow='0 10px 25px rgba(0, 0, 0, 0.2)'; this.style.height='300px';"
             onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='0 6px 20px rgba(0, 0, 0, 0.1)'; this.style.height='300px';">
             <div class="card-body d-flex flex-column justify-content-center align-items-center">
-            <img src="https://via.placeholder.com/60" class="mb-4" alt="Logo">
+            <img src="img\career\Demand-gen.png" class="mb-4" alt="Logo">
             <h5 class="card-title">Demand Generation Executive</h5>
             <button class="btn mt-4" style="color: #3099D5; border: 1px solid #3099D5; background: transparent;" data-bs-toggle="modal" data-bs-target="#applyModal">Apply Now</button>
             </div>
@@ -96,7 +96,7 @@ include 'header.php';
             onmouseover="this.style.transform='scale(1.05)'; this.style.boxShadow='0 10px 25px rgba(0, 0, 0, 0.2)'; this.style.height='300px';"
             onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='0 6px 20px rgba(0, 0, 0, 0.1)'; this.style.height='300px';">
             <div class="card-body d-flex flex-column justify-content-center align-items-center">
-            <img src="https://via.placeholder.com/60" class="mb-4" alt="Logo">
+            <img src="img\career\Graphic-Design.png" class="mb-4" alt="Logo">
             <h5 class="card-title">Graphics Designer</h5>
             <button class="btn mt-4"
                     style="color: #3099D5; border: 1px solid #3099D5; background: transparent;"
@@ -115,7 +115,7 @@ include 'header.php';
             onmouseover="this.style.transform='scale(1.05)'; this.style.boxShadow='0 10px 25px rgba(0, 0, 0, 0.2)'; this.style.height='300px';"
             onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='0 6px 20px rgba(0, 0, 0, 0.1)'; this.style.height='300px';">
             <div class="card-body d-flex flex-column justify-content-center align-items-center">
-            <img src="https://via.placeholder.com/60" class="mb-4" alt="Logo">
+            <img src="img\career\Developer.png" class="mb-4" alt="Logo">
             <h5 class="card-title">Frontend Developer</h5>
             <button class="btn mt-4" style="color: #3099D5; border: 1px solid #3099D5; background: transparent;" data-bs-toggle="modal" data-bs-target="#applyModal">Apply Now</button>
             </div>
