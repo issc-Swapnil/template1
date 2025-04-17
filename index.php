@@ -23,7 +23,7 @@ include 'header.php';
 
 
 <div class="container-fluid" 
-     style="background-image: url('img/bannerimg.jpg'); background-size: cover; background-position: center; background-repeat: no-repeat; padding: 50px; color: #fff;">
+     style="background-image: url('img/Banner (4).png'); background-size: cover; background-position: center; background-repeat: no-repeat; padding: 50px; color: #fff;">
 
     <div class="container">
         <div class="row justify-content-start text-start">
@@ -36,7 +36,7 @@ include 'header.php';
                     Powered by Technology | <br> Driven by Data | <br> Delivered with a Human Touch
                 </h1>
 
-                <a href="#" class="btn btn-dark rounded-pill py-3 px-4 px-md-5">
+                <a href="#" class="btn btn-primary rounded-pill py-3 px-5 px-md-5">
                     Discover More..
                 </a>
             </div>
@@ -181,9 +181,10 @@ include 'header.php';
                 <div class="col-xl-6 wow fadeInRight" data-wow-delay="0.2s">
                     <div class="bg-white rounded p-5 h-100">
                         <div class="row g-4 justify-content-center">
-                         <div class="aboutimg">
-                          <img src="img/about-1.png" alt="">
-                        </div>
+                           <div class="aboutimg">
+                                <img src="img/About-US.png" alt="" style="width: 400px; height: auto;" />
+                                <!-- Adjust width/height values as needed -->
+                            </div>
                             <div class="col-sm-6">
                                 <div class="counter-item bg-light rounded p-3 h-100">
                                     <div class="counter-counting">
@@ -385,7 +386,7 @@ include 'header.php';
                 <div class="col-lg-6 col-xl-4 wow fadeInUp" data-wow-delay="0.2s">
                     <div class="blog-item">
                         <div class="blog-img">
-                            <img src="img/Blog 11.webp" class="img-fluid rounded-top w-100" alt="">
+                            <img src="img\blog\Blog 11.webp" class="img-fluid rounded-top w-100" alt="">
                             <div class="blog-categiry py-2 px-4">
                                 <span>Business</span>
                             </div>
@@ -406,7 +407,7 @@ include 'header.php';
                 <div class="col-lg-6 col-xl-4 wow fadeInUp" data-wow-delay="0.4s">
                     <div class="blog-item">
                         <div class="blog-img">
-                            <img src="img/Blog 12.webp" class="img-fluid rounded-top w-100" alt="">
+                            <img src="img\blog\Blog 12.webp" class="img-fluid rounded-top w-100" alt="">
                             <div class="blog-categiry py-2 px-4">
                                 <span>Business</span>
                             </div>
@@ -427,7 +428,7 @@ include 'header.php';
                 <div class="col-lg-6 col-xl-4 wow fadeInUp" data-wow-delay="0.6s">
                     <div class="blog-item">
                         <div class="blog-img">
-                            <img src="img/Blog 13.webp" class="img-fluid rounded-top w-100" alt="">
+                            <img src="img\blog\Blog 13.webp" class="img-fluid rounded-top w-100" alt="">
                             <div class="blog-categiry py-2 px-4">
                                 <span>Business</span>
                             </div>
@@ -465,7 +466,7 @@ include 'header.php';
                 <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.2s">
                     <div class="team-item">
                         <div class="team-img">
-                            <img src="img/team1..jpeg" class="img-fluid rounded-top w-100" alt="">
+                            <img src="img\team\team1..jpeg" class="img-fluid rounded-top w-100" alt="">
                             <div class="team-icon">
                                 <!-- <a class="btn btn-primary btn-sm-square rounded-pill mb-2" href=""><i
                                         class="fab fa-facebook-f"></i></a>
@@ -486,7 +487,7 @@ include 'header.php';
                 <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.4s">
                     <div class="team-item">
                         <div class="team-img">
-                            <img src="img/team2.jpeg" class="img-fluid rounded-top w-100" alt="">
+                            <img src="img\team\team2.jpeg" class="img-fluid rounded-top w-100" alt="">
                             <div class="team-icon">
                                 <!-- <a class="btn btn-primary btn-sm-square rounded-pill mb-2" href=""><i
                                         class="fab fa-facebook-f"></i></a>
@@ -508,7 +509,7 @@ include 'header.php';
                 <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.8s">
                     <div class="team-item">
                         <div class="team-img">
-                            <img src="img/team4.png" class="img-fluid rounded-top w-100" alt="">
+                            <img src="img\team\team4.png" class="img-fluid rounded-top w-100" alt="">
                             <div class="team-icon">
                                 <!-- <a class="btn btn-primary btn-sm-square rounded-pill mb-2" href=""><i
                                         class="fab fa-facebook-f"></i></a>
@@ -526,10 +527,12 @@ include 'header.php';
                         </div>
                     </div>
                 </div>
+
+
                 <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.6s">
                     <div class="team-item">
                         <div class="team-img">
-                            <img src="img/team3.jpeg" class="img-fluid rounded-top w-100" alt="">
+                            <img src="img\team\team3.jpeg" class="img-fluid rounded-top w-100" alt="">
                             <div class="team-icon">
                                 <!-- <a class="btn btn-primary btn-sm-square rounded-pill mb-2" href=""><i
                                         class="fab fa-facebook-f"></i></a>
@@ -572,8 +575,8 @@ include 'header.php';
                         <div class="col-8 col-lg-8 col-xl-9">
                             <div class="d-flex flex-column my-auto text-start p-4">
                                 <div class="col-4  col-lg-4 col-xl-3">
-                                    <div class="h-100">
-                                        <img src="img/Taas.webp" class="img-fluid h-10 rounded"
+                                    <div class="h-300">
+                                        <img src="img\Taas-V.png" class="img-fluid h-10 rounded"
                                             style="object-fit: cover;" alt="logo">
                                     </div>
                                 </div>
@@ -602,7 +605,7 @@ include 'header.php';
                             <div class="d-flex flex-column my-auto text-start p-4">
                                 <div class="col-4  col-lg-4 col-xl-3">
                                     <div class="h-100">
-                                        <img src="img/wholehouse3.webp" class="img-fluid h-10 rounded"
+                                        <img src="img\Wheelhouse-V.png" class="img-fluid h-10 rounded"
                                             style="object-fit: cover;" alt="">
                                     </div>
                                 </div>
@@ -631,7 +634,7 @@ include 'header.php';
                             <div class="d-flex flex-column my-auto text-start p-4">
                                 <div class="col-4  col-lg-4 col-xl-3">
                                     <div class="h-100">
-                                        <img src="img/Goto.webp" class="img-fluid h-110 rounded"
+                                        <img src="img\Goto-V.png" class="img-fluid h-110 rounded"
                                             style="object-fit: cover;" alt="">
                                     </div>
                                 </div>
@@ -659,24 +662,44 @@ include 'header.php';
         </div>
     </div>
 <div>
-    <h1 class="display-4 mb-2 text-center">Corporate Deck</h1>
+    <h1 class="display-4 text-center">Corporate Deck</h1>
 </div>
 
-<<div class="container" style="background-color: #3099D5; color: white; border-radius: 10px; padding: 15px 30px;">
-  <div class="row align-items-center g-0">
+<div class="container py-5">
+  <div class="row g-0"> <!-- g-0 removes gutter between columns -->
 
-    <!-- Left: Text + Button -->
-    <div class="col-md-6" style="padding-right: 10px;">
-      <h5 style="margin: 0; font-size: 1.25rem;">Unlock Opportunities with Our Media Deck - 2025</h5>
-      <p style="margin: 5px 0 10px; font-size: 16px;">We’ve 15+ years of experience in B2B marketing</p>
-      <a href="corporatedesk.php" class="btn" style="background-color: white; color: #3099D5; border: none; padding: 6px 16px; border-radius: 5px; font-size: 0.9rem;">
-        Click Here
-      </a>
+    <!-- Left container (About Us content) -->
+    <div class="col-md-6 d-flex flex-column justify-content-center">
+      <div class="px-4"> <!-- Keep some internal padding for content readability -->
+        <h1>Unlock Opportunities with Our Media
+        Deck - 2025</h1>
+        <br></br>
+        <p class="text-muted" style="font-size: 1.1rem;">
+        We’ve 15+ years of experience in B2B marketing
+        </p>
+        <a class="btn btn-primary rounded-pill py-2 px-4" href="#">Download Now</a>
+      </div>
     </div>
 
-    <!-- Right: Image -->
-    <div class="col-md-6 d-flex justify-content-end" style="margin-left: -20px;">
-      <img src="img/corporatedeck.png" alt="Corporate Deck" style="height: 100px; border-radius: 8px;">
+    <!-- Right container (Images) -->
+    <div class="col-md-6 d-flex flex-column justify-content-between align-items-center">
+      
+      <!-- Top two images -->
+      <!-- <div class="row mb-3">
+        <div class="col-6 d-flex justify-content-center">
+          <img src="img/pageabout1.png" class="img-fluid rounded shadow-sm" alt="Image 1"
+               style="max-width: 185px; height: auto;">
+        </div>
+        <div class="col-6 d-flex justify-content-center">
+          <img src="img/pageabout2.png" class="img-fluid rounded shadow-sm" alt="Image 2"
+               style="max-width: 185px; height: auto;">
+        </div>
+      </div> -->
+
+      <!-- Center bottom image -->
+      <div class="d-flex justify-content-center">
+        <img src="img/corporatedeck.png" class="img-fluid" alt="Image 3">
+      </div>
     </div>
 
   </div>

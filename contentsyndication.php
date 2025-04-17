@@ -18,14 +18,14 @@ include 'header.php';
 
             <!-- Right Side Image -->
             <div class="col-12 col-md-6 text-center text-md-start">
-                <img src="img/consyn1.png" alt="Expertise Image" class="img-fluid" style="max-width: 100%; height: auto;">
+                <img src="img\serviceimages\content-syndication\consyn1.png" alt="Expertise Image" class="img-fluid" style="max-width: 100%; height: auto;">
             </div>
         </div>
 
         <div class="row align-items-center">
             <!-- Image Column (Left on Desktop, Bottom on Mobile) -->
             <div class="col-md-6 order-1 order-md-0 text-center mb-4 mb-md-0">
-            <img src="img/consyn2.png" alt="Expertise Image" class="img-fluid" style="max-width: 100%; height: auto;">
+            <img src="img\serviceimages\content-syndication\consyn2.png" alt="Expertise Image" class="img-fluid" style="max-width: 100%; height: auto;">
             </div>
             <!-- Text Column (Right on Desktop, Top on Mobile) -->
             <div class="col-md-6 order-0 order-md-1">
@@ -52,14 +52,14 @@ include 'header.php';
 
             <!-- Right Side Image -->
             <div class="col-12 col-md-6 text-center text-md-start">
-                <img src="img/consyn3.png" alt="Expertise Image" class="img-fluid" style="max-width: 100%; height: auto;">
+                <img src="img\serviceimages\content-syndication\consyn3.png" alt="Expertise Image" class="img-fluid" style="max-width: 100%; height: auto;">
             </div>
         </div>
 
         <div class="row align-items-center">
             <!-- Image Column (Left on Desktop, Bottom on Mobile) -->
             <div class="col-md-6 order-1 order-md-0 text-center mb-4 mb-md-0">
-            <img src="img/b2badvertising4.png" alt="Expertise Image" class="img-fluid" style="max-width: 100%; height: auto;">
+            <img src="img\serviceimages\content-syndication\consyn4.png" alt="Expertise Image" class="img-fluid" style="max-width: 100%; height: auto;">
             </div>
             <!-- Text Column (Right on Desktop, Top on Mobile) -->
             <div class="col-md-6 order-0 order-md-1">

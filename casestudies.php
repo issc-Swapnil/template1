@@ -18,7 +18,7 @@ include 'header.php';
 
             <!-- Right Side Image -->
             <div class="col-12 col-md-6 text-center text-md-start">
-                <img src="img\Case-Study-image.png" alt="Expertise Image" class="img-fluid" style="max-width: 100%; height: auto;">
+                <img src="img\case-studies\Case-Study-image.png" alt="Expertise Image" class="img-fluid" style="max-width: 100%; height: auto;">
             </div>
         </div>
 </div>
@@ -39,7 +39,7 @@ include 'header.php';
            style="transition: all 0.3s ease;">
         <div class="row g-0 align-items-center">
           <div class="col-md-4">
-            <img src="img\Case-Study-1 (1).png"
+            <img src="img\case-studies\Case-Study-1 (1).png"
                  class="img-fluid rounded-start"
                  alt="Card image"
                  style="filter: grayscale(100%); height: 100%; width: 90%; object-fit: cover; transition: filter 0.3s ease;">
@@ -64,7 +64,7 @@ include 'header.php';
            style="transition: all 0.3s ease;">
         <div class="row g-0 align-items-center">
           <div class="col-md-4">
-            <img src="img\Case-Study-2.png"
+            <img src="img\case-studies\Case-Study-2.png"
             class="img-fluid rounded-start"
                  alt="Card image"
                  style="filter: grayscale(100%); height: 100%; width: 90%; object-fit: cover; transition: filter 0.3s ease;">
@@ -90,7 +90,7 @@ include 'header.php';
            style="transition: all 0.3s ease;">
         <div class="row g-0 align-items-center">
           <div class="col-md-4">
-            <img src="img\Case-Study-3.png"
+            <img src="img\case-studies\Case-Study-3.png"
                  class="img-fluid rounded-start"
                  alt="Card image"
                  style="filter: grayscale(100%); height: 100%; width: 90%; object-fit: cover; transition: filter 0.3s ease;">
@@ -115,7 +115,7 @@ include 'header.php';
            style="transition: all 0.3s ease;">
         <div class="row g-0 align-items-center">
           <div class="col-md-4">
-            <img src="img\Case-Study-4.png"
+            <img src="img\case-studies\Case-Study-4.png"
                  class="img-fluid rounded-start"
                  alt="Card image"
                  style="filter: grayscale(100%); height: 100%; width: 90%; object-fit: cover; transition: filter 0.3s ease;">
