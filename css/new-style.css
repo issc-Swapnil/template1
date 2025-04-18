@@ -3,6 +3,11 @@
   font-family: "DM Sans", sans-serif;
 }
 
+.navbar-top-color{
+  color: rgba(0, 0, 0, .55) !important;
+  font-weight: bold !important;
+}
+
 .aboutimg {
     display: flex;
     justify-content: center; /* Centers horizontally */

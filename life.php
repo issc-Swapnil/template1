@@ -18,7 +18,7 @@
                             <div class="row text-center">
                                 <div class="col-12 col-md-4">
                                     <div class="counter-box">
-                                        <h2 class="fw-bold text-primary"><span data-count="35">35</span>+</h2>
+                                        <h2 class="fw-bold text-primary"><span data-count="100">100</span>+</h2>
                                         <p>Team Members</p>
                                     </div>
                                 </div>
