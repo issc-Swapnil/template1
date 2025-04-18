@@ -23,10 +23,10 @@ include 'header.php';
 
 
 <div class="container-fluid" 
-     style="background-image: url('img/Banner (4).png'); background-size: cover; background-position: center; background-repeat: no-repeat; padding: 50px; color: #fff;">
-
+     style="background: linear-gradient(to right, #3099D5, rgba(255, 255, 255, 0)); padding: 50px; color: #fff; position: relative;">
+  
     <div class="container">
-        <div class="row justify-content-start text-start">
+        <div class="row justify-content-start text-start align-items-center">
             <div class="col-lg-8">
                 <h3 style="font-size: 1.15rem; font-weight: 700; margin-bottom: 20px;">
                     Fuel Your B2B Sales Funnel with <br> Programmatic Advertising
@@ -36,13 +36,19 @@ include 'header.php';
                     Powered by Technology | <br> Driven by Data | <br> Delivered with a Human Touch
                 </h1>
 
-                <a href="#" class="btn btn-primary rounded-pill py-3 px-5 px-md-5">
+                <a href="#" class="btn btn-dark rounded-pill py-3 px-5 px-md-5">
                     Discover More..
                 </a>
+            </div>
+
+            <!-- Image on the right -->
+            <div class="col-lg-4 text-center mt-4">
+                <img src="img/carousel-2.png" alt="Image" class="img-fluid" style="max-width: 120%; height: auto; ">
             </div>
         </div>
     </div>
 </div>
+
 
 <!-- banner End -->
 
@@ -50,7 +56,7 @@ include 'header.php';
 <div class="container">
         <div class="text-center mx-auto pb-2 pt-4 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
             <h4 class="text-primary">Our Clients</h4>
-            <h1 class="display-4">Partnering for Your Success</h1>
+            <h1 class="display-4"> Trusted By Industry Leaders</h1>
         </div>
         <div class="logos">
             <div class="logos-slide">
@@ -81,7 +87,7 @@ include 'header.php';
                 <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.2s">
                     <div class="feature-item p-4 pt-0">
                         <div class="feature-img p-4 mb-4">
-                            <img src="img/b2bleadgeneration.jpeg" class="img-fluid" alt="B2B Lead Generation">
+                            <img src="img\homepage-service-images\B2B Lead Generation (1).jpeg" class="img-fluid" alt="B2B Lead Generation">
                         </div>
                         <h4 class="mb-4">B2B Lead Generation</h4>
                         <p class="mb-4">Empower Your Sales Team and Drive Results with Us Account-Based marketing services</p>
@@ -91,7 +97,7 @@ include 'header.php';
                 <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.4s">
                     <div class="feature-item p-4 pt-0">
                         <div class="feature-img p-4 mb-4">
-                            <img src="img/adverb2b.jpeg" class="img-fluid" alt="B2B Advertising">
+                            <img src="img\homepage-service-images\B2B Advertising.jpeg" class="img-fluid" alt="B2B Advertising">
                         </div>
                         <h4 class="mb-4">B2B Advertising</h4>
                         <p class="mb-4">Drive Sustainable Growth for Your Sales and Marketing Efforts with Data-Driven Strategies</p>
@@ -101,7 +107,7 @@ include 'header.php';
                 <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.6s">
                     <div class="feature-item p-4 pt-0">
                         <div class="feature-img p-4 mb-4">
-                            <img src="img/b2bsdrasaservice.jpeg" class="img-fluid" alt="B2B SDR as a Service">
+                            <img src="img\homepage-service-images\B2B SDR as a Service.jpeg" class="img-fluid" alt="B2B SDR as a Service">
                         </div>
                         <h4 class="mb-4">B2B SDR as a Service</h4>
                         <p class="mb-4">Unlock the Power of Precision Marketing with RDIGS’ Intent-Based Marketing Services</p>
@@ -111,7 +117,7 @@ include 'header.php';
                 <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.8s">
                     <div class="feature-item p-4 pt-0">
                         <div class="feature-img p-4 mb-4">
-                            <img src="img/contentsyndication.jpeg" class="img-fluid" alt="Content Syndication">
+                            <img src="img\homepage-service-images\Content Syndication.jpeg" class="img-fluid" alt="Content Syndication">
                         </div>
                         <h4 class="mb-4">Content Syndication</h4>
                         <p class="mb-4">Now is the time to Propel Your B2B Growth & Boost Your Sales Performance with RDIGS Sales</p>
@@ -680,7 +686,11 @@ include 'header.php';
         <p class="text-muted" style="font-size: 1.1rem;">
         We’ve 15+ years of experience in B2B marketing
         </p>
-        <a class="btn btn-primary rounded-pill py-2 px-4" href="#">Download Now</a>
+        <button class="btn mt-4"
+                    style="color: white; border: 1px solid white; background: #3099D5;"
+                    data-bs-toggle="modal" data-bs-target="#applyModal">
+                Download Now
+            </button>
       </div>
     </div>
 

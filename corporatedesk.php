@@ -12,7 +12,11 @@ include 'header.php';
         <p class="text-muted" style="font-size: 1.1rem;">
         We’ve 15+ years of experience in B2B marketing
         </p>
-        <a class="btn btn-primary rounded-pill py-2 px-4" href="#">Download Now</a>
+        <button class="btn mt-4"
+                    style="color: white; border: 1px solid white; background: #3099D5;"
+                    data-bs-toggle="modal" data-bs-target="#applyModal">
+                Download Now
+            </button>
       </div>
     </div>
 
@@ -26,6 +30,8 @@ include 'header.php';
 
   </div>
 </div>
+
+
 
 <?php 
 include 'footer.php'; 
