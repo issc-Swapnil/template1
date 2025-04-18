@@ -110,7 +110,7 @@ include 'header.php';
                     1
                 </div>
                 <div class="card-body d-flex flex-column align-items-center">
-                    <img src="img/categories1.png" alt="Content Marketing" style="width: 60px; height: 60px;">
+                    <img src="img\serviceimages\bsb-sdr-as-a-service\steps\Leads-the-App-Store.png" alt="Content Marketing" style="width: 60px; height: 60px;">
                     <h6 class="mt-3" style="font-size: 14px;">Capture Leads the App Store</h6>
                 </div>
             </div>
@@ -125,7 +125,7 @@ include 'header.php';
                     2
                 </div>
                 <div class="card-body d-flex flex-column align-items-center">
-                    <img src="img/categories2.png" alt="Account Based Marketing" style="width: 60px; height: 60px;">
+                    <img src="img\serviceimages\bsb-sdr-as-a-service\steps\Distribute-Leads.png" alt="Account Based Marketing" style="width: 60px; height: 60px;">
                     <h6 class="mt-3" style="font-size: 14px;">Distribute Leads</h6>
                 </div>
             </div>
@@ -140,7 +140,7 @@ include 'header.php';
                     3
                 </div>
                 <div class="card-body d-flex flex-column align-items-center">
-                    <img src="img/categories3.png" alt="Intent Fused Marketing" style="width: 60px; height: 60px;">
+                    <img src="img\serviceimages\bsb-sdr-as-a-service\steps\Qualify-Leads.png" alt="Intent Fused Marketing" style="width: 60px; height: 60px;">
                     <h6 class="mt-3" style="font-size: 14px;">Qualify Leads</h6>
                 </div>
             </div>
@@ -155,7 +155,7 @@ include 'header.php';
                     4
                 </div>
                 <div class="card-body d-flex flex-column align-items-center">
-                    <img src="img/categories4.png" alt="Install Base Marketing" style="width: 60px; height: 60px;">
+                    <img src="img\serviceimages\bsb-sdr-as-a-service\steps\Deal-Closure.png" alt="Install Base Marketing" style="width: 60px; height: 60px;">
                     <h6 class="mt-3" style="font-size: 14px;">Deal Closureg</h6>
                 </div>
             </div>
@@ -170,7 +170,7 @@ include 'header.php';
                     5
                 </div>
                 <div class="card-body d-flex flex-column align-items-center">
-                    <img src="img/categories4.png" alt="Webinar/Event Marketing" style="width: 60px; height: 60px;">
+                    <img src="img\serviceimages\bsb-sdr-as-a-service\steps\Sales-Leads-Follow-Ups.png" alt="Webinar/Event Marketing" style="width: 60px; height: 60px;">
                     <h6 class="mt-3" style="font-size: 14px;">Sales Leads Follow-Ups</h6>
                 </div>
             </div>
@@ -184,7 +184,7 @@ include 'header.php';
                     6
                 </div>
                 <div class="card-body d-flex flex-column align-items-center">
-                    <img src="img/categories4.png" alt="Webinar/Event Marketing" style="width: 60px; height: 60px;">
+                    <img src="img\serviceimages\bsb-sdr-as-a-service\steps\Sales-call.png" alt="Webinar/Event Marketing" style="width: 60px; height: 60px;">
                     <h6 class="mt-3" style="font-size: 14px;">Sales Calls</h6>
                 </div>
             </div>

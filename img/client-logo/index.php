@@ -54,16 +54,16 @@ include 'header.php';
         </div>
         <div class="logos">
             <div class="logos-slide">
-                <img src="img\client-logo\Goto.webp" />
-                <img src="img\client-logo\knowbe4.webp" />
-                <img src="img\client-logo\netsuit.webp" />
-                <img src="img\client-logo\ozontel.webp" />
-                <img src="img\client-logo\ringcentral.webp" />
-                <img src="img\client-logo\spectrum.webp" />
-                <img src="img\client-logo\wholehouse3.webp" />
-                <img src="img\client-logo\Taas.webp" />
-                <img src="img\client-logo\Panterra.webp" />
-                <img src="img\client-logo\Inside2.webp" />
+                <img src="img/Goto.webp" />
+                <img src="img/knowbe4.webp" />
+                <img src="img/netsuit.webp" />
+                <img src="img/ozontel.webp" />
+                <img src="img/ringcentral.webp" />
+                <img src="img/spectrum.webp" />
+                <img src="img/wholehouse3.webp" />
+                <img src="img\Taas.webp" />
+                <img src="img/Panterra.webp" />
+                <img src="img/Inside2.webp" />
             </div>
         </div>
     </div>
@@ -447,7 +447,7 @@ include 'header.php';
                     </div>
                 </div>
                 <div class="text-center mt-4">
-                <a href="blog.php" class="btn btn-primary rounded-pill py-3 px-5">View All Blogs</a>
+                <a href="service.php" class="btn btn-primary rounded-pill py-3 px-5">View All Blogs</a>
             </div>
          </div>
         </div>
