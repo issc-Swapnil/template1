@@ -9,7 +9,7 @@
                             <div class="col-md-6 col-lg-6 col-xl-5">
                                 <div class="footer-item">
                                     <a href="index.html" class="p-0">
-                                    <img src="https://rolanddcosta.com/assets/images/logo.webp" alt="Logo">
+                                    <img src="img\RDIGS Logo H (1).webp" alt="Logo">
                                     </a>
                                     <p class="text-white mb-4">To achieve our client’s marketing and ROI goals, our team of industry veterans is committed to exceeding their expectations at every turn.</p>
                                     <div class="footer-btn d-flex">

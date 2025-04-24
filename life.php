@@ -42,13 +42,13 @@
 
                     <div class="col-xl-6 fadeInRight">
                     <div class="image-grid">
-                        <img src="img\life-at-rdigs\1.webp" class="grid-img" alt="Life at RDIGS">
+                        <img src="img\life-at-rdigs\1.webp.png" class="grid-img" alt="Life at RDIGS">
                         <img src="img\life-at-rdigs\2.webp" class="grid-img" alt="Teamwork at RDIGS">
                         <img src="img\life-at-rdigs\3.webp" class="grid-img" alt="RDIGS Events">
                         <img src="img\life-at-rdigs\4.webp" class="grid-img" alt="Work Culture">
                         <img src="img\life-at-rdigs\5.webp" class="grid-img" alt="Fun at RDIGS">
-                        <img src="img\life-at-rdigs\6.webp" class="grid-img" alt="Success Stories">
-                        <img src="img\life-at-rdigs\7.webp" class="grid-img" alt="Innovation">
+                        <img src="img\life-at-rdigs\6.webp.png" class="grid-img" alt="Success Stories">
+                        <img src="img\life-at-rdigs\7.webp.png" class="grid-img" alt="Innovation">
                         <img src="img\life-at-rdigs\8.webp" class="grid-img" alt="Growth">
                         <img src="img\life-at-rdigs\9.webp" class="grid-img" alt="Team Spirit">
                     </div>

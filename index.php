@@ -188,34 +188,16 @@ include 'header.php';
                     <div class="bg-white rounded p-5 h-100">
                         <div class="row g-4 justify-content-center">
                            <div class="aboutimg">
-                                <img src="img/About-US.png" alt="" style="width: 400px; height: auto;" />
+                                <img src="img/About-US.png" alt="" style="width: 425px; height: auto;" />
                                 <!-- Adjust width/height values as needed -->
                             </div>
                             <div class="col-sm-6">
                                 <div class="counter-item bg-light rounded p-3 h-100">
                                     <div class="counter-counting">
-                                        <span class="text-primary fs-2 fw-bold" data-toggle="counter-up">15</span>
-                                        <span class="h1 fw-bold text-primary">+</span>
+                                        <span class="text-primary fs-2 fw-bold" data-toggle="counter-up">31</span>
+                                        <span class="h1 fw-bold text-primary">k+</span>
                                     </div>
-                                    <h4 class="mb-0 text-dark">Marketing professionals</h4>
-                                </div>
-                            </div>
-                            <div class="col-sm-6">
-                                <div class="counter-item bg-light rounded p-3 h-100">
-                                    <div class="counter-counting">
-                                        <span class="text-primary fs-2 fw-bold" data-toggle="counter-up">10</span>
-                                        <span class="h1 fw-bold text-primary">+</span>
-                                    </div>
-                                    <h4 class="mb-0 text-dark">Project Delivered</h4>
-                                </div>
-                            </div>
-                            <div class="col-sm-6">
-                                <div class="counter-item bg-light rounded p-3 h-100">
-                                    <div class="counter-counting">
-                                        <span class="text-primary fs-2 fw-bold" data-toggle="counter-up">28</span>
-                                        <span class="h1 fw-bold text-primary">+</span>
-                                    </div>
-                                    <h4 class="mb-0 text-dark">Leads Delivered</h4>
+                                    <h4 class="mb-0 text-dark">Campaigns Executed</h4>
                                 </div>
                             </div>
                             <div class="col-sm-6">
@@ -224,7 +206,25 @@ include 'header.php';
                                         <span class="text-primary fs-2 fw-bold" data-toggle="counter-up">50</span>
                                         <span class="h1 fw-bold text-primary">+</span>
                                     </div>
-                                    <h4 class="mb-0 text-dark">Industry Experience</h4>
+                                    <h4 class="mb-0 text-dark">Years Combined Experience</h4>
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="counter-item bg-light rounded p-3 h-100">
+                                    <div class="counter-counting">
+                                        <span class="text-primary fs-2 fw-bold" data-toggle="counter-up">100 </span>
+                                        <span class="h1 fw-bold text-primary">+</span>
+                                    </div>
+                                    <h4 class="mb-0 text-dark">Demand Gen Professionals</h4>
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="counter-item bg-light rounded p-3 h-100">
+                                    <div class="counter-counting">
+                                        <span class="text-primary fs-2 fw-bold" data-toggle="counter-up">4.7</span>
+                                        <span class="h1 fw-bold text-primary">m+</span>
+                                    </div>
+                                    <h4 class="mb-0 text-dark">Millions Leads Delivered</h4>
                                 </div>
                             </div>
                         </div>
@@ -489,7 +489,7 @@ include 'header.php';
                         </div>
                         <div class="team-title p-4">
                             <h4 class="mb-0">Roland D'Costa</h4>
-                            <p class="mb-0">CEO</p>
+                            <p class="mb-0">Chief Executive Officer</p>
                         </div>
                     </div>
                 </div>
@@ -510,7 +510,7 @@ include 'header.php';
                         </div>
                         <div class="team-title p-4">
                             <h4 class="mb-0">Ajay Rawat</h4>
-                            <p class="mb-0">COO</p>
+                            <p class="mb-0">Chief Operating Officer</p>
                         </div>
                     </div>
                 </div>
@@ -518,30 +518,7 @@ include 'header.php';
                 <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.8s">
                     <div class="team-item">
                         <div class="team-img">
-                            <img src="img\team\team4.png" class="img-fluid rounded-top w-100" alt="">
-                            <div class="team-icon">
-                                <!-- <a class="btn btn-primary btn-sm-square rounded-pill mb-2" href=""><i
-                                        class="fab fa-facebook-f"></i></a>
-                                <a class="btn btn-primary btn-sm-square rounded-pill mb-2" href=""><i
-                                        class="fab fa-twitter"></i></a> -->
-                                <a class="btn btn-primary btn-sm-square rounded-pill mb-2" href="https://www.linkedin.com/in/sharad-salve-0058617b/"><i
-                                        class="fab fa-linkedin-in"></i></a>
-                                <!-- <a class="btn btn-primary btn-sm-square rounded-pill mb-0" href=""><i
-                                        class="fab fa-instagram"></i></a> -->
-                            </div>
-                        </div>
-                        <div class="team-title p-4">
-                            <h4 class="mb-0">Sharad Salve</h4>
-                            <p class="mb-0">CSDO</p>
-                        </div>
-                    </div>
-                </div>
-
-
-                <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.6s">
-                    <div class="team-item">
-                        <div class="team-img">
-                            <img src="img\team\team3.jpeg" class="img-fluid rounded-top w-100" alt="">
+                            <img src="img\team\team3.png" class="img-fluid rounded-top w-100" alt="">
                             <div class="team-icon">
                                 <!-- <a class="btn btn-primary btn-sm-square rounded-pill mb-2" href=""><i
                                         class="fab fa-facebook-f"></i></a>
@@ -554,11 +531,34 @@ include 'header.php';
                             </div>
                         </div>
                         <div class="team-title p-4">
-                            <h4 class="mb-0">Rachel Mendis </h4>
-                            <p class="mb-0">HR Manager</p>
+                            <h4 class="mb-0">William Mathurai </h4>
+                            <p class="mb-0">Chief Revenue Officer</p>
                         </div>
                     </div>
                 </div>
+
+                <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.8s">
+                    <div class="team-item">
+                        <div class="team-img">
+                            <img src="img\team\Neal.png" class="img-fluid rounded-top w-100" alt="">
+                            <div class="team-icon">
+                                <!-- <a class="btn btn-primary btn-sm-square rounded-pill mb-2" href=""><i
+                                        class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-primary btn-sm-square rounded-pill mb-2" href=""><i
+                                        class="fab fa-twitter"></i></a> -->
+                                <a class="btn btn-primary btn-sm-square rounded-pill mb-2" href="https://www.linkedin.com/in/brookerneal/"><i
+                                        class="fab fa-linkedin-in"></i></a>
+                                <!-- <a class="btn btn-primary btn-sm-square rounded-pill mb-0" href=""><i
+                                        class="fab fa-instagram"></i></a> -->
+                            </div>
+                        </div>
+                        <div class="team-title p-4">
+                            <h4 class="mb-0">Neal Brooker</h4>
+                            <p class="mb-0">Fractional Sales Director, EMEA</p>
+                        </div>
+                    </div>
+                </div>
+
             </div>
         </div>
     </div>

@@ -6,12 +6,12 @@ include 'header.php';
     <div class="row mb-5 align-items-center">
         <!-- Left Side -->
         <div class="col-12 col-md-6 text-center text-md-start mb-4 mb-md-0">
-            <h4 class="text-primary">Accelerate your ABM Growth</h4>
+            <h4 class="text-primary">Strategies ABM</h4>
             <h1 class="mt-1">
             Accelerate your ABM Growth</h1>
             <div class="info-box">
                 <p>
-                Through B2B account-based marketing (ABM), prioritize and convert high-intent target accounts that match your ICP. Build and accelerate your demand gen engine with Unbound Initiate, then identify and convert ABM leads with RDIGS Promote.
+                Through B2B account-based marketing (ABM), prioritize and convert high-intent target accounts that match your ICP. Build and accelerate your demand gen engine with RDIGS Initiate, then identify and convert ABM leads with Promote.
                 </p>
                 <a class="btn btn-primary rounded-pill py-2 px-4" href="#">Read More</a>
             </div>
