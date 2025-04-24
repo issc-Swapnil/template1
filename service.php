@@ -52,7 +52,7 @@ include 'header.php';
                     <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.6s">
                         <div class="service-item">
                             <div class="service-img">
-                                <img src="img/sdr.webp" class="img-fluid rounded-top h-100 w-100" alt="">
+                                <img src="img\serviceimages\bsb-sdr-as-a-service\B2B-SDR-as-a-Service.png" class="img-fluid rounded-top h-100 w-100" alt="">
                                 <!-- <div class="service-icon p-3">
                                     <i class="fa fa-car fa-2x"></i>
                                 </div> -->

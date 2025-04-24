@@ -129,6 +129,9 @@ include 'header.php';
                     sint dolorem autem obcaecati, ipsam mollitia hic.
                 </p> -->
             </div>
+
+            
+
             <div class="row g-4">
                 <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.2s">
                     <div class="team-item">
@@ -147,7 +150,7 @@ include 'header.php';
                         </div>
                         <div class="team-title p-4">
                             <h4 class="mb-0">Roland D'Costa</h4>
-                            <p class="mb-0">CEO</p>
+                            <p class="mb-0">Chief Executive Officer </p>
                         </div>
                     </div>
                 </div>
@@ -168,29 +171,7 @@ include 'header.php';
                         </div>
                         <div class="team-title p-4">
                             <h4 class="mb-0">Ajay Rawat</h4>
-                            <p class="mb-0">COO</p>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.8s">
-                    <div class="team-item">
-                        <div class="team-img">
-                            <img src="img\team\team4.png" class="img-fluid rounded-top w-100" alt="">
-                            <div class="team-icon">
-                                <!-- <a class="btn btn-primary btn-sm-square rounded-pill mb-2" href=""><i
-                                        class="fab fa-facebook-f"></i></a>
-                                <a class="btn btn-primary btn-sm-square rounded-pill mb-2" href=""><i
-                                        class="fab fa-twitter"></i></a> -->
-                                <a class="btn btn-primary btn-sm-square rounded-pill mb-2" href="https://www.linkedin.com/in/sharad-salve-0058617b/"><i
-                                        class="fab fa-linkedin-in"></i></a>
-                                <!-- <a class="btn btn-primary btn-sm-square rounded-pill mb-0" href=""><i
-                                        class="fab fa-instagram"></i></a> -->
-                            </div>
-                        </div>
-                        <div class="team-title p-4">
-                            <h4 class="mb-0">Sharad Salve</h4>
-                            <p class="mb-0">CSDO</p>
+                            <p class="mb-0">Chief Operating Officer</p>
                         </div>
                     </div>
                 </div>
@@ -198,7 +179,7 @@ include 'header.php';
                 <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.8s">
                     <div class="team-item">
                         <div class="team-img">
-                            <img src="img\team\Will.png" class="img-fluid rounded-top w-100" alt="">
+                            <img src="img\team\Will-1.png" class="img-fluid rounded-top w-100" alt="">
                             <div class="team-icon">
                                 <!-- <a class="btn btn-primary btn-sm-square rounded-pill mb-2" href=""><i
                                         class="fab fa-facebook-f"></i></a>
@@ -220,21 +201,21 @@ include 'header.php';
                 <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.8s">
                     <div class="team-item">
                         <div class="team-img">
-                            <img src="img\team\Sunil.png" class="img-fluid rounded-top w-100" alt="">
+                            <img src="img\team\sharad-salve.png" class="img-fluid rounded-top w-100" alt="">
                             <div class="team-icon">
                                 <!-- <a class="btn btn-primary btn-sm-square rounded-pill mb-2" href=""><i
                                         class="fab fa-facebook-f"></i></a>
                                 <a class="btn btn-primary btn-sm-square rounded-pill mb-2" href=""><i
                                         class="fab fa-twitter"></i></a> -->
-                                <a class="btn btn-primary btn-sm-square rounded-pill mb-2" href="https://www.linkedin.com/in/sunil-markam-2935511b/"><i
+                                <a class="btn btn-primary btn-sm-square rounded-pill mb-2" href="https://www.linkedin.com/in/sharad-salve-0058617b/"><i
                                         class="fab fa-linkedin-in"></i></a>
                                 <!-- <a class="btn btn-primary btn-sm-square rounded-pill mb-0" href=""><i
                                         class="fab fa-instagram"></i></a> -->
                             </div>
                         </div>
                         <div class="team-title p-4">
-                            <h4 class="mb-0">Sunil Makram</h4>
-                            <p class="mb-0">IT Manager</p>
+                            <h4 class="mb-0">Sharad Salve</h4>
+                            <p class="mb-0">Chief Service Delivery Officer</p>
                         </div>
                     </div>
                 </div>
@@ -242,7 +223,7 @@ include 'header.php';
                 <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.8s">
                     <div class="team-item">
                         <div class="team-img">
-                            <img src="img\team\Neal.png" class="img-fluid rounded-top w-100" alt="">
+                            <img src="img\team\Nial-7.png" class="img-fluid rounded-top w-100" alt="">
                             <div class="team-icon">
                                 <!-- <a class="btn btn-primary btn-sm-square rounded-pill mb-2" href=""><i
                                         class="fab fa-facebook-f"></i></a>
@@ -282,6 +263,51 @@ include 'header.php';
                         </div>
                     </div>
                 </div>
+
+                <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.8s">
+                    <div class="team-item">
+                        <div class="team-img">
+                            <img src="img\team\Sunil (1).png" class="img-fluid rounded-top w-100" alt="">
+                            <div class="team-icon">
+                                <!-- <a class="btn btn-primary btn-sm-square rounded-pill mb-2" href=""><i
+                                        class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-primary btn-sm-square rounded-pill mb-2" href=""><i
+                                        class="fab fa-twitter"></i></a> -->
+                                <a class="btn btn-primary btn-sm-square rounded-pill mb-2" href="https://www.linkedin.com/in/sunil-markam-2935511b/"><i
+                                        class="fab fa-linkedin-in"></i></a>
+                                <!-- <a class="btn btn-primary btn-sm-square rounded-pill mb-0" href=""><i
+                                        class="fab fa-instagram"></i></a> -->
+                            </div>
+                        </div>
+                        <div class="team-title p-4">
+                            <h4 class="mb-0">Sunil Makram</h4>
+                            <p class="mb-0">Manager, Information Technology </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.8s">
+                    <div class="team-item">
+                        <div class="team-img">
+                            <img src="img\team\Ajay-w.png" class="img-fluid rounded-top w-100" alt="">
+                            <div class="team-icon">
+                                <!-- <a class="btn btn-primary btn-sm-square rounded-pill mb-2" href=""><i
+                                        class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-primary btn-sm-square rounded-pill mb-2" href=""><i
+                                        class="fab fa-twitter"></i></a> -->
+                                <a class="btn btn-primary btn-sm-square rounded-pill mb-2" href="https://www.linkedin.com/in/brookerneal/"><i
+                                        class="fab fa-linkedin-in"></i></a>
+                                <!-- <a class="btn btn-primary btn-sm-square rounded-pill mb-0" href=""><i
+                                        class="fab fa-instagram"></i></a> -->
+                            </div>
+                        </div>
+                        <div class="team-title p-4">
+                            <h4 class="mb-0"> Ajaykumar Agarwal</h4>
+                            <p class="mb-0">Administrative Assistant</p>
+                        </div>
+                    </div>
+                </div>
+
             </div>
         </div>
     </div>
