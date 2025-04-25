@@ -487,7 +487,7 @@ include 'header.php';
                                         class="fab fa-instagram"></i></a> -->
                             </div>
                         </div>
-                        <div class="team-title p-4">
+                        <div class="team-title p-4" style="height: 120px;">
                             <h4 class="mb-0">Roland D'Costa</h4>
                             <p class="mb-0">Chief Executive Officer</p>
                         </div>
@@ -508,7 +508,7 @@ include 'header.php';
                                         class="fab fa-instagram"></i></a> -->
                             </div>
                         </div>
-                        <div class="team-title p-4">
+                        <div class="team-title p-4" style="height: 120px;">
                             <h4 class="mb-0">Ajay Rawat</h4>
                             <p class="mb-0">Chief Operating Officer</p>
                         </div>
@@ -518,7 +518,7 @@ include 'header.php';
                 <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.8s">
                     <div class="team-item">
                         <div class="team-img">
-                            <img src="img\team\team3.png" class="img-fluid rounded-top w-100" alt="">
+                            <img src="img\team\Will-1.png" class="img-fluid rounded-top w-100" alt="">
                             <div class="team-icon">
                                 <!-- <a class="btn btn-primary btn-sm-square rounded-pill mb-2" href=""><i
                                         class="fab fa-facebook-f"></i></a>
@@ -530,7 +530,7 @@ include 'header.php';
                                         class="fab fa-instagram"></i></a> -->
                             </div>
                         </div>
-                        <div class="team-title p-4">
+                        <div class="team-title p-4" style="height: 120px;">
                             <h4 class="mb-0">William Mathurai </h4>
                             <p class="mb-0">Chief Revenue Officer</p>
                         </div>
@@ -540,7 +540,7 @@ include 'header.php';
                 <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.8s">
                     <div class="team-item">
                         <div class="team-img">
-                            <img src="img\team\Neal.png" class="img-fluid rounded-top w-100" alt="">
+                            <img src="img\team\Nial-7.png" class="img-fluid rounded-top w-100" alt="">
                             <div class="team-icon">
                                 <!-- <a class="btn btn-primary btn-sm-square rounded-pill mb-2" href=""><i
                                         class="fab fa-facebook-f"></i></a>
@@ -552,7 +552,7 @@ include 'header.php';
                                         class="fab fa-instagram"></i></a> -->
                             </div>
                         </div>
-                        <div class="team-title p-4">
+                        <div class="team-title p-4" style="height: 120px;">
                             <h4 class="mb-0">Neal Brooker</h4>
                             <p class="mb-0">Fractional Sales Director, EMEA</p>
                         </div>
