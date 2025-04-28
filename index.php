@@ -22,32 +22,65 @@ include 'header.php';
 </div> -->
 
 
-<div class="container-fluid" 
-     style="background: linear-gradient(to right, #3099D5, rgba(255, 255, 255, 0)); padding: 50px; color: #fff; position: relative;">
-  
-    <div class="container">
-        <div class="row justify-content-start text-start align-items-center">
-            <div class="col-lg-8">
-                <h3 style="font-size: 1.15rem; font-weight: 700; margin-bottom: 20px;">
-                    Fuel Your B2B Sales Funnel with <br> Programmatic Advertising
-                </h3>
+<div class="container-fluid"
+     style="background: linear-gradient(to right, #3099D5, rgba(255,255,255,0)); padding: 17px 15px; color: #fff; position: relative;">
 
-                <h1 style="font-size: 2.75rem; font-weight: 700; line-height: 1.4; margin-bottom: 30px;">
-                    Powered by Technology | <br> Driven by Data | <br> Delivered with a Human Touch
-                </h1>
+  <div class="container">
+    <div class="row"
+         style="display: flex; align-items: center; justify-content: space-between;">
 
-                <a href="#" class="btn btn-dark rounded-pill py-3 px-5 px-md-5">
-                    Discover More..
-                </a>
-            </div>
+      <!-- Text -->
+      <div class="col-lg-6" style="padding-right: 0;">
+        <h3 style="
+            font-size: 1.25rem;
+            font-weight: 700;
+            line-height: 1.3;
+            margin-bottom: 12px;
+          ">
+          Fuel Your B2B Sales Funnel<br>
+          with Programmatic Advertising
+        </h3>
 
-            <!-- Image on the right -->
-            <div class="col-lg-4 text-center mt-4">
-                <img src="img/carousel-2.png" alt="Image" class="img-fluid" style="max-width: 120%; height: auto; ">
-            </div>
-        </div>
+        <h1 style="
+            font-size: 2.75rem;
+            font-weight: 700;
+            line-height: 1.2;
+            margin-bottom: 20px;
+          ">
+          Powered by Technology | Driven by Data<br>
+          Delivered with a Human Touch
+        </h1>
+
+        <a href="#"
+           style="
+             display: inline-block;
+             background: #000;
+             color: #fff;
+             padding: 12px 32px;
+             border-radius: 50px;
+             text-decoration: none;
+             font-weight: 600;
+           ">
+          Discover More..
+        </a>
+      </div>
+
+      <!-- Image -->
+      <div class="col-lg-6"
+           style="display: flex; justify-content: flex-end; align-items: center; padding-left: 0;">
+        <img src="img/carousel-2.png"
+             alt="Banner Graphic"
+             style="
+               max-height: 320px;
+               width: auto;
+               object-fit: contain;
+             ">
+      </div>
+
     </div>
+  </div>
 </div>
+
 
 
 <!-- banner End -->
@@ -55,25 +88,24 @@ include 'header.php';
 <!-- carousel start -->
 <div class="container">
         <div class="text-center mx-auto pb-2 pt-4 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
-            <h4 class="text-primary">Our Clients</h4>
-            <h1 class="display-4"> Trusted By Industry Leaders</h1>
+            <h4>Trusted By Industry Leaders</h4>
+            <!-- <h1 class="display-4"> Trusted By Industry Leaders</h1> -->
         </div>
         <div class="logos">
             <div class="logos-slide">
-                <img src="img\client-logo\Goto.webp" />
-                <img src="img\client-logo\knowbe4.webp" />
-                <img src="img\client-logo\netsuit.webp" />
-                <img src="img\client-logo\ozontel.webp" />
-                <img src="img\client-logo\ringcentral.webp" />
-                <img src="img\client-logo\spectrum.webp" />
-                <img src="img\client-logo\wholehouse3.webp" />
-                <img src="img\client-logo\Taas.webp" />
-                <img src="img\client-logo\Panterra.webp" />
-                <img src="img\client-logo\Inside2.webp" />
+                <img src="img\client-logo\Goto.png" />
+                <img src="img\client-logo\KnowBe4.png" />
+                <img src="img\client-logo\NETSUITE.png" />
+                <img src="img\client-logo\OZONETEL.png" />
+                <img src="img\client-logo\Ring Central.png" />
+                <img src="img\client-logo\Spectrum VoIP.png" />
+                <img src="img\client-logo\Wheelhouse.png" />
+                <img src="img\client-logo\X-Taas.png" />
+                <img src="img\client-logo\Panterra.png" />
+                <img src="img\client-logo\Inside.png" />
             </div>
         </div>
     </div>
-
     <!-- carousel end -->
 
     <!-- Feature Start -->

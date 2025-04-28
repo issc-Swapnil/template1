@@ -115,11 +115,11 @@
 
         <!-- Navbar & Hero Start -->
         <div class="container-fluid nav-bar px-0 px-lg-4 py-lg-0">
-            <div class="container">
+            <!-- <div class="container"> -->
                 <nav class="navbar navbar-expand-lg navbar-light navbar-top-color"> 
                     <a href="/" class="navbar-brand p-0">
                         <!-- <h1 class="text-primary mb-0"><i class="fab fa-slack me-2"></i> LifeSure</h1> -->
-                        <img src="img\RDIGS Logo H (1).webp" alt="Logo" style="height: 90px;">
+                        <img src="img\Home-Main-logo.png" alt="Logo" style="height: 90px;">
                     </a>
                     <!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
                         <span class="fa fa-bars"></span>
@@ -128,8 +128,10 @@
                         <span class="fa fa-bars"></span>
                     </button>
                     <div class="collapse navbar-collapse" id="navbarCollapse">
-                        <div class="navbar-nav mx-0 mx-lg-auto">
-                        <a href="/" class="nav-item nav-link"><i class="fas fa-home fa-2x" style="color: rgba(0, 0, 0, .55);"></i></a>
+                    <div class="navbar-nav mx-0 mx-lg-auto">
+                            <a href="/" class="nav-item nav-link">
+                                <img src="img\Home-Icon.png" alt="Home" style="width: 25px; height: 25px;">
+                            </a>
 
                             <div class="nav-item dropdown">
                                 <a href="#" class="nav-link" data-bs-toggle="dropdown">
@@ -183,11 +185,11 @@
                         </a>
                         <div class="d-flex flex-column ms-3">
                             <span>Call to Our Experts</span>
-                            <a href="tel:+ 0123 456 7890"><span class="text-dark">Free: +91 848-404-0734</span></a>
+                            <a href="tel:+ 0123 456 7890"><span class="text-dark"> +91 848-404-0734</span></a>
                         </div>
                     </div>
                 </nav>
-            </div>
+            <!-- </div> -->
         </div>
         <!-- Navbar & Hero End -->
 

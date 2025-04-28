@@ -686,8 +686,7 @@
 }
 .logos{
   overflow:hidden;
-  padding:40px 0 ;
-  background:white;
+  padding: 10px 0;
   white-space:nowrap;
   position:relative;
 }
