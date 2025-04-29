@@ -88,7 +88,7 @@ include 'header.php';
 <!-- carousel start -->
 <div class="container">
         <div class="text-center mx-auto pb-2 pt-4 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
-            <h4>Trusted By Industry Leaders</h4>
+            <h4 style="color: #606060 !important;">Trusted By Industry Leaders</h4>
             <!-- <h1 class="display-4"> Trusted By Industry Leaders</h1> -->
         </div>
         <div class="logos">
