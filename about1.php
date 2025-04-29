@@ -130,8 +130,6 @@ include 'header.php';
                 </p> -->
             </div>
 
-            
-
             <div class="row g-4">
                 <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.2s">
                     <div class="team-item">
@@ -142,7 +140,7 @@ include 'header.php';
                                         class="fab fa-facebook-f"></i></a>
                                 <a class="btn btn-primary btn-sm-square rounded-pill mb-2" href=""><i
                                         class="fab fa-twitter"></i></a> -->
-                                <a class="btn btn-primary btn-sm-square rounded-pill mb-2" href="https://www.linkedin.com/in/rolanddcosta0734/"><i
+                                <a class="btn btn-primary btn-sm-square rounded-pill mb-2" href="https://www.linkedin.com/in/rolanddcosta0734/" target="_blank"><i
                                         class="fab fa-linkedin-in"></i></a>
                                 <!-- <a class="btn btn-primary btn-sm-square rounded-pill mb-0" href=""><i
                                         class="fab fa-instagram"></i></a> -->
@@ -163,7 +161,7 @@ include 'header.php';
                                         class="fab fa-facebook-f"></i></a>
                                 <a class="btn btn-primary btn-sm-square rounded-pill mb-2" href=""><i
                                         class="fab fa-twitter"></i></a> -->
-                                <a class="btn btn-primary btn-sm-square rounded-pill mb-2" href="https://www.linkedin.com/in/ajay-rawat-16896b206/"><i
+                                <a class="btn btn-primary btn-sm-square rounded-pill mb-2" href="https://www.linkedin.com/in/ajay-rawat-16896b206/" target="_blank"><i
                                         class="fab fa-linkedin-in"></i></a>
                                 <!-- <a class="btn btn-primary btn-sm-square rounded-pill mb-0" href=""><i
                                         class="fab fa-instagram"></i></a> -->
@@ -185,7 +183,7 @@ include 'header.php';
                                         class="fab fa-facebook-f"></i></a>
                                 <a class="btn btn-primary btn-sm-square rounded-pill mb-2" href=""><i
                                         class="fab fa-twitter"></i></a> -->
-                                <a class="btn btn-primary btn-sm-square rounded-pill mb-2" href="https://www.linkedin.com/in/sharad-salve-0058617b/"><i
+                                <a class="btn btn-primary btn-sm-square rounded-pill mb-2" href="https://www.linkedin.com/in/sharad-salve-0058617b/" target="_blank"><i
                                         class="fab fa-linkedin-in"></i></a>
                                 <!-- <a class="btn btn-primary btn-sm-square rounded-pill mb-0" href=""><i
                                         class="fab fa-instagram"></i></a> -->
@@ -208,7 +206,7 @@ include 'header.php';
                                         class="fab fa-facebook-f"></i></a>
                                 <a class="btn btn-primary btn-sm-square rounded-pill mb-2" href=""><i
                                         class="fab fa-twitter"></i></a> -->
-                                <a class="btn btn-primary btn-sm-square rounded-pill mb-2" href="https://www.linkedin.com/in/william-k-m-12189737/"><i
+                                <a class="btn btn-primary btn-sm-square rounded-pill mb-2" href="https://www.linkedin.com/in/william-k-m-12189737/" target="_blank"><i
                                         class="fab fa-linkedin-in"></i></a>
                                 <!-- <a class="btn btn-primary btn-sm-square rounded-pill mb-0" href=""><i
                                         class="fab fa-instagram"></i></a> -->
@@ -230,7 +228,7 @@ include 'header.php';
                                         class="fab fa-facebook-f"></i></a>
                                 <a class="btn btn-primary btn-sm-square rounded-pill mb-2" href=""><i
                                         class="fab fa-twitter"></i></a> -->
-                                <a class="btn btn-primary btn-sm-square rounded-pill mb-2" href="https://www.linkedin.com/in/brookerneal/"><i
+                                <a class="btn btn-primary btn-sm-square rounded-pill mb-2" href="https://www.linkedin.com/in/brookerneal/" target="_blank"><i
                                         class="fab fa-linkedin-in"></i></a>
                                 <!-- <a class="btn btn-primary btn-sm-square rounded-pill mb-0" href=""><i
                                         class="fab fa-instagram"></i></a> -->
@@ -252,7 +250,7 @@ include 'header.php';
                                         class="fab fa-facebook-f"></i></a>
                                 <a class="btn btn-primary btn-sm-square rounded-pill mb-2" href=""><i
                                         class="fab fa-twitter"></i></a> -->
-                                <a class="btn btn-primary btn-sm-square rounded-pill mb-2" href="https://www.linkedin.com/in/rachel-mendis-b846b5179/"><i
+                                <a class="btn btn-primary btn-sm-square rounded-pill mb-2" href="https://www.linkedin.com/in/rachel-mendis-b846b5179/" target="_blank"><i
                                         class="fab fa-linkedin-in"></i></a>
                                 <!-- <a class="btn btn-primary btn-sm-square rounded-pill mb-0" href=""><i
                                         class="fab fa-instagram"></i></a> -->
@@ -274,7 +272,7 @@ include 'header.php';
                                         class="fab fa-facebook-f"></i></a>
                                 <a class="btn btn-primary btn-sm-square rounded-pill mb-2" href=""><i
                                         class="fab fa-twitter"></i></a> -->
-                                <a class="btn btn-primary btn-sm-square rounded-pill mb-2" href="https://www.linkedin.com/in/sunil-markam-2935511b/"><i
+                                <a class="btn btn-primary btn-sm-square rounded-pill mb-2" href="https://www.linkedin.com/in/sunil-markam-2935511b/" target="_blank"><i
                                         class="fab fa-linkedin-in"></i></a>
                                 <!-- <a class="btn btn-primary btn-sm-square rounded-pill mb-0" href=""><i
                                         class="fab fa-instagram"></i></a> -->
@@ -296,7 +294,7 @@ include 'header.php';
                                         class="fab fa-facebook-f"></i></a>
                                 <a class="btn btn-primary btn-sm-square rounded-pill mb-2" href=""><i
                                         class="fab fa-twitter"></i></a> -->
-                                <a class="btn btn-primary btn-sm-square rounded-pill mb-2" href="https://www.linkedin.com/in/brookerneal/"><i
+                                <a class="btn btn-primary btn-sm-square rounded-pill mb-2" href="https://www.linkedin.com/in/brookerneal/" target="_blank"><i
                                         class="fab fa-linkedin-in"></i></a>
                                 <!-- <a class="btn btn-primary btn-sm-square rounded-pill mb-0" href=""><i
                                         class="fab fa-instagram"></i></a> -->

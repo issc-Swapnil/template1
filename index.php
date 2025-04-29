@@ -22,59 +22,57 @@ include 'header.php';
 </div> -->
 
 
-<div class="container-fluid"
-     style="background: linear-gradient(to right, #3099D5, rgba(255,255,255,0)); padding: 17px 15px; color: #fff; position: relative;">
+<style>
+  @media (max-width: 991px) {
+    .responsive-row {
+      flex-direction: column !important;
+    }
 
-  <div class="container">
-    <div class="row"
-         style="display: flex; align-items: center; justify-content: space-between;">
+    .responsive-text, .responsive-image {
+      width: 100% !important;
+      max-width: 100% !important;
+      text-align: center !important;
+      padding-right: 0 !important;
+      padding-left: 0 !important;
+      margin-bottom: 20px;
+    }
+
+    .responsive-image img {
+      max-width: 90% !important;
+      height: auto !important;
+    }
+
+    .responsive-text h1 {
+      font-size: 2rem !important;
+    }
+  }
+</style>
+
+<div style="background: linear-gradient(to right, #3099D5, rgba(255,255,255,0)); padding: 20px 15px; color: #fff; position: relative;">
+
+  <div style="max-width: 1200px; margin: 0 auto;">
+    <div class="responsive-row" style="display: flex; align-items: center; justify-content: space-between;">
 
       <!-- Text -->
-      <div class="col-lg-6" style="padding-right: 0;">
-        <h3 style="
-            font-size: 1.25rem;
-            font-weight: 700;
-            line-height: 1.3;
-            margin-bottom: 12px;
-          ">
+      <div class="responsive-text" style="width: 50%; padding-right: 0;">
+        <h3 style="font-size: 1.25rem; font-weight: 700; line-height: 1.3; margin-bottom: 12px;">
           Fuel Your B2B Sales Funnel<br>
           with Programmatic Advertising
         </h3>
 
-        <h1 style="
-            font-size: 2.75rem;
-            font-weight: 700;
-            line-height: 1.2;
-            margin-bottom: 20px;
-          ">
+        <h1 style="font-size: 2.75rem; font-weight: 700; line-height: 1.2; margin-bottom: 20px;">
           Powered by Technology | Driven by Data<br>
           Delivered with a Human Touch
         </h1>
 
-        <a href="#"
-           style="
-             display: inline-block;
-             background: #000;
-             color: #fff;
-             padding: 12px 32px;
-             border-radius: 50px;
-             text-decoration: none;
-             font-weight: 600;
-           ">
+        <a href="#" style="display: inline-block; background: #000; color: #fff; padding: 12px 32px; border-radius: 50px; text-decoration: none; font-weight: 600;">
           Discover More..
         </a>
       </div>
 
       <!-- Image -->
-      <div class="col-lg-6"
-           style="display: flex; justify-content: flex-end; align-items: center; padding-left: 0;">
-        <img src="img/carousel-2.png"
-             alt="Banner Graphic"
-             style="
-               max-height: 320px;
-               width: auto;
-               object-fit: contain;
-             ">
+      <div class="responsive-image" style="width: 50%; display: flex; justify-content: flex-end; align-items: center; padding-left: 0;">
+        <img src="img/carousel-2.png" alt="Banner Graphic" style="max-height: 320px; width: auto; object-fit: contain;">
       </div>
 
     </div>
@@ -82,13 +80,12 @@ include 'header.php';
 </div>
 
 
-
 <!-- banner End -->
 
 <!-- carousel start -->
 <div class="container">
-        <div class="text-center mx-auto pb-2 pt-4 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
-            <h4 style="color: #606060 !important;">Trusted By Industry Leaders</h4>
+        <div class="text-center mx-auto pt-3 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 850px;">
+            <h4 style="color: #606060 !important;">Trusted By Leading Global Brands & Consistently Exceeding Expectations</h4>
             <!-- <h1 class="display-4"> Trusted By Industry Leaders</h1> -->
         </div>
         <div class="logos">
@@ -266,6 +263,219 @@ include 'header.php';
         </div>
     </div>
     <!-- About End -->
+    
+    <!-- Testimonial Start -->
+    <div class="container-fluid testimonial pb-2">
+        <div class="container pb-5">
+            <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
+                <!-- <h4 class="text-primary mt-3">Client's Feedback</h4> -->
+                <h1 class="display-4 mb-4">Their Experience, Our Pride</h1>
+                <h4 class="text-primary mt-3">Don't Take Our Word for It... Hear It from Our Clients</h4>
+                <!-- <p class="mb-0">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur adipisci facilis cupiditate recusandae aperiam temporibus corporis itaque quis facere, numquam, ad culpa deserunt sint dolorem autem obcaecati, ipsam mollitia hic.
+                    </p> -->
+            </div>
+            <div class="owl-carousel testimonial-carousel wow fadeInUp" data-wow-delay="0.2s">
+                <div class="testimonial-item bg-light rounded">
+                    <div class="row g-0">
+                        <!-- <div class="col-4  col-lg-4 col-xl-3">
+                                <div class="h-100">
+                                    <img src="img/Taas.webp" class="img-fluid h-10 rounded" style="object-fit: cover;" alt="logo">
+                                </div>
+                            </div> -->
+                        <div class="col-8 col-lg-8 col-xl-9">
+                            <div class="d-flex flex-column my-auto text-start p-4">
+                                <div class="col-4  col-lg-4 col-xl-3">
+                                    <div class="h-300">
+                                        <img src="img\client-feedback\Taas-V.png" class="img-fluid h-10 rounded"
+                                            style="object-fit: cover;" alt="logo">
+                                    </div>
+                                </div>
+                                <h4 class="text-dark mb-0"> Sarah Miller</h4>
+                                <p class="mb-3">Marketing Director, Global Brands</p>
+                                <div class="d-flex text-primary mb-3">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <p class="mb-0">"We have worked with RDIGS as our delivery partner for over three years.
+                                    Throughout the period they have provided amazing high-quality leads along with
+                                    responsiveness to both planned, unplanned, and urgent needs. They have developed a
+                                    good set of capabilities in their team and processes to ensure that their delivery
+                                    is timely and comes with uncompromised quality.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-item bg-light rounded">
+                    <div class="row g-0">
+                        <div class="col-8 col-lg-8 col-xl-9">
+                            <div class="d-flex flex-column my-auto text-start p-4">
+                                <div class="col-4  col-lg-4 col-xl-3">
+                                    <div class="h-100">
+                                        <img src="img\client-feedback\Wheelhouse-V.png" class="img-fluid h-10 rounded"
+                                            style="object-fit: cover;" alt="">
+                                    </div>
+                                </div>
+                                <h4 class="text-dark mb-0">Emily Rodriguez</h4>
+                                <p class="mb-3">Operations Director, Enterprise Solutions</p>
+                                <div class="d-flex text-primary mb-3">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star text-body"></i>
+                                </div>
+                                <p class="mb-0">"We have worked with RDIGS as our delivery partner for over three years.
+                                    Throughout the period they have provided amazing high-quality leads along with
+                                    responsiveness to both planned, unplanned, and urgent needs. They have developed a
+                                    good set of capabilities in their team and processes to ensure that their delivery
+                                    is timely and comes with uncompromised quality. All in all, they are a good team in the client's success.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-item bg-light rounded">
+                    <div class="row g-0">
+                        <div class="col-8 col-lg-8 col-xl-9">
+                            <div class="d-flex flex-column my-auto text-start p-4">
+                                <div class="col-4  col-lg-4 col-xl-3">
+                                    <div class="h-100">
+                                        <img src="img\client-feedback\Goto-V.png" class="img-fluid h-110 rounded"
+                                            style="object-fit: cover;" alt="">
+                                    </div>
+                                </div>
+                                <h4 class="text-dark mb-0">John Deo</h4>
+                                <p class="mb-3">CEO, Innovation Tech</p>
+                                <div class="d-flex text-primary mb-3">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star text-body"></i>
+                                    <i class="fas fa-star text-body"></i>
+                                </div>
+                                <p class="mb-0">"Thanks to RDIGS' incredible work, timely leads, and flexibility,
+                                    especially since you guys help us achieve our demand gen goals each quarter. Our
+                                    executive team can now see an exemplary Opportunity
+                                    to Close/Win rate along with solid ROI. We are hoping to grow this partnership with
+                                    RDIGS throughout!". All in all, they are a good team and
+                                    willing to go the extra mile when needed to partner in the client's success.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- testimonial end -->
+
+    <!-- Team Start -->
+    <div class="container-fluid team pb-5">
+        <div class="container pb-5">
+            <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
+                <h4 class="text-primary">Our Team</h4>
+                <h1 class="display-4 mb-4">Meet Our Expert Team Members</h1>
+                <!-- <p class="mb-0">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur adipisci facilis
+                    cupiditate recusandae aperiam temporibus corporis itaque quis facere, numquam, ad culpa deserunt
+                    sint dolorem autem obcaecati, ipsam mollitia hic.
+                </p> -->
+            </div>
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.2s">
+                    <div class="team-item">
+                        <div class="team-img">
+                            <img src="img\team\team1..jpeg" class="img-fluid rounded-top w-100" alt="">
+                            <div class="team-icon">
+                                <!-- <a class="btn btn-primary btn-sm-square rounded-pill mb-2" href=""><i
+                                        class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-primary btn-sm-square rounded-pill mb-2" href=""><i
+                                        class="fab fa-twitter"></i></a> -->
+                                <a class="btn btn-primary btn-sm-square rounded-pill mb-2" href="https://www.linkedin.com/in/rolanddcosta0734/" target="_blank"><i
+                                        class="fab fa-linkedin-in"></i></a>
+                                <!-- <a class="btn btn-primary btn-sm-square rounded-pill mb-0" href=""><i
+                                        class="fab fa-instagram"></i></a> -->
+                            </div>
+                        </div>
+                        <div class="team-title p-4" style="height: 120px;">
+                            <h4 class="mb-0">Roland D'Costa</h4>
+                            <p class="mb-0">Chief Executive Officer</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.4s">
+                    <div class="team-item">
+                        <div class="team-img">
+                            <img src="img\team\team2.jpeg" class="img-fluid rounded-top w-100" alt="">
+                            <div class="team-icon">
+                                <!-- <a class="btn btn-primary btn-sm-square rounded-pill mb-2" href=""><i
+                                        class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-primary btn-sm-square rounded-pill mb-2" href=""><i
+                                        class="fab fa-twitter"></i></a> -->
+                                <a class="btn btn-primary btn-sm-square rounded-pill mb-2" href="https://www.linkedin.com/in/ajay-rawat-16896b206/" target="_blank"><i
+                                        class="fab fa-linkedin-in"></i></a>
+                                <!-- <a class="btn btn-primary btn-sm-square rounded-pill mb-0" href=""><i
+                                        class="fab fa-instagram"></i></a> -->
+                            </div>
+                        </div>
+                        <div class="team-title p-4" style="height: 120px;">
+                            <h4 class="mb-0">Ajay Rawat</h4>
+                            <p class="mb-0">Chief Operating Officer</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.8s">
+                    <div class="team-item">
+                        <div class="team-img">
+                            <img src="img\team\Will-1.png" class="img-fluid rounded-top w-100" alt="">
+                            <div class="team-icon">
+                                <!-- <a class="btn btn-primary btn-sm-square rounded-pill mb-2" href=""><i
+                                        class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-primary btn-sm-square rounded-pill mb-2" href=""><i
+                                        class="fab fa-twitter"></i></a> -->
+                                <a class="btn btn-primary btn-sm-square rounded-pill mb-2" href="https://www.linkedin.com/in/rachel-mendis-b846b5179/" target="_blank"><i
+                                        class="fab fa-linkedin-in"></i></a>
+                                <!-- <a class="btn btn-primary btn-sm-square rounded-pill mb-0" href=""><i
+                                        class="fab fa-instagram"></i></a> -->
+                            </div>
+                        </div>
+                        <div class="team-title p-4" style="height: 120px;">
+                            <h4 class="mb-0">William Mathurai </h4>
+                            <p class="mb-0">Chief Revenue Officer</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.8s">
+                    <div class="team-item">
+                        <div class="team-img">
+                            <img src="img\team\Nial-7.png" class="img-fluid rounded-top w-100" alt="">
+                            <div class="team-icon">
+                                <!-- <a class="btn btn-primary btn-sm-square rounded-pill mb-2" href=""><i
+                                        class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-primary btn-sm-square rounded-pill mb-2" href=""><i
+                                        class="fab fa-twitter"></i></a> -->
+                                <a class="btn btn-primary btn-sm-square rounded-pill mb-2" href="https://www.linkedin.com/in/brookerneal/" target="_blank"><i
+                                        class="fab fa-linkedin-in"></i></a>
+                                <!-- <a class="btn btn-primary btn-sm-square rounded-pill mb-0" href=""><i
+                                        class="fab fa-instagram"></i></a> -->
+                            </div>
+                        </div>
+                        <div class="team-title p-4" style="height: 120px;">
+                            <h4 class="mb-0">Neal Brooker</h4>
+                            <p class="mb-0">Fractional Sales Director, EMEA</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- Team End -->
 
     <!-- Service Start -->
     <!-- <div class="container-fluid service py-5">
@@ -421,287 +631,66 @@ include 'header.php';
                 </p>
             </div>
             <div class="row g-4 justify-content-center">
-                <div class="col-lg-6 col-xl-4 wow fadeInUp" data-wow-delay="0.2s">
-                    <div class="blog-item">
-                        <div class="blog-img">
-                            <img src="img\blog\Blog 11.webp" class="img-fluid rounded-top w-100" alt="">
-                            <div class="blog-categiry py-2 px-4">
-                                <span>Business</span>
-                            </div>
-                        </div>
-                        <div class="blog-content p-4">
-                            <div class="blog-comment d-flex justify-content-between mb-3">
-                                <!-- <div class="small"><span class="fa fa-user text-primary"></span> Martin.C</div>
-                                <div class="small"><span class="fa fa-calendar text-primary"></span> 30 Dec 2025</div>
-                                <div class="small"><span class="fa fa-comment-alt text-primary"></span> 6 Comments</div> -->
-                            </div>
-                            <a href="#" class="h4 d-inline-block mb-3">A Guide to B2B Lead Qualification</a>
-                            <!-- <p class="mb-3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius libero soluta
-                                impedit eligendi? Quibusdam, laudantium.</p> -->
-                                <a href="#" class="btn p-0">Read More <i class="fa fa-arrow-right"></i></a>
-                        </div>
-                    </div>
+    <div class="col-lg-6 col-xl-4 wow fadeInUp" data-wow-delay="0.2s">
+        <div class="blog-item">
+            <div class="blog-img">
+                <img src="img\blog\Blog 11.webp" class="img-fluid rounded-top w-100" alt="">
+                <div class="blog-categiry py-2 px-4">
+                    <span>Business</span>
                 </div>
-                <div class="col-lg-6 col-xl-4 wow fadeInUp" data-wow-delay="0.4s">
-                    <div class="blog-item">
-                        <div class="blog-img">
-                            <img src="img\blog\Blog 12.webp" class="img-fluid rounded-top w-100" alt="">
-                            <div class="blog-categiry py-2 px-4">
-                                <span>Business</span>
-                            </div>
-                        </div>
-                        <div class="blog-content p-4">
-                            <div class="blog-comment d-flex justify-content-between mb-3">
-                                <!-- <div class="small"><span class="fa fa-user text-primary"></span> Martin.C</div>
-                                <div class="small"><span class="fa fa-calendar text-primary"></span> 30 Dec 2025</div>
-                                <div class="small"><span class="fa fa-comment-alt text-primary"></span> 6 Comments</div> -->
-                            </div>
-                            <a href="#" class="h4 d-inline-block mb-3">Data silos block B2B decisions</a>
-                            <!-- <p class="mb-3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius libero soluta
-                                impedit eligendi? Quibusdam, laudantium.</p> -->
-                            <a href="#" class="btn p-0">Read More <i class="fa fa-arrow-right"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6 col-xl-4 wow fadeInUp" data-wow-delay="0.6s">
-                    <div class="blog-item">
-                        <div class="blog-img">
-                            <img src="img\blog\Blog 13.webp" class="img-fluid rounded-top w-100" alt="">
-                            <div class="blog-categiry py-2 px-4">
-                                <span>Business</span>
-                            </div>
-                        </div>
-                        <div class="blog-content p-4">
-                            <div class="blog-comment d-flex justify-content-between mb-3">
-                                <!-- <div class="small"><span class="fa fa-user text-primary"></span> Martin.C</div>
-                                <div class="small"><span class="fa fa-calendar text-primary"></span> 30 Dec 2025</div>
-                                <div class="small"><span class="fa fa-comment-alt text-primary"></span> 6 Comments</div> -->
-                            </div>
-                            <a href="#" class="h4 d-inline-block mb-3">B2B Journey & Touchpoints</a>
-                            <!-- <p class="mb-3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius libero soluta
-                                impedit eligendi? Quibusdam, laudantium.</p> -->
-                            <a href="#" class="btn p-0">Read More <i class="fa fa-arrow-right"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="text-center mt-4">
-                <a href="blog.php" class="btn btn-primary rounded-pill py-3 px-5">View All Blogs</a>
             </div>
+            <div class="blog-content p-4" style="max-width: 400px; margin: 0 auto;">
+                <div class="blog-comment d-flex justify-content-between mb-3">
+                    
+                </div>
+                <a href="#" class="h4 d-inline-block mb-3" style="height: 60px; line-height: 60px;">A Guide to B2B Lead Qualification</a>
+                <a href="#" class="btn p-0">Read More <i class="fa fa-arrow-right"></i></a>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-6 col-xl-4 wow fadeInUp" data-wow-delay="0.4s">
+        <div class="blog-item">
+            <div class="blog-img">
+                <img src="img\blog\Blog 12.webp" class="img-fluid rounded-top w-100" alt="">
+                <div class="blog-categiry py-2 px-4">
+                    <span>Business</span>
+                </div>
+            </div>
+            <div class="blog-content p-4" style="max-width: 400px; margin: 0 auto;">
+                <div class="blog-comment d-flex justify-content-between mb-3">
+                    
+                </div>
+                <a href="#" class="h4 d-inline-block mb-3" style="height: 60px; line-height: 60px;">Data silos block B2B decisions</a>
+                <a href="#" class="btn p-0">Read More <i class="fa fa-arrow-right"></i></a>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-6 col-xl-4 wow fadeInUp" data-wow-delay="0.6s">
+        <div class="blog-item">
+            <div class="blog-img">
+                <img src="img\blog\Blog 13.webp" class="img-fluid rounded-top w-100" alt="">
+                <div class="blog-categiry py-2 px-4">
+                    <span>Business</span>
+                </div>
+            </div>
+            <div class="blog-content p-4" style="max-width: 400px; margin: 0 auto;">
+                <div class="blog-comment d-flex justify-content-between mb-3">
+                    
+                </div>
+                <a href="#" class="h4 d-inline-block mb-3" style="height: 60px; line-height: 60px;">B2B Journey & Touchpoints</a>
+                <a href="#" class="btn p-0">Read More <i class="fa fa-arrow-right"></i></a>
+            </div>
+        </div>
+    </div>
+    <div class="text-center mt-4">
+        <a href="blog.php" class="btn btn-primary rounded-pill py-3 px-5">View All Blogs</a>
+    </div>
+</div>
+
          </div>
         </div>
     </div>
     <!-- Blog End -->
-
-    <!-- Team Start -->
-    <div class="container-fluid team pb-5">
-        <div class="container pb-5">
-            <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
-                <h4 class="text-primary">Our Team</h4>
-                <h1 class="display-4 mb-4">Meet Our Expert Team Members</h1>
-                <!-- <p class="mb-0">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur adipisci facilis
-                    cupiditate recusandae aperiam temporibus corporis itaque quis facere, numquam, ad culpa deserunt
-                    sint dolorem autem obcaecati, ipsam mollitia hic.
-                </p> -->
-            </div>
-            <div class="row g-4">
-                <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.2s">
-                    <div class="team-item">
-                        <div class="team-img">
-                            <img src="img\team\team1..jpeg" class="img-fluid rounded-top w-100" alt="">
-                            <div class="team-icon">
-                                <!-- <a class="btn btn-primary btn-sm-square rounded-pill mb-2" href=""><i
-                                        class="fab fa-facebook-f"></i></a>
-                                <a class="btn btn-primary btn-sm-square rounded-pill mb-2" href=""><i
-                                        class="fab fa-twitter"></i></a> -->
-                                <a class="btn btn-primary btn-sm-square rounded-pill mb-2" href="https://www.linkedin.com/in/rolanddcosta0734/"><i
-                                        class="fab fa-linkedin-in"></i></a>
-                                <!-- <a class="btn btn-primary btn-sm-square rounded-pill mb-0" href=""><i
-                                        class="fab fa-instagram"></i></a> -->
-                            </div>
-                        </div>
-                        <div class="team-title p-4" style="height: 120px;">
-                            <h4 class="mb-0">Roland D'Costa</h4>
-                            <p class="mb-0">Chief Executive Officer</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.4s">
-                    <div class="team-item">
-                        <div class="team-img">
-                            <img src="img\team\team2.jpeg" class="img-fluid rounded-top w-100" alt="">
-                            <div class="team-icon">
-                                <!-- <a class="btn btn-primary btn-sm-square rounded-pill mb-2" href=""><i
-                                        class="fab fa-facebook-f"></i></a>
-                                <a class="btn btn-primary btn-sm-square rounded-pill mb-2" href=""><i
-                                        class="fab fa-twitter"></i></a> -->
-                                <a class="btn btn-primary btn-sm-square rounded-pill mb-2" href="https://www.linkedin.com/in/ajay-rawat-16896b206/"><i
-                                        class="fab fa-linkedin-in"></i></a>
-                                <!-- <a class="btn btn-primary btn-sm-square rounded-pill mb-0" href=""><i
-                                        class="fab fa-instagram"></i></a> -->
-                            </div>
-                        </div>
-                        <div class="team-title p-4" style="height: 120px;">
-                            <h4 class="mb-0">Ajay Rawat</h4>
-                            <p class="mb-0">Chief Operating Officer</p>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.8s">
-                    <div class="team-item">
-                        <div class="team-img">
-                            <img src="img\team\Will-1.png" class="img-fluid rounded-top w-100" alt="">
-                            <div class="team-icon">
-                                <!-- <a class="btn btn-primary btn-sm-square rounded-pill mb-2" href=""><i
-                                        class="fab fa-facebook-f"></i></a>
-                                <a class="btn btn-primary btn-sm-square rounded-pill mb-2" href=""><i
-                                        class="fab fa-twitter"></i></a> -->
-                                <a class="btn btn-primary btn-sm-square rounded-pill mb-2" href="https://www.linkedin.com/in/rachel-mendis-b846b5179/"><i
-                                        class="fab fa-linkedin-in"></i></a>
-                                <!-- <a class="btn btn-primary btn-sm-square rounded-pill mb-0" href=""><i
-                                        class="fab fa-instagram"></i></a> -->
-                            </div>
-                        </div>
-                        <div class="team-title p-4" style="height: 120px;">
-                            <h4 class="mb-0">William Mathurai </h4>
-                            <p class="mb-0">Chief Revenue Officer</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.8s">
-                    <div class="team-item">
-                        <div class="team-img">
-                            <img src="img\team\Nial-7.png" class="img-fluid rounded-top w-100" alt="">
-                            <div class="team-icon">
-                                <!-- <a class="btn btn-primary btn-sm-square rounded-pill mb-2" href=""><i
-                                        class="fab fa-facebook-f"></i></a>
-                                <a class="btn btn-primary btn-sm-square rounded-pill mb-2" href=""><i
-                                        class="fab fa-twitter"></i></a> -->
-                                <a class="btn btn-primary btn-sm-square rounded-pill mb-2" href="https://www.linkedin.com/in/brookerneal/"><i
-                                        class="fab fa-linkedin-in"></i></a>
-                                <!-- <a class="btn btn-primary btn-sm-square rounded-pill mb-0" href=""><i
-                                        class="fab fa-instagram"></i></a> -->
-                            </div>
-                        </div>
-                        <div class="team-title p-4" style="height: 120px;">
-                            <h4 class="mb-0">Neal Brooker</h4>
-                            <p class="mb-0">Fractional Sales Director, EMEA</p>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-    </div>
-    <!-- Team End -->
-
-    <!-- Testimonial Start -->
-    <div class="container-fluid testimonial pb-2">
-        <div class="container pb-5">
-            <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
-                <h4 class="text-primary">Client's Feedback</h4>
-                <h1 class="display-4 mb-4">What Clients Say About Us</h1>
-                <!-- <p class="mb-0">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur adipisci facilis cupiditate recusandae aperiam temporibus corporis itaque quis facere, numquam, ad culpa deserunt sint dolorem autem obcaecati, ipsam mollitia hic.
-                    </p> -->
-            </div>
-            <div class="owl-carousel testimonial-carousel wow fadeInUp" data-wow-delay="0.2s">
-                <div class="testimonial-item bg-light rounded">
-                    <div class="row g-0">
-                        <!-- <div class="col-4  col-lg-4 col-xl-3">
-                                <div class="h-100">
-                                    <img src="img/Taas.webp" class="img-fluid h-10 rounded" style="object-fit: cover;" alt="logo">
-                                </div>
-                            </div> -->
-                        <div class="col-8 col-lg-8 col-xl-9">
-                            <div class="d-flex flex-column my-auto text-start p-4">
-                                <div class="col-4  col-lg-4 col-xl-3">
-                                    <div class="h-300">
-                                        <img src="img\client-feedback\Taas-V.png" class="img-fluid h-10 rounded"
-                                            style="object-fit: cover;" alt="logo">
-                                    </div>
-                                </div>
-                                <h4 class="text-dark mb-0"> Sarah Miller</h4>
-                                <p class="mb-3">Marketing Director, Global Brands</p>
-                                <div class="d-flex text-primary mb-3">
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                </div>
-                                <p class="mb-0">"We have worked with RDIGS as our delivery partner for over three years.
-                                    Throughout the period they have provided amazing high-quality leads along with
-                                    responsiveness to both planned, unplanned, and urgent needs. They have developed a
-                                    good set of capabilities in their team and processes to ensure that their delivery
-                                    is timely and comes with uncompromised quality.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="testimonial-item bg-light rounded">
-                    <div class="row g-0">
-                        <div class="col-8 col-lg-8 col-xl-9">
-                            <div class="d-flex flex-column my-auto text-start p-4">
-                                <div class="col-4  col-lg-4 col-xl-3">
-                                    <div class="h-100">
-                                        <img src="img\client-feedback\Wheelhouse-V.png" class="img-fluid h-10 rounded"
-                                            style="object-fit: cover;" alt="">
-                                    </div>
-                                </div>
-                                <h4 class="text-dark mb-0">Emily Rodriguez</h4>
-                                <p class="mb-3">Operations Director, Enterprise Solutions</p>
-                                <div class="d-flex text-primary mb-3">
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star text-body"></i>
-                                </div>
-                                <p class="mb-0">"We have worked with RDIGS as our delivery partner for over three years.
-                                    Throughout the period they have provided amazing high-quality leads along with
-                                    responsiveness to both planned, unplanned, and urgent needs. They have developed a
-                                    good set of capabilities in their team and processes to ensure that their delivery
-                                    is timely and comes with uncompromised quality. All in all, they are a good team in the client's success.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="testimonial-item bg-light rounded">
-                    <div class="row g-0">
-                        <div class="col-8 col-lg-8 col-xl-9">
-                            <div class="d-flex flex-column my-auto text-start p-4">
-                                <div class="col-4  col-lg-4 col-xl-3">
-                                    <div class="h-100">
-                                        <img src="img\client-feedback\Goto-V.png" class="img-fluid h-110 rounded"
-                                            style="object-fit: cover;" alt="">
-                                    </div>
-                                </div>
-                                <h4 class="text-dark mb-0">John Deo</h4>
-                                <p class="mb-3">CEO, Innovation Tech</p>
-                                <div class="d-flex text-primary mb-3">
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star text-body"></i>
-                                    <i class="fas fa-star text-body"></i>
-                                </div>
-                                <p class="mb-0">"Thanks to RDIGS' incredible work, timely leads, and flexibility,
-                                    especially since you guys help us achieve our demand gen goals each quarter. Our
-                                    executive team can now see an exemplary Opportunity
-                                    to Close/Win rate along with solid ROI. We are hoping to grow this partnership with
-                                    RDIGS throughout!". All in all, they are a good team and
-                                    willing to go the extra mile when needed to partner in the client's success.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
 <div>
     <h1 class="display-4 text-center">Corporate Deck</h1>
 </div>
