@@ -130,7 +130,7 @@
                     <div class="collapse navbar-collapse" id="navbarCollapse">
                     <div class="navbar-nav mx-0 mx-lg-auto">
                             <a href="/" class="nav-item nav-link">
-                                <img src="img\Home-Icon.png" alt="Home" style="width: 25px; height: 25px;">
+                                <img src="img\Home-Icon.png" alt="Home" style="width: 23px; height: 23px;">
                             </a>
 
                             <div class="nav-item dropdown">
