@@ -9,18 +9,22 @@
                             <div class="col-md-6 col-lg-6 col-xl-5">
                                 <div class="footer-item">
                                     <a href="index.html" class="p-0">
-                                    <img src="img\RDIGS Logo H (1).webp" alt="Logo">
+                                    <img src="img\Home-Main-logo.png" alt="Logo" style="height: 90px;">
                                     </a>
                                     <p class="text-white mb-4">To achieve our client’s marketing and ROI goals, our team of industry veterans is committed to exceeding their expectations at every turn.</p>
                                     <div class="footer-btn d-flex">
-                                        <a class="btn btn-md-square rounded-circle me-3" href="https://www.facebook.com/RDInfoGlobalSolutions"><i
-                                                class="fab fa-facebook-f"></i></a>
-                                        <a class="btn btn-md-square rounded-circle me-3" href="https://twitter.com/rdigsb2b"><i
-                                                class="fab fa-twitter"></i></a>
-                                        <a class="btn btn-md-square rounded-circle me-3" href="https://www.instagram.com/rdinfoglobalsolutions/"><i
-                                                class="fab fa-instagram"></i></a>
-                                        <a class="btn btn-md-square rounded-circle me-0" href="https://www.linkedin.com/company/rd-info-global-solutions/"><i
-                                                class="fab fa-linkedin-in"></i></a>
+                                        <a class="btn btn-md-square rounded-circle me-3" href="https://www.facebook.com/RDInfoGlobalSolutions" target="_blank">
+                                            <i class="fab fa-facebook-f"></i>
+                                        </a>
+                                        <a class="btn btn-md-square rounded-circle me-3" href="https://twitter.com/rdigsb2b" target="_blank">
+                                            <i class="fab fa-twitter"></i>
+                                        </a>
+                                        <a class="btn btn-md-square rounded-circle me-3" href="https://www.instagram.com/rdinfoglobalsolutions/" target="_blank">
+                                            <i class="fab fa-instagram"></i>
+                                        </a>
+                                        <a class="btn btn-md-square rounded-circle me-0" href="https://www.linkedin.com/company/rd-info-global-solutions/" target="_blank">
+                                            <i class="fab fa-linkedin-in"></i>
+                                        </a>
                                     </div>
                                 </div>
                             </div>
@@ -37,10 +41,10 @@
                             </div>
                             <div class="col-md-6 col-lg-6 col-xl-4">
    
-        <h4 class="mb-4 text-white">ISO Certified</h4>
-        <img src="img/ISO-LOGO.png" alt="ISO Logo" style="height: 100px; object-fit: contain;" class="img-fluid">
-        <p>ISO Certified – Committed to Quality Excellence</p>
-</div>
+                            <h4 class="mb-4 text-white">ISO Certified</h4>
+                            <img src="img/ISO-LOGO.png" alt="ISO Logo" style="height: 100px; object-fit: contain;" class="img-fluid">
+                            <p>ISO Certified – Committed to Quality Excellence</p>
+                            </div>
                         </div>
                     </div>
                     <div class="pt-5" style="border-top: 1px solid rgba(255, 255, 255, 0.08);">
@@ -111,7 +115,7 @@
                             </div>
                             <div class="d-flex flex-column ms-3 flex-shrink-0">
                                 <span>Call to Our Experts</span>
-                                <a href="tel:+ 0123 456 7890"><span class="text-white">Free: +91 848-404-0734</span></a>
+                                <a href="tel:+ 0123 456 7890"><span class="text-white">+91 848-404-0734</span></a>
                             </div>
                         </div>
                     </div>
