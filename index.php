@@ -265,112 +265,94 @@ include 'header.php';
     <!-- About End -->
     
     <!-- Testimonial Start -->
-    <div class="container-fluid testimonial pb-2">
-        <div class="container pb-5">
-            <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
-                <!-- <h4 class="text-primary mt-3">Client's Feedback</h4> -->
-                <h1 class="display-4 mb-4">Their Experience, Our Pride</h1>
-                <h4 class="text-primary mt-3">Don't Take Our Word for It... Hear It from Our Clients</h4>
-                <!-- <p class="mb-0">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur adipisci facilis cupiditate recusandae aperiam temporibus corporis itaque quis facere, numquam, ad culpa deserunt sint dolorem autem obcaecati, ipsam mollitia hic.
-                    </p> -->
+<div class="container my-5">
+  <div class="text-center mb-4">
+    <p class="feedback-heading">Client's Feedback</p>
+    <h2 class="testimonial-title">What Clients Say About Us</h2>
+  </div>
+
+  <div id="testimonialCarousel" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner mb-5">
+
+      <!-- Slide 1 -->
+      <div class="carousel-item active">
+        <div class="row justify-content-center g-4">
+          <div class="col-md-5">
+            <div class="testimonial-card">
+              <div class="testimonial-text">
+                <p>Thanks to RDIGS' incredible work, timely leads, and flexibility... Our executive team can now see an exemplary Opportunity to Close/Win rate. Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <p class="client-role">CEO, Innovation Tech</p>
+              </div>
+              <div class="logo-container">
+                <img src="img\client-feedback\Taas.png" class="client-logo" alt="TaaS Logo">
+              </div>
             </div>
-            <div class="owl-carousel testimonial-carousel wow fadeInUp" data-wow-delay="0.2s">
-                <div class="testimonial-item bg-light rounded">
-                    <div class="row g-0">
-                        <!-- <div class="col-4  col-lg-4 col-xl-3">
-                                <div class="h-100">
-                                    <img src="img/Taas.webp" class="img-fluid h-10 rounded" style="object-fit: cover;" alt="logo">
-                                </div>
-                            </div> -->
-                        <div class="col-8 col-lg-8 col-xl-9">
-                            <div class="d-flex flex-column my-auto text-start p-4">
-                                <div class="col-4  col-lg-4 col-xl-3">
-                                    <div class="h-300">
-                                        <img src="img\client-feedback\Taas-V.png" class="img-fluid h-10 rounded"
-                                            style="object-fit: cover;" alt="logo">
-                                    </div>
-                                </div>
-                                <h4 class="text-dark mb-0"> Sarah Miller</h4>
-                                <p class="mb-3">Marketing Director, Global Brands</p>
-                                <div class="d-flex text-primary mb-3">
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                </div>
-                                <p class="mb-0">"We have worked with RDIGS as our delivery partner for over three years.
-                                    Throughout the period they have provided amazing high-quality leads along with
-                                    responsiveness to both planned, unplanned, and urgent needs. They have developed a
-                                    good set of capabilities in their team and processes to ensure that their delivery
-                                    is timely and comes with uncompromised quality.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="testimonial-item bg-light rounded">
-                    <div class="row g-0">
-                        <div class="col-8 col-lg-8 col-xl-9">
-                            <div class="d-flex flex-column my-auto text-start p-4">
-                                <div class="col-4  col-lg-4 col-xl-3">
-                                    <div class="h-100">
-                                        <img src="img\client-feedback\Wheelhouse-V.png" class="img-fluid h-10 rounded"
-                                            style="object-fit: cover;" alt="">
-                                    </div>
-                                </div>
-                                <h4 class="text-dark mb-0">Emily Rodriguez</h4>
-                                <p class="mb-3">Operations Director, Enterprise Solutions</p>
-                                <div class="d-flex text-primary mb-3">
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star text-body"></i>
-                                </div>
-                                <p class="mb-0">"We have worked with RDIGS as our delivery partner for over three years.
-                                    Throughout the period they have provided amazing high-quality leads along with
-                                    responsiveness to both planned, unplanned, and urgent needs. They have developed a
-                                    good set of capabilities in their team and processes to ensure that their delivery
-                                    is timely and comes with uncompromised quality. All in all, they are a good team in the client's success.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="testimonial-item bg-light rounded">
-                    <div class="row g-0">
-                        <div class="col-8 col-lg-8 col-xl-9">
-                            <div class="d-flex flex-column my-auto text-start p-4">
-                                <div class="col-4  col-lg-4 col-xl-3">
-                                    <div class="h-100">
-                                        <img src="img\client-feedback\Goto-V.png" class="img-fluid h-110 rounded"
-                                            style="object-fit: cover;" alt="">
-                                    </div>
-                                </div>
-                                <h4 class="text-dark mb-0">John Deo</h4>
-                                <p class="mb-3">CEO, Innovation Tech</p>
-                                <div class="d-flex text-primary mb-3">
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star text-body"></i>
-                                    <i class="fas fa-star text-body"></i>
-                                </div>
-                                <p class="mb-0">"Thanks to RDIGS' incredible work, timely leads, and flexibility,
-                                    especially since you guys help us achieve our demand gen goals each quarter. Our
-                                    executive team can now see an exemplary Opportunity
-                                    to Close/Win rate along with solid ROI. We are hoping to grow this partnership with
-                                    RDIGS throughout!". All in all, they are a good team and
-                                    willing to go the extra mile when needed to partner in the client's success.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+          </div>
+          <div class="col-md-5">
+            <div class="testimonial-card">
+              <div class="testimonial-text">
+                <p>RDIGS has been a critical part of our success. Their responsiveness and delivery model are second to none.</p>
+                <p class="client-role">CEO, Innovation Tech</p>
+              </div>
+              <div class="logo-container">
+                <img src="img\client-feedback\Goto (1).png" class="client-logo" alt="GoTo Logo">
+              </div>
             </div>
+          </div>
         </div>
+      </div>
+
+      <!-- Slide 2 -->
+      <div class="carousel-item">
+        <div class="row justify-content-center g-4">
+          <div class="col-md-5">
+            <div class="testimonial-card">
+              <div class="testimonial-text">
+                <p>Partnering with RDIGS has allowed us to scale efficiently while maintaining high-quality leads.</p>
+                <p class="client-role">CMO, ScaleTech</p>
+              </div>
+              <div class="logo-container">
+                <img src="img\client-feedback\Wheelhouse (1).png" class="client-logo" alt="Salesforce Logo">
+              </div>
+            </div>
+          </div>
+          <div class="col-md-5">
+            <div class="testimonial-card">
+              <div class="testimonial-text">
+                <p>We value RDIGS' strategic input and proactive communication. They truly act as a partner, not just a vendor.</p>
+                <p class="client-role">VP, GrowthOps</p>
+              </div>
+              <div class="logo-container">
+                <img src="img\client-feedback\Inside (1).png" class="client-logo" alt="Zoom Logo">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
     </div>
+
+    <!-- Custom Navigation Buttons -->
+    <button class="carousel-control-prev" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true">
+        <svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+          <path fill="#3099D5" d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z"/>
+        </svg>
+      </span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true">
+        <svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+          <path fill="#3099D5" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
+        </svg>
+      </span>
+      <span class="visually-hidden">Next</span>
+    </button>
+
+  </div>
+</div>
+
     <!-- testimonial end -->
 
     <!-- Team Start -->
