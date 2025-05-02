@@ -26,7 +26,7 @@
 /* Fixed size for card */
 .feature-item {
   width: 100%;
-  height: 400px; /* Adjust height as needed */
+  height: 334px; /* Adjust height as needed */
   border-radius: 10px;
   background: var(--bs-white);
   transition: background 0.5s;
@@ -686,7 +686,7 @@
 }
 .logos{
   overflow:hidden;
-  padding: 20px 0 25px 0;
+  padding: 17px 0 25px 0;
   white-space:nowrap;
   position:relative;
 }

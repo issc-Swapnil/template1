@@ -32,47 +32,46 @@
     </head>
 
     <body>
-
           <!-- Popup Container -->
          <!-- Subscribe Modal -->
-        <div id="subscribeModal" class="modal fade" tabindex="-1" aria-hidden="true">
-            <div class="modal-dialog modal-dialog-centered d-flex align-items-center justify-content-center">
-                <div class="modal-content p-3" 
-                    style="background: #3099D5; color: white; border-radius: 15px; text-align: center; 
-                        box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2); max-width: 350px; width: 90%;">
+         <div class="modal fade" id="subscribeModal" tabindex="-1" aria-labelledby="subscribeModalLabel" aria-hidden="true">
+            
+        <div class="modal-dialog modal-dialog-centered d-flex align-items-center justify-content-center">
+            <div class="modal-content p-3" 
+                style="background: #3099D5; color: white; border-radius: 15px; text-align: center; 
+                    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2); max-width: 350px; width: 90%;">
+                <!-- Modal Header -->
+                <div class="modal-header border-0 p-2">
+                    <h6 class="modal-title w-100 fw-bold" 
+                        style="font-size: 1.1rem; letter-spacing: 0.5px;">
+                        📩 Subscribe Now
+                    </h6>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
 
-                    <!-- Modal Header -->
-                    <div class="modal-header border-0 p-2">
-                        <h6 class="modal-title w-100 fw-bold" 
-                            style="font-size: 1.1rem; letter-spacing: 0.5px;">
-                            📩 Subscribe Now
-                        </h6>
-                        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
-                    </div>
+                <!-- Modal Body -->
+                <div class="modal-body p-2">
+                    <p style="font-size: 0.85rem; opacity: 0.9; margin-bottom: 10px;">Stay updated with our latest news and offers.</p>
+                    <input type="email" class="form-control text-black" placeholder="Enter your email"
+                        style="border-radius: 8px; border: none; text-align: center; padding: 8px; 
+                            font-size: 14px; background: white; color: black; 
+                            box-shadow: inset 0 2px 5px rgba(0, 0, 0, 0.1); width: 100%;">
+                </div>
 
-                    <!-- Modal Body -->
-                    <div class="modal-body p-2">
-                        <p style="font-size: 0.85rem; opacity: 0.9; margin-bottom: 10px;">Stay updated with our latest news and offers.</p>
-                        <input type="email" class="form-control text-black" placeholder="Enter your email"
-                            style="border-radius: 8px; border: none; text-align: center; padding: 8px; 
-                                font-size: 14px; background: white; color: black; 
-                                box-shadow: inset 0 2px 5px rgba(0, 0, 0, 0.1); width: 100%;">
-                    </div>
-
-                    <!-- Modal Footer -->
-                    <div class="modal-footer border-0 justify-content-center p-2">
-                        <button type="button" class="btn w-100" 
-                            style="background: white; border: none; padding: 8px 15px; font-weight: bold; 
-                                border-radius: 20px; color: #3099D5; font-size: 13px; 
-                                transition: all 0.3s ease-in-out;"
-                            onmouseover="this.style.background='#0056b3'; this.style.color='white';"
-                            onmouseout="this.style.background='white'; this.style.color='#3099D5';">
-                            SUBSCRIBE
-                        </button>
-                    </div>
+                <!-- Modal Footer -->
+                <div class="modal-footer border-0 justify-content-center p-2">
+                    <button type="button" class="btn w-100" 
+                        style="background: white; border: none; padding: 8px 15px; font-weight: bold; 
+                            border-radius: 20px; color: #3099D5; font-size: 13px; 
+                            transition: all 0.3s ease-in-out;"
+                        onmouseover="this.style.background='#0056b3'; this.style.color='white';"
+                        onmouseout="this.style.background='white'; this.style.color='#3099D5';">
+                        SUBSCRIBE
+                    </button>
                 </div>
             </div>
         </div>
+    </div>
 
 
 
@@ -114,7 +113,11 @@
         <!-- Topbar End -->
 
         <!-- Navbar & Hero Start -->
-        <div class="container-fluid nav-bar px-0 px-lg-4 py-lg-0">
+        <div id="mainNavbar" class="container-fluid nav-bar px-0 px-lg-4 py-lg-0"
+     style="position: sticky; top: 0; z-index: 999; transition: transform 0.3s ease;">
+
+
+
             <!-- <div class="container"> -->
                 <nav class="navbar navbar-expand-lg navbar-light navbar-top-color"> 
                     <a href="/" class="navbar-brand p-0">
@@ -192,6 +195,35 @@
             <!-- </div> -->
         </div>
         <!-- Navbar & Hero End -->
+
+        <script>
+  const navbar = document.getElementById("mainNavbar");
+  let lastScrollY = window.scrollY;
+
+  window.addEventListener("scroll", () => {
+    const currentScrollY = window.scrollY;
+
+    // Scroll Down → Hide navbar
+    if (currentScrollY > lastScrollY && currentScrollY > 200) {
+      navbar.style.transform = "translateY(-100%)";
+    } 
+    // Scroll Up or Near Top → Show navbar
+    else {
+      navbar.style.transform = "translateY(0)";
+    }
+
+    lastScrollY = currentScrollY;
+  });
+
+  // Show navbar if cursor moves to top 50px
+  document.addEventListener("mousemove", (e) => {
+    if (e.clientY <= 50) {
+      navbar.style.transform = "translateY(0)";
+    }
+  });
+</script>
+
+
 
     </body>
 
