@@ -143,35 +143,65 @@
 
 
 <!-- model start for corporate deck -->
-<div class="modal fade" id="applyModal" tabindex="-1" aria-labelledby="applyModalLabel" aria-hidden="true">
+<!-- Modal -->
+<div class="modal fade" id="contactModal" tabindex="-1" aria-hidden="true">
   <div class="modal-dialog modal-dialog-centered" style="max-width: 500px;">
-    <div class="modal-content" style="border-radius: 12px; padding: 20px;">
-      <div class="modal-header">
-        <h5 class="modal-title" id="applyModalLabel">Dowload Coroporate Deck</h5>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+    <div class="modal-content border-0" style="border-radius: 30px; background: #f6fbfe; position: relative;">
+
+      <!-- Inner Card -->
+      <div class="modal-body p-4">
+        <div class="bg-white p-4 rounded-4 shadow-sm position-relative" style="border-radius: 25px;">
+
+          <!-- Close Button inside the inner card (top-right) -->
+          <button type="button" class="btn p-0 position-absolute"
+                  data-bs-dismiss="modal" aria-label="Close"
+                  style="top: -20px; right: -20px; width: 40px; height: 40px;
+                         background-color: #3099D5; color: white; font-size: 22px;
+                         border-radius: 50%; display: flex; align-items: center; justify-content: center;">
+            ×
+          </button>
+
+          <!-- Title & Text -->
+          <!-- Title & Text -->
+        <h2 class="fw-bold text-primary text-start" style="font-size: 24px;">Contact Us</h2>
+        <p class="text-muted text-start" style="font-size: 14px;">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam volutpat.
+        </p>
+
+          <!-- Form -->
+          <form>
+            <div class="bg-light rounded-pill d-flex align-items-center px-3 py-2 mb-3">
+              <input type="text" class="form-control border-0 bg-transparent" placeholder="Full Name" required>
+              <i class="bi bi-person-fill text-primary ms-2"></i>
+            </div>
+            <div class="bg-light rounded-pill d-flex align-items-center px-3 py-2 mb-3">
+              <input type="email" class="form-control border-0 bg-transparent" placeholder="Email Address" required>
+              <i class="bi bi-envelope-fill text-primary ms-2"></i>
+            </div>
+            <div class="bg-light rounded-pill d-flex align-items-center px-3 py-2 mb-3">
+              <input type="tel" class="form-control border-0 bg-transparent" placeholder="Contact Number">
+              <i class="bi bi-telephone-fill text-primary ms-2"></i>
+            </div>
+
+            <p class="text-center fw-semibold my-3">We will get back to you asap!</p>
+
+            <button type="submit" class="btn w-100 rounded-pill text-white fw-bold"
+                    style="background-color: #3099D5; font-size: 16px; padding: 10px 0;">
+              Submit
+            </button>
+          </form>
+        </div>
       </div>
-      <div class="modal-body">
-        <form>
-          <div class="mb-3">
-            <label class="form-label">Full Name</label>
-            <input type="text" class="form-control" placeholder="Enter your name">
-          </div>
-          <div class="mb-3">
-            <label class="form-label">Email address</label>
-            <input type="email" class="form-control" placeholder="Enter email">
-          </div>
-          <div class="mb-3">
-            <label class="form-label">Contact Number</label>
-            <input type="tel" class="form-control" placeholder="Enter phone number">
-          </div>
-          
-          <button type="submit" class="btn btn-primary w-100">Submit</button>
-        </form>
-      </div>
+
     </div>
   </div>
 </div>
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
     <!-- Copyright End -->
 
 
@@ -188,23 +218,22 @@
     <script src="lib/counterup/counterup.min.js"></script>
     <script src="lib/lightbox/js/lightbox.min.js"></script>
     <script src="lib/owlcarousel/owl.carousel.min.js"></script>
-    <script>
-        document.addEventListener('DOMContentLoaded', function () {
-    const navbarToggler = document.querySelector('.navbar-toggler');
-    const navbarCollapse = document.getElementById('navbarCollapse');
+    <<script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const path = window.location.pathname;
 
-    navbarToggler.addEventListener('click', function () {
-        navbarCollapse.classList.toggle('show');
-    });
+            // Directly trigger modal for testing
+            var subscribeModal = new bootstrap.Modal(document.getElementById("subscribeModal"));
+            subscribeModal.show(); // This will show the modal immediately for testing
 
-    const dropdowns = document.querySelectorAll('.dropdown-toggle');
-    dropdowns.forEach(dropdown => {
-        dropdown.addEventListener('click', function () {
-            const dropdownMenu = this.nextElementSibling;
-            dropdownMenu.classList.toggle('show');
+            // Check if we are on the homepage
+            if (path === "/" || path.endsWith("index.php")) {
+                // Show modal after 3 seconds (testing with the timeout)
+                setTimeout(function () {
+                    subscribeModal.show(); // This should show the modal after 3 seconds
+                }, 3000); // 3000ms = 3 seconds
+            }
         });
-    });
-});
     </script>
 
 
@@ -213,18 +242,29 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 
     <script>
-    document.addEventListener("DOMContentLoaded", function () {
-        const path = window.location.pathname;
+        document.addEventListener("DOMContentLoaded", function () {
+            const path = window.location.pathname;
 
-        // Show the modal ONLY on the homepage (adjust path if needed)
-        if (path === "/" || path.endsWith("index.php")) {
-            // Show modal after 3 seconds
-            setTimeout(function () {
-                var subscribeModal = new bootstrap.Modal(document.getElementById("subscribeModal"));
-                subscribeModal.show();
-            }, 3000); // 3000ms = 3 seconds
-        }
-    });
+            // Show the modal ONLY on the homepage (adjust path if needed)
+            if (path === "/" || path.endsWith("index.php")) {
+                // Show modal after 3 seconds
+                setTimeout(function () {
+                    var subscribeModal = new bootstrap.Modal(document.getElementById("subscribeModal"));
+                    subscribeModal.show();
+                }, 2000); // 3000ms = 3 seconds
+            }
+        });
+    </script>
+</script>
+
+<script>
+  const modal = document.getElementById('contactModal');
+  modal.addEventListener('shown.bs.modal', function () {
+    const backdrop = document.querySelector('.modal-backdrop');
+    if (backdrop) {
+      backdrop.style.backgroundColor = 'white';
+    }
+  });
 </script>
 
 

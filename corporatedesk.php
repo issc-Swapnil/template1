@@ -13,10 +13,10 @@ include 'header.php';
         We’ve 15+ years of experience in B2B marketing
         </p>
         <button class="btn mt-4"
-                    style="color: white; border: 1px solid white; background: #3099D5;"
-                    data-bs-toggle="modal" data-bs-target="#applyModal">
-                Download Now
-            </button>
+        style="color: white; border: 1px solid white; background: #3099D5;"
+        data-bs-toggle="modal" data-bs-target="#contactModal">
+    Download Now
+</button>
       </div>
     </div>
 
