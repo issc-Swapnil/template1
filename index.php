@@ -191,89 +191,85 @@ include 'header.php';
     <!-- Feature End -->
 
     <!-- About Start -->
-    <div class="container-fluid bg-light about pb-5">
-        <!-- <div class="container pb-5"> -->
-            <div class="row g-5">
-                <div class="col-xl-6 wow fadeInLeft" data-wow-delay="0.2s">
-                    <div class="about-item-content bg-white rounded p-5 h-100">
-                        <h4 class="text-primary">About RDIGS</h4>
-                        <h1 class="display-4 mb-4">Bridging Tech and Human Connection in Lead Gen</h1>
-                        <p>RDIGS was founded by a team of experienced professionals, each with over 15 years in sales
-                            and B2B lead generation. Recognizing a key gap in the market, they set out with a mission to
-                            address it head-on. While driven by technology, RDIGS values the human touch, ensuring each
-                            client benefits from a personalized experience
-                        </p>
-                        <!-- <p>Our commitment is to bridge the gap between technological innovation and human connection.
-                            </p> -->
-                        <p class="text-dark"><i class="fa fa-check text-primary me-3"></i>Technological Innovation</p>
-                        <p class="text-dark"><i class="fa fa-check text-primary me-3"></i>Human Connection</p>
-                        <p class="text-dark mb-4"><i class="fa fa-check text-primary me-3"></i>Personalized Experience
-                        </p>
-                        <p class="text-dark mb-4"><i class="fa fa-check text-primary me-3"></i>Exceptional Service</p>
-                        <a class="btn btn-primary rounded-pill py-3 px-5" href="about1.php">Know More..</a>
+    <div class="container-fluid bg-light about pb-3">
+    <div class="row g-4">
+        <div class="col-xl-6 wow fadeInLeft" data-wow-delay="0.2s">
+            <div class="about-item-content bg-white rounded p-4 h-100">
+                <h4 class="text-primary mb-2">About RDIGS</h4>
+                <h1 class="display-4 mb-3">Bridging Tech and Human Connection in Lead Gen</h1>
+                <p class="mb-2">RDIGS was founded by a team of experienced professionals, each with over 15 years in sales
+                    and B2B lead generation. Recognizing a key gap in the market, they set out with a mission to
+                    address it head-on. While driven by technology, RDIGS values the human touch, ensuring each
+                    client benefits from a personalized experience.
+                </p>
+                <p class="text-dark mb-1"><i class="fa fa-check text-primary me-2"></i>Technological Innovation</p>
+                <p class="text-dark mb-1"><i class="fa fa-check text-primary me-2"></i>Human Connection</p>
+                <p class="text-dark mb-1"><i class="fa fa-check text-primary me-2"></i>Personalized Experience</p>
+                <p class="text-dark mb-3"><i class="fa fa-check text-primary me-2"></i>Exceptional Service</p>
+                <a class="btn btn-primary rounded-pill py-2 px-4" href="about1.php">Know More..</a>
+            </div>
+        </div>
+
+        <div class="col-xl-6 wow fadeInRight" data-wow-delay="0.2s">
+            <div class="bg-white rounded p-4 h-100">
+                <div class="row g-3 justify-content-center">
+                    <div class="aboutimg mb-3 text-center">
+                        <img src="img/About-US.png" alt="About RDIGS" style="width: 400px; height: auto;" />
                     </div>
-                </div>
-                <div class="col-xl-6 wow fadeInRight" data-wow-delay="0.2s">
-                    <div class="bg-white rounded p-5 h-100">
-                        <div class="row g-4 justify-content-center">
-                           <div class="aboutimg">
-                                <img src="img/About-US.png" alt="" style="width: 425px; height: auto;" />
-                                <!-- Adjust width/height values as needed -->
+                    <div class="col-sm-6">
+                        <div class="counter-item bg-light rounded p-2 h-100 text-center">
+                            <div class="counter-counting">
+                                <span class="text-primary fs-2 fw-bold" data-toggle="counter-up">31</span>
+                                <span class="h1 fw-bold text-primary">k+</span>
                             </div>
-                            <div class="col-sm-6">
-                                <div class="counter-item bg-light rounded p-3 h-100">
-                                    <div class="counter-counting">
-                                        <span class="text-primary fs-2 fw-bold" data-toggle="counter-up">31</span>
-                                        <span class="h1 fw-bold text-primary">k+</span>
-                                    </div>
-                                    <h4 class="mb-0 text-dark">Campaigns Executed</h4>
-                                </div>
+                            <h4 class="mb-0 text-dark">Campaigns Executed</h4>
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="counter-item bg-light rounded p-2 h-100 text-center">
+                            <div class="counter-counting">
+                                <span class="text-primary fs-2 fw-bold" data-toggle="counter-up">50</span>
+                                <span class="h1 fw-bold text-primary">+</span>
                             </div>
-                            <div class="col-sm-6">
-                                <div class="counter-item bg-light rounded p-3 h-100">
-                                    <div class="counter-counting">
-                                        <span class="text-primary fs-2 fw-bold" data-toggle="counter-up">50</span>
-                                        <span class="h1 fw-bold text-primary">+</span>
-                                    </div>
-                                    <h4 class="mb-0 text-dark">Years Combined Experience</h4>
-                                </div>
+                            <h4 class="mb-0 text-dark">Years Combined Experience</h4>
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="counter-item bg-light rounded p-2 h-100 text-center">
+                            <div class="counter-counting">
+                                <span class="text-primary fs-2 fw-bold" data-toggle="counter-up">100</span>
+                                <span class="h1 fw-bold text-primary">+</span>
                             </div>
-                            <div class="col-sm-6">
-                                <div class="counter-item bg-light rounded p-3 h-100">
-                                    <div class="counter-counting">
-                                        <span class="text-primary fs-2 fw-bold" data-toggle="counter-up">100 </span>
-                                        <span class="h1 fw-bold text-primary">+</span>
-                                    </div>
-                                    <h4 class="mb-0 text-dark">Demand Gen Professionals</h4>
-                                </div>
+                            <h4 class="mb-0 text-dark">Demand Gen Professionals</h4>
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="counter-item bg-light rounded p-2 h-100 text-center">
+                            <div class="counter-counting">
+                                <span class="text-primary fs-2 fw-bold" data-toggle="counter-up">4.7</span>
+                                <span class="h1 fw-bold text-primary">m+</span>
                             </div>
-                            <div class="col-sm-6">
-                                <div class="counter-item bg-light rounded p-3 h-100">
-                                    <div class="counter-counting">
-                                        <span class="text-primary fs-2 fw-bold" data-toggle="counter-up">4.7</span>
-                                        <span class="h1 fw-bold text-primary">m+</span>
-                                    </div>
-                                    <h4 class="mb-0 text-dark">Millions Leads Delivered</h4>
-                                </div>
-                            </div>
+                            <h4 class="mb-0 text-dark">Millions Leads Delivered</h4>
                         </div>
                     </div>
                 </div>
             </div>
-        <!-- </div> -->
+        </div>
     </div>
+</div>
+
     <!-- About End -->
     
     <!-- Testimonial Start -->
 <!-- Testimonial Start -->
 <div class="container my-5">
-    <div class="text-center mb-4">
-    <h1 class="display-4 mb-4">Their Experience, Our Pride</h1>
+    <div class="text-center mb-3">
+    <h1 class="display-4 mb-3">Their Experience, Our Pride</h1>
     <h4 class="text-primary">Don't Take Our Word for It... Hear It from Our Clients</h4>
     </div>
 
     <div id="testimonialCarousel" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-inner mb-5">
+        <div class="carousel-inner mb-4">
 
         <!-- Slide 1 -->
         <div class="carousel-item active">
@@ -361,9 +357,9 @@ include 'header.php';
     <!-- Team Start -->
     <div class="container-fluid team pb-2">
         <!-- <div class="container pb-5"> -->
-            <div class="text-center mx-auto pb-2 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
+            <div class="text-center mx-auto pb-2 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 750px;">
                 <h4 class="text-primary">Our Team</h4>
-                <h1 class="display-4 mb-4">Meet Our Expert Team Members</h1>
+                <h1 class="display-4 mb-2">Meet Our Expert Team Members</h1>
                 <!-- <p class="mb-0">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur adipisci facilis
                     cupiditate recusandae aperiam temporibus corporis itaque quis facere, numquam, ad culpa deserunt
                     sint dolorem autem obcaecati, ipsam mollitia hic.
@@ -373,7 +369,7 @@ include 'header.php';
                 <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.2s">
                     <div class="team-item">
                         <div class="team-img">
-                            <img src="img\team\team1..jpeg" class="img-fluid rounded-top w-100" alt="">
+                            <img src="img\team\team1..jpeg" class="img-fluid rounded-top w-80" alt="">
                             <div class="team-icon">
                                 <!-- <a class="btn btn-primary btn-sm-square rounded-pill mb-2" href=""><i
                                         class="fab fa-facebook-f"></i></a>
@@ -385,7 +381,7 @@ include 'header.php';
                                         class="fab fa-instagram"></i></a> -->
                             </div>
                         </div>
-                        <div class="team-title p-4" style="height: 120px;">
+                        <div class="team-title p-3" style="height: 90px;">
                             <h4 class="mb-0">Roland D'Costa</h4>
                             <p class="mb-0">Chief Executive Officer</p>
                         </div>
@@ -394,7 +390,7 @@ include 'header.php';
                 <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.4s">
                     <div class="team-item">
                         <div class="team-img">
-                            <img src="img\team\team2.jpeg" class="img-fluid rounded-top w-100" alt="">
+                            <img src="img\team\team2.jpeg" class="img-fluid rounded-top w-80" alt="">
                             <div class="team-icon">
                                 <!-- <a class="btn btn-primary btn-sm-square rounded-pill mb-2" href=""><i
                                         class="fab fa-facebook-f"></i></a>
@@ -406,7 +402,7 @@ include 'header.php';
                                         class="fab fa-instagram"></i></a> -->
                             </div>
                         </div>
-                        <div class="team-title p-4" style="height: 120px;">
+                        <div class="team-title p-3" style="height: 90px;">
                             <h4 class="mb-0">Ajay Rawat</h4>
                             <p class="mb-0">Chief Operating Officer</p>
                         </div>
@@ -416,7 +412,7 @@ include 'header.php';
                 <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.8s">
                     <div class="team-item">
                         <div class="team-img">
-                            <img src="img\team\Will-1.png" class="img-fluid rounded-top w-100" alt="">
+                            <img src="img\team\Will-1.png" class="img-fluid rounded-top w-80" alt="">
                             <div class="team-icon">
                                 <!-- <a class="btn btn-primary btn-sm-square rounded-pill mb-2" href=""><i
                                         class="fab fa-facebook-f"></i></a>
@@ -428,7 +424,7 @@ include 'header.php';
                                         class="fab fa-instagram"></i></a> -->
                             </div>
                         </div>
-                        <div class="team-title p-4" style="height: 120px;">
+                        <div class="team-title p-3" style="height: 90px;">
                             <h4 class="mb-0">William Mathurai </h4>
                             <p class="mb-0">Chief Revenue Officer</p>
                         </div>
@@ -438,7 +434,7 @@ include 'header.php';
                 <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.8s">
                     <div class="team-item">
                         <div class="team-img">
-                            <img src="img\team\Nial-7.png" class="img-fluid rounded-top w-100" alt="">
+                            <img src="img\team\Nial-7.png" class="img-fluid rounded-top w-80" alt="">
                             <div class="team-icon">
                                 <!-- <a class="btn btn-primary btn-sm-square rounded-pill mb-2" href=""><i
                                         class="fab fa-facebook-f"></i></a>
@@ -450,13 +446,12 @@ include 'header.php';
                                         class="fab fa-instagram"></i></a> -->
                             </div>
                         </div>
-                        <div class="team-title p-4" style="height: 120px;">
+                        <div class="team-title p-3" style="height: 90px;">
                             <h4 class="mb-0">Neal Brooker</h4>
                             <p class="mb-0">Fractional Sales Director, EMEA</p>
                         </div>
                     </div>
                 </div>
-
             </div>
         <!-- </div> -->
     </div>
@@ -607,65 +602,72 @@ include 'header.php';
     <!-- FAQs End -->
 
     <!-- Blog Start -->
-    <div class="container-fluid blog py-5">
-        <!-- <div class="container py-5"> -->
-            <div class="text-center mx-auto pb-2 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
-                <h4 class="text-primary">From Blog</h4>
-                <h1 class="display-4 mb-2">News And Updates</h1>
-                <p class="mb-0">Explore how B2B brands qualify the right leads, break down data silos, and create seamless customer journeys.From lead generation to conversion, get insights that drive smarter decisions. Learn how touchpoints and personalization impact engagement. Fuel growth with content syndication, advertising, and data-driven strategies..
-                </p>
-            </div>
-            <div class="row g-4 justify-content-center">
-            <div class="col-lg-6 col-xl-4 wow fadeInUp" data-wow-delay="0.2s">
-                <div class="blog-item">
-                    <div class="blog-img">
-                        <img src="img\blog\Blog 11.webp" class="img-fluid rounded-top w-100" alt="">
-                        <div class="blog-categiry py-2 px-4">
-                            <span>Business</span>
-                        </div>
-                    </div>
-                    <div class="blog-content p-4" style="max-width: 400px; margin: 0 auto;">
-                        <a href="#" class="h4 d-inline-block mb-3" style="height: 60px; line-height: 60px;">A Guide to B2B Lead Qualification</a>
-                        <a href="#" class="btn p-0">Read More <i class="fa fa-arrow-right"></i></a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-6 col-xl-4 wow fadeInUp" data-wow-delay="0.4s">
-                <div class="blog-item">
-                    <div class="blog-img">
-                        <img src="img\blog\Blog 12.webp" class="img-fluid rounded-top w-100" alt="">
-                        <div class="blog-categiry py-2 px-4">
-                            <span>Business</span>
-                        </div>
-                    </div>
-                    <div class="blog-content p-4" style="max-width: 400px; margin: 0 auto;">
-                        <a href="#" class="h4 d-inline-block mb-3" style="height: 60px; line-height: 60px;">Data silos block B2B decisions</a>
-                        <a href="#" class="btn p-0">Read More <i class="fa fa-arrow-right"></i></a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-6 col-xl-4 wow fadeInUp" data-wow-delay="0.6s">
-                <div class="blog-item">
-                    <div class="blog-img">
-                        <img src="img\blog\Blog 13.webp" class="img-fluid rounded-top w-100" alt="">
-                        <div class="blog-categiry py-2 px-4">
-                            <span>Business</span>
-                        </div>
-                    </div>
-                    <div class="blog-content p-4" style="max-width: 400px; margin: 0 auto;">
-                        <a href="#" class="h4 d-inline-block mb-3" style="height: 60px; line-height: 60px;">B2B Journey & Touchpoints</a>
-                        <a href="#" class="btn p-0">Read More <i class="fa fa-arrow-right"></i></a>
-                    </div>
-                </div>
-            </div>
-            <div class="text-center mt-2">
-                <a href="blog.php" class="btn btn-primary rounded-pill py-3 px-5">View All Blogs</a>
-            </div>
-       </div>
+    <div class="container-fluid blog py-4">
+    <div class="text-center mx-auto pb-2 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
+        <h4 class="text-primary">From Blog</h4>
+        <h1 class="display-4 mb-2">News And Updates</h1>
+        <p class="mb-0">
+            Explore how B2B brands qualify the right leads, break down data silos, and create seamless customer journeys.
+            From lead generation to conversion, get insights that drive smarter decisions. Learn how touchpoints and personalization
+            impact engagement. Fuel growth with content syndication, advertising, and data-driven strategies.
+        </p>
+    </div>
 
-         </div>
+    <div class="row g-3 justify-content-center">
+        <!-- Blog Card 1 -->
+        <div class="col-lg-6 col-xl-4 wow fadeInUp" data-wow-delay="0.2s">
+            <div class="blog-item h-100">
+                <div class="blog-img">
+                    <img src="img/blog/Blog 11.webp" class="img-fluid rounded-top w-100" alt="">
+                    <div class="blog-categiry py-2 px-3">
+                        <span>Business</span>
+                    </div>
+                </div>
+                <div class="blog-content p-3" style="max-width: 448px; margin: 0 auto;">
+                    <a href="#" class="h4 d-block text-truncate mb-0" style="min-height: 45px;">A Guide to B2B Lead Qualification</a>
+                    <a href="#" class="btn p-0">Read More <i class="fa fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Blog Card 2 -->
+        <div class="col-lg-6 col-xl-4 wow fadeInUp" data-wow-delay="0.4s">
+            <div class="blog-item h-100">
+                <div class="blog-img">
+                    <img src="img/blog/Blog 12.webp" class="img-fluid rounded-top w-100" alt="">
+                    <div class="blog-categiry py-2 px-3">
+                        <span>Business</span>
+                    </div>
+                </div>
+                <div class="blog-content p-3" style="max-width: 448px; margin: 0 auto;">
+                    <a href="#" class="h4 d-block text-truncate mb-0" style="min-height: 45px;">Data silos block B2B decisions</a>
+                    <a href="#" class="btn p-0">Read More <i class="fa fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Blog Card 3 -->
+        <div class="col-lg-6 col-xl-4 wow fadeInUp" data-wow-delay="0.6s">
+            <div class="blog-item h-100">
+                <div class="blog-img">
+                    <img src="img/blog/Blog 13.webp" class="img-fluid rounded-top w-100" alt="">
+                    <div class="blog-categiry py-2 px-3">
+                        <span>Business</span>
+                    </div>
+                </div>
+                <div class="blog-content p-3" style="max-width: 448px; margin: 0 auto;">
+                    <a href="#" class="h4 d-block text-truncate mb-0" style="min-height: 45px;">B2B Journey & Touchpoints</a>
+                    <a href="#" class="btn p-0">Read More <i class="fa fa-arrow-right"></i></a>
+                </div>
+            </div>
         </div>
     </div>
+
+    <div class="text-center mt-3">
+        <a href="blog.php" class="btn btn-primary rounded-pill py-2 px-4">View All Blogs</a>
+    </div>
+</div>
+
     <!-- Blog End -->
 <div>
     <h1 class="display-4 text-center">Corporate Deck</h1>
