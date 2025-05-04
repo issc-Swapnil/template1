@@ -255,7 +255,6 @@
             }
         });
     </script>
-</script>
 
 <script>
   const modal = document.getElementById('contactModal');
