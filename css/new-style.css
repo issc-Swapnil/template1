@@ -767,8 +767,8 @@
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
   display: flex;
   flex-direction: column;
-  min-height: 350px;
-  max-height: 350px;
+  min-height: 380px;
+  max-height: 380px;
   height: 100%;
 }
 
@@ -779,7 +779,7 @@
 .client-role {
   color: #1e73be;
   font-weight: 600;
-  margin-top: 15px;
+  margin-top: -10px;
 }
 
 .client-logo {
