@@ -220,7 +220,7 @@ include 'header.php';
                         <div class="counter-item bg-light rounded p-2 h-100 text-center">
                             <div class="counter-counting">
                                 <span class="text-primary fs-2 fw-bold" data-toggle="counter-up">31</span>
-                                <span class="h1 fw-bold text-primary">k+</span>
+                                <span class="h1 fw-bold text-primary" style="font-size: 31px;">k+</span>
                             </div>
                             <h4 class="mb-0 text-dark">Campaigns Executed</h4>
                         </div>
@@ -229,7 +229,7 @@ include 'header.php';
                         <div class="counter-item bg-light rounded p-2 h-100 text-center">
                             <div class="counter-counting">
                                 <span class="text-primary fs-2 fw-bold" data-toggle="counter-up">50</span>
-                                <span class="h1 fw-bold text-primary">+</span>
+                                <span class="h1 fw-bold text-primary" style="font-size: 31px;">+</span>
                             </div>
                             <h4 class="mb-0 text-dark">Years Combined Experience</h4>
                         </div>
@@ -238,7 +238,7 @@ include 'header.php';
                         <div class="counter-item bg-light rounded p-2 h-100 text-center">
                             <div class="counter-counting">
                                 <span class="text-primary fs-2 fw-bold" data-toggle="counter-up">100</span>
-                                <span class="h1 fw-bold text-primary">+</span>
+                                <span class="h1 fw-bold text-primary" style="font-size: 31px;">+</span>
                             </div>
                             <h4 class="mb-0 text-dark">Demand Gen Professionals</h4>
                         </div>
@@ -247,7 +247,7 @@ include 'header.php';
                         <div class="counter-item bg-light rounded p-2 h-100 text-center">
                             <div class="counter-counting">
                                 <span class="text-primary fs-2 fw-bold" data-toggle="counter-up">4.7</span>
-                                <span class="h1 fw-bold text-primary">m+</span>
+                                <span class="h1 fw-bold text-primary" style="font-size: 31px;">m+</span>
                             </div>
                             <h4 class="mb-0 text-dark">Millions Leads Delivered</h4>
                         </div>
@@ -264,91 +264,82 @@ include 'header.php';
 <!-- Testimonial Start -->
 <div class="container my-5">
     <div class="text-center mb-3">
-    <h1 class="display-4 mb-3">Their Experience, Our Pride</h1>
-    <h4 class="text-primary">Don't Take Our Word for It... Hear It from Our Clients</h4>
+        <h1 class="display-4 mb-3">Their Experience, Our Pride</h1>
+        <h4 class="text-primary">Don't Take Our Word for It... Hear It from Our Clients</h4>
     </div>
 
     <div id="testimonialCarousel" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner mb-4">
+            <!-- Slide 1 -->
+            <div class="carousel-item active">
+                <div class="row justify-content-center g-4">
+                    <div class="col-12 col-md-5">
+                        <div class="testimonial-card">
+                            <div class="testimonial-text">
+                                <p>We have worked with RDIGS as our delivery partner for over five years. Throughout the period, they have provided amazing, high-quality leads and been responsive to both planned and unplanned needs. They have developed a good set of capabilities in their team and processes to ensure that their delivery is timely and comes with uncompromised quality. All in all, they are a good team and willing to go the extra mile when needed to partner in the client's success.</p>
+                                <p class="client-role text-primary">Founder & CEO</p>
+                            </div>
+                            <div class="logo-container">
+                                <img src="img\client-feedback\Taas.png" class="client-logo" alt="TaaS Logo">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-5">
+                        <div class="testimonial-card">
+                            <div class="testimonial-text">
+                                <p>Thanks to RDIGS' incredible work, timely leads, and flexibility, especially since you guys help us achieve our demand gen goals each quarter. Our executive team can now see an exemplary Opportunity to Close/Win rate along with solid ROI. We are hoping to grow this partnership with RDIGS throughout!</p>
+                                <p class="client-role text-primary">Senior Marketing Programs Manager</p>
+                            </div>
+                            <div class="logo-container">
+                                <img src="img\client-feedback\Goto (1).png" class="client-logo" alt="GoTo Logo">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
-        <!-- Slide 1 -->
-        <div class="carousel-item active">
-            <div class="row justify-content-center g-4">
-            <div class="col-md-5">
-                <div class="testimonial-card">
-                <div class="testimonial-text">
-                    <p>TWe have worked with RDIGS as our delivery partner for over three years. Throughout the period they have provided amazing high-quality leads along with responsiveness to both planned, unplanned, and urgent needs. They have developed a good set of capabilities in their team and processes to ensure that their delivery is timely and comes with uncompromised quality. All in all, they are a good team and willing to go the extra mile when needed to partner in the client's success.</p>
-                    <p class="client-role">CEO, Innovation Tech</p>
+            <!-- Slide 2 -->
+            <div class="carousel-item">
+                <div class="row justify-content-center g-4">
+                    <div class="col-12 col-md-5">
+                        <div class="testimonial-card">
+                            <div class="testimonial-text">
+                                <p>Our partnership with RDIGS has been outstanding, and they have now become our top partner in terms of both volume and quality. Thanks to their efforts, we have seen a 5% increase in conversion rates from partner media in our Sales-Ready Leads offering. RDIGS has played a pivotal role in this success.
+                               </p>
+                                <p class="client-role text-primary"> Director - Inventory & Analytics</p>
+                            </div>
+                            <div class="logo-container">
+                                <img src="img\client-feedback\Wheelhouse (1).png" class="client-logo" alt="Salesforce Logo">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-5">
+                        <div class="testimonial-card">
+                            <div class="testimonial-text">
+                                <p>We have developed a great partnership with RDIGS. Their dedication to making our partnership fruitful has been evident since its inception. They have helped us fulfill client demands across different verticals while keeping quantity and quality at a high level. We appreciate their efforts and commitment to getting demands done and done on time. You guys rock. Thank you so much for doing a great job and keeping our partnership successful!</p>
+                                <p class="client-role text-primary">Strategic Customer Success Manager</p>
+                            </div>
+                            <div class="logo-container">
+                                <img src="img\client-feedback\Inside (1).png" class="client-logo" alt="Zoom Logo">
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="logo-container">
-                    <img src="img\client-feedback\Taas.png" class="client-logo" alt="TaaS Logo">
-                </div>
-                </div>
-            </div>
-            <div class="col-md-5">
-                <div class="testimonial-card">
-                <div class="testimonial-text">
-                    <p>Thanks to RDIGS' incredible work, timely leads, and flexibility, especially since you guys help us achieve our demand gen goals each quarter. Our executive team can now see an exemplary Opportunity to Close/Win rate along with solid ROI. We are hoping to grow this partnership with RDIGS throughout!</p>
-                    <p class="client-role">CEO, Innovation Tech</p>
-                </div>
-                <div class="logo-container">
-                    <img src="img\client-feedback\Goto (1).png" class="client-logo" alt="GoTo Logo">
-                </div>
-                </div>
-            </div>
             </div>
         </div>
 
-        <!-- Slide 2 -->
-        <div class="carousel-item">
-            <div class="row justify-content-center g-4">
-            <div class="col-md-5">
-                <div class="testimonial-card">
-                <div class="testimonial-text">
-                    <p>Our partnership with RDIGS has been outstanding, and they have now become our top partner in terms of bothvolume and quality. Thanks to their efforts, we have seen a 5% increase in conversion rates from partner media in SRL. RDIGS has played a pivotal role in this success</p>
-                    <p class="client-role">CMO, ScaleTech</p>
-                </div>
-                <div class="logo-container">
-                    <img src="img\client-feedback\Wheelhouse (1).png" class="client-logo" alt="Salesforce Logo">
-                </div>
-                </div>
-            </div>
-            <div class="col-md-5">
-                <div class="testimonial-card">
-                <div class="testimonial-text">
-                    <p>We have developed a great partnership with RDIGS. Their dedication to making our partnership fruitful has been evident since inception. They have helped us fulfill client demands across different verticals while keeping quantityand quality at a high level. We appreciate their efforts & commitment to getting demands done & done on time. You guys rock – Thank you so much for doing a great job and keeping our partnership successful!</p>
-                    <p class="client-role">VP, GrowthOps</p>
-                </div>
-                <div class="logo-container">
-                    <img src="img\client-feedback\Inside (1).png" class="client-logo" alt="Zoom Logo">
-                </div>
-                </div>
-            </div>
-            </div>
-        </div>
-
-        </div>
-
-        <!-- Custom Navigation Buttons -->
-        <button class="carousel-control-prev" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true">
-            <svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
-            <path fill="#3099D5" d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z"/>
-            </svg>
-        </span>
-        <span class="visually-hidden">Previous</span>
+        <!-- Custom Navigation Buttons (Prev and Next) -->
+        <button class="carousel-control-prev d-none d-lg-flex" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
         </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true">
-            <svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
-            <path fill="#3099D5" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
-            </svg>
-        </span>
-        <span class="visually-hidden">Next</span>
+        <button class="carousel-control-next d-none d-lg-flex" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
         </button>
+    </div>
+</div>
 
-    </div>
-    </div>
 
     <!-- testimonial end -->
 
@@ -603,70 +594,70 @@ include 'header.php';
 
     <!-- Blog Start -->
     <div class="container-fluid blog py-4">
-    <div class="text-center mx-auto pb-2 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
-        <h4 class="text-primary">From Blog</h4>
-        <h1 class="display-4 mb-2">News And Updates</h1>
-        <p class="mb-0">
-            Explore how B2B brands qualify the right leads, break down data silos, and create seamless customer journeys.
-            From lead generation to conversion, get insights that drive smarter decisions. Learn how touchpoints and personalization
-            impact engagement. Fuel growth with content syndication, advertising, and data-driven strategies.
-        </p>
-    </div>
+        <div class="text-center mx-auto pb-2 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
+            <h4 class="text-primary">From Blog</h4>
+            <h1 class="display-4 mb-2">News And Updates</h1>
+            <p class="mb-0">
+                Explore how B2B brands qualify the right leads, break down data silos, and create seamless customer journeys.
+                From lead generation to conversion, get insights that drive smarter decisions. Learn how touchpoints and personalization
+                impact engagement. Fuel growth with content syndication, advertising, and data-driven strategies.
+            </p>
+        </div>
 
-    <div class="row g-3 justify-content-center">
-        <!-- Blog Card 1 -->
-        <div class="col-lg-6 col-xl-4 wow fadeInUp" data-wow-delay="0.2s">
-            <div class="blog-item h-100">
-                <div class="blog-img">
-                    <img src="img/blog/Blog 11.webp" class="img-fluid rounded-top w-100" alt="">
-                    <div class="blog-categiry py-2 px-3">
-                        <span>Business</span>
+        <div class="row g-3 justify-content-center">
+            <!-- Blog Card 1 -->
+            <div class="col-lg-6 col-xl-4 wow fadeInUp" data-wow-delay="0.2s">
+                <div class="blog-item h-100">
+                    <div class="blog-img">
+                        <img src="img/blog/Blog 11.webp" class="img-fluid rounded-top w-100" alt="">
+                        <div class="blog-categiry py-2 px-3">
+                            <span>Business</span>
+                        </div>
+                    </div>
+                    <div class="blog-content p-3" style="max-width: 448px; margin: 0 auto;">
+                        <a href="#" class="h4 d-block text-truncate mb-0" style="min-height: 45px;">A Guide to B2B Lead Qualification</a>
+                        <a href="#" class="btn p-0">Read More <i class="fa fa-arrow-right"></i></a>
                     </div>
                 </div>
-                <div class="blog-content p-3" style="max-width: 448px; margin: 0 auto;">
-                    <a href="#" class="h4 d-block text-truncate mb-0" style="min-height: 45px;">A Guide to B2B Lead Qualification</a>
-                    <a href="#" class="btn p-0">Read More <i class="fa fa-arrow-right"></i></a>
+            </div>
+
+            <!-- Blog Card 2 -->
+            <div class="col-lg-6 col-xl-4 wow fadeInUp" data-wow-delay="0.4s">
+                <div class="blog-item h-100">
+                    <div class="blog-img">
+                        <img src="img/blog/Blog 12.webp" class="img-fluid rounded-top w-100" alt="">
+                        <div class="blog-categiry py-2 px-3">
+                            <span>Business</span>
+                        </div>
+                    </div>
+                    <div class="blog-content p-3" style="max-width: 448px; margin: 0 auto;">
+                        <a href="#" class="h4 d-block text-truncate mb-0" style="min-height: 45px;">Data silos block B2B decisions</a>
+                        <a href="#" class="btn p-0">Read More <i class="fa fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Blog Card 3 -->
+            <div class="col-lg-6 col-xl-4 wow fadeInUp" data-wow-delay="0.6s">
+                <div class="blog-item h-100">
+                    <div class="blog-img">
+                        <img src="img/blog/Blog 13.webp" class="img-fluid rounded-top w-100" alt="">
+                        <div class="blog-categiry py-2 px-3">
+                            <span>Business</span>
+                        </div>
+                    </div>
+                    <div class="blog-content p-3" style="max-width: 448px; margin: 0 auto;">
+                        <a href="#" class="h4 d-block text-truncate mb-0" style="min-height: 45px;">B2B Journey & Touchpoints</a>
+                        <a href="#" class="btn p-0">Read More <i class="fa fa-arrow-right"></i></a>
+                    </div>
                 </div>
             </div>
         </div>
 
-        <!-- Blog Card 2 -->
-        <div class="col-lg-6 col-xl-4 wow fadeInUp" data-wow-delay="0.4s">
-            <div class="blog-item h-100">
-                <div class="blog-img">
-                    <img src="img/blog/Blog 12.webp" class="img-fluid rounded-top w-100" alt="">
-                    <div class="blog-categiry py-2 px-3">
-                        <span>Business</span>
-                    </div>
-                </div>
-                <div class="blog-content p-3" style="max-width: 448px; margin: 0 auto;">
-                    <a href="#" class="h4 d-block text-truncate mb-0" style="min-height: 45px;">Data silos block B2B decisions</a>
-                    <a href="#" class="btn p-0">Read More <i class="fa fa-arrow-right"></i></a>
-                </div>
-            </div>
-        </div>
-
-        <!-- Blog Card 3 -->
-        <div class="col-lg-6 col-xl-4 wow fadeInUp" data-wow-delay="0.6s">
-            <div class="blog-item h-100">
-                <div class="blog-img">
-                    <img src="img/blog/Blog 13.webp" class="img-fluid rounded-top w-100" alt="">
-                    <div class="blog-categiry py-2 px-3">
-                        <span>Business</span>
-                    </div>
-                </div>
-                <div class="blog-content p-3" style="max-width: 448px; margin: 0 auto;">
-                    <a href="#" class="h4 d-block text-truncate mb-0" style="min-height: 45px;">B2B Journey & Touchpoints</a>
-                    <a href="#" class="btn p-0">Read More <i class="fa fa-arrow-right"></i></a>
-                </div>
-            </div>
+        <div class="text-center mt-3">
+            <a href="blog.php" class="btn btn-primary rounded-pill py-2 px-4">View All Blogs</a>
         </div>
     </div>
-
-    <div class="text-center mt-3">
-        <a href="blog.php" class="btn btn-primary rounded-pill py-2 px-4">View All Blogs</a>
-    </div>
-</div>
 
     <!-- Blog End -->
 <div>
@@ -686,10 +677,10 @@ include 'header.php';
         We’ve 15+ years of experience in B2B marketing
         </p>
         <button class="btn mt-4"
-                    style="color: white; border: 1px solid white; background: #3099D5;"
-                    data-bs-toggle="modal" data-bs-target="#applyModal">
-                Download Now
-            </button>
+        style="color: white; border: 1px solid white; background: #3099D5;"
+        data-bs-toggle="modal" data-bs-target="#contactModal">
+    Download Now
+</button>
       </div>
     </div>
 

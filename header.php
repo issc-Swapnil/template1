@@ -114,7 +114,7 @@
 
         <!-- Navbar & Hero Start -->
         <div id="mainNavbar" class="container-fluid nav-bar px-0 px-lg-4 py-lg-0"
-     style="position: sticky; top: 0; z-index: 999; transition: transform 0.3s ease;">
+           style="position: sticky; top: 0; z-index: 999; transition: transform 0.3s ease;">
 
 
 
@@ -133,7 +133,7 @@
                     <div class="collapse navbar-collapse" id="navbarCollapse">
                     <div class="navbar-nav mx-0 mx-lg-auto">
                             <a href="/" class="nav-item nav-link">
-                                <img src="img\Home-Icon.png" alt="Home" style="width: 23px; height: 23px;">
+                                <img src="img\Home-Icon.png" alt="Home" style="width: 23px; height: 23px; margin-left: 15px">
                             </a>
 
                             <div class="nav-item dropdown">
