@@ -94,97 +94,71 @@ include 'header.php';
 
 
         <!-- Testimonial Start -->
-        <div class="container-fluid testimonial pb-5">
-            <div class="container pb-5">
-                <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
-                    <h4 class="text-primary">Testimonial</h4>
-                    <h1 class="display-4 mb-4">What Our Customers Are Saying</h1>
-                    <p class="mb-0">Trusted Partnerships, Proven Results: Hear from Our Satisfied Clients
-                        Our commitment to excellence drives success for businesses worldwide. From high-quality leads to unmatched responsiveness, RDIGS empowers brands to achieve their sales and marketing goals. Don’t just take our word for it—see what our clients have to say!
-                    </p>
+        <div class="container-fluid blog py-4">
+        <div class="text-center mx-auto pb-2 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
+            <h4 class="text-primary">From Blog</h4>
+            <h1 class="display-4 mb-2">News And Updates</h1>
+            <p class="mb-0">
+                Explore how B2B brands qualify the right leads, break down data silos, and create seamless customer journeys.
+                From lead generation to conversion, get insights that drive smarter decisions. Learn how touchpoints and personalization
+                impact engagement. Fuel growth with content syndication, advertising, and data-driven strategies.
+            </p>
+        </div>
+
+        <div class="row g-3 justify-content-center">
+            <!-- Blog Card 1 -->
+            <div class="col-lg-6 col-xl-4 wow fadeInUp" data-wow-delay="0.2s">
+                <div class="blog-item h-100">
+                    <div class="blog-img">
+                        <img src="img/blog/Blog 11.webp" class="img-fluid rounded-top w-100" alt="">
+                        <div class="blog-categiry py-2 px-3">
+                            <span>Business</span>
+                        </div>
+                    </div>
+                    <div class="blog-content p-3" style="max-width: 448px; margin: 0 auto;">
+                        <a href="#" class="h4 d-block text-truncate mb-0" style="min-height: 45px;">A Guide to B2B Lead Qualification</a>
+                        <a href="#" class="btn p-0">Read More <i class="fa fa-arrow-right"></i></a>
+                    </div>
                 </div>
-                <div class="owl-carousel testimonial-carousel wow fadeInUp" data-wow-delay="0.2s">
-                    <div class="testimonial-item bg-light rounded">
-                        <div class="row g-0">
-                            <!-- <div class="col-4  col-lg-4 col-xl-3">
-                                <div class="h-100">
-                                    <img src="img/Taas.webp" class="img-fluid h-10 rounded" style="object-fit: cover;" alt="logo">
-                                </div>
-                            </div> -->
-                            <div class="col-8 col-lg-8 col-xl-9">
-                                <div class="d-flex flex-column my-auto text-start p-4">
-                                    <div class="col-4  col-lg-4 col-xl-3">
-                                        <div class="h-100">
-                                            <img src="img/Taas.webp" class="img-fluid h-10 rounded" style="object-fit: cover;" alt="logo">
-                                        </div>
-                                    </div>
-                                    <h4 class="text-dark mb-0"> Sarah Miller</h4>
-                                    <p class="mb-3">Marketing Director, Global Brands</p>
-                                    <div class="d-flex text-primary mb-3">
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                    </div>
-                                    <p class="mb-0">"We have worked with RDIGS as our delivery partner for over three years. Throughout the period they have provided amazing high-quality leads along with responsiveness to both planned, unplanned, and urgent needs. They have developed a good set of capabilities in their team and processes to ensure that their delivery is timely and comes with uncompromised quality. All in all, they are a good team and willing to go the extra mile when needed to partner in the client's success.
-                                    </p>
-                                </div>
-                            </div>
+            </div>
+
+            <!-- Blog Card 2 -->
+            <div class="col-lg-6 col-xl-4 wow fadeInUp" data-wow-delay="0.4s">
+                <div class="blog-item h-100">
+                    <div class="blog-img">
+                        <img src="img/blog/Blog 12.webp" class="img-fluid rounded-top w-100" alt="">
+                        <div class="blog-categiry py-2 px-3">
+                            <span>Business</span>
                         </div>
                     </div>
-                    <div class="testimonial-item bg-light rounded">
-                        <div class="row g-0">
-                            <div class="col-8 col-lg-8 col-xl-9">
-                                <div class="d-flex flex-column my-auto text-start p-4">
-                                    <div class="col-4  col-lg-4 col-xl-3">
-                                        <div class="h-100">
-                                            <img src="img/wholehouse3.webp" class="img-fluid h-10 rounded" style="object-fit: cover;" alt="">
-                                        </div>
-                                    </div>
-                                    <h4 class="text-dark mb-0">Emily Rodriguez</h4>
-                                    <p class="mb-3">Operations Director, Enterprise Solutions</p>
-                                    <div class="d-flex text-primary mb-3">
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star text-body"></i>
-                                    </div>
-                                    <p class="mb-0">"We have worked with RDIGS as our delivery partner for over three years. Throughout the period they have provided amazing high-quality leads along with responsiveness to both planned, unplanned, and urgent needs. They have developed a good set of capabilities in their team and processes to ensure that their delivery is timely and comes with uncompromised quality. All in all, they are a good team and willing to go the extra mile when needed to partner in the client's success.
-                                    </p>
-                                </div>
-                            </div>
+                    <div class="blog-content p-3" style="max-width: 448px; margin: 0 auto;">
+                        <a href="#" class="h4 d-block text-truncate mb-0" style="min-height: 45px;">Data silos block B2B decisions</a>
+                        <a href="#" class="btn p-0">Read More <i class="fa fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Blog Card 3 -->
+            <div class="col-lg-6 col-xl-4 wow fadeInUp" data-wow-delay="0.6s">
+                <div class="blog-item h-100">
+                    <div class="blog-img">
+                        <img src="img/blog/Blog 13.webp" class="img-fluid rounded-top w-100" alt="">
+                        <div class="blog-categiry py-2 px-3">
+                            <span>Business</span>
                         </div>
                     </div>
-                    <div class="testimonial-item bg-light rounded">
-                        <div class="row g-0">
-                            <div class="col-8 col-lg-8 col-xl-9">
-                                <div class="d-flex flex-column my-auto text-start p-4">
-                                    <div class="col-4  col-lg-4 col-xl-3">
-                                        <div class="h-100">
-                                            <img src="img/Goto.webp" class="img-fluid h-110 rounded" style="object-fit: cover;" alt="">
-                                        </div>
-                                    </div>
-                                    <h4 class="text-dark mb-0">John Deo</h4>
-                                    <p class="mb-3">CEO, Innovation Tech</p>
-                                    <div class="d-flex text-primary mb-3">
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star text-body"></i>
-                                        <i class="fas fa-star text-body"></i>
-                                    </div>
-                                    <p class="mb-0">"Thanks to RDIGS' incredible work, timely leads, and flexibility, especially since you guys help us achieve our demand gen goals each quarter. Our executive team can now see an exemplary Opportunity
-                                        to Close/Win rate along with solid ROI. We are hoping to grow this partnership with RDIGS throughout!"
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
+                    <div class="blog-content p-3" style="max-width: 448px; margin: 0 auto;">
+                        <a href="#" class="h4 d-block text-truncate mb-0" style="min-height: 45px;">B2B Journey & Touchpoints</a>
+                        <a href="#" class="btn p-0">Read More <i class="fa fa-arrow-right"></i></a>
                     </div>
                 </div>
             </div>
         </div>
+
+        <div class="text-center mt-3">
+            <a href="blog.php" class="btn btn-primary rounded-pill py-2 px-4">View All Blogs</a>
+        </div>
+    </div>
         <!-- Testimonial End -->
 
 

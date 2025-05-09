@@ -1,6 +1,110 @@
 
     <!-- Footer Start -->
-    <div class="container-fluid footer wow fadeIn" data-wow-delay="0.2s">
+         <!-- Footer Start -->
+<footer class="custom-footer bg-info-subtle text-dark pt-5 pb-0" style="background-color: #DCF6FF;">
+    <div class="container-fluid p-0">
+        <div class="row g-0">
+            <!-- Left Section -->
+            <div class="col-lg-4 ps-5 pe-0">
+                <a href="index.html" class="d-inline-block mb-3">
+                    <img src="img/Home-Main-logo.png" alt="Logo" style="height: 70px;">
+                </a>
+                <h4>RD Info Global Solutions</h4>
+                <p class="footer-text" style="width: 80%;">
+                    To achieve our client’s marketing and ROI goals, our team of industry veterans is committed to exceeding their expectations at every turn.
+                </p>
+                <h5>Follow us on 
+                    <a href="https://www.linkedin.com/company/rd-info-global-solutions/posts/?feedView=all" target="_blank">
+                        <img src="img/email-signature/Linkdin (2).png" style="width: 30px;" alt="LinkedIn">
+                    </a>
+                </h5>
+            </div>
+
+            <!-- Right Section -->
+            <div class="col-lg-8 ps-0 pe-3">
+                <div class="row g-0">
+                    <div class="col-md-4 mb-4">
+                        <h5 class="footer-heading">Company</h5>
+                        <ul class="list-unstyled">
+                        <li style="margin-bottom: 3px;">
+                            <a href="about1.php" class="footer-link" style="color: black;" 
+                                onmouseover="this.style.color='#3099D5'" 
+                                onmouseout="this.style.color='black'">About Us</a>
+                            </li>
+                            <li style="margin-bottom: 3px;"><a href="career.php" class="footer-link" style="color: black;" 
+                                onmouseover="this.style.color='#3099D5'" 
+                                onmouseout="this.style.color='black'">Careers</a></li>
+                            <li style="margin-bottom: 3px;"><a href="ourdifferentiation.php" class="footer-link" style="color: black;" 
+                                onmouseover="this.style.color='#3099D5'" 
+                                onmouseout="this.style.color='black'">Our Differentiation</a></li>
+                            <li style="margin-bottom: 3px;"><a href="life.php" class="footer-link" style="color: black;" 
+                                onmouseover="this.style.color='#3099D5'" 
+                                onmouseout="this.style.color='black'">Life At RDIGS</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                        <h5 class="footer-heading">Resources</h5>
+                        <ul class="list-unstyled">
+                            <li style="margin-bottom: 3px;"><a href="casestudies.php" class="footer-link" style="color: black;" 
+                                onmouseover="this.style.color='#3099D5'" 
+                                onmouseout="this.style.color='black'">Case Studies</a></li>
+                            <li style="margin-bottom: 3px;"><a href="corporatedesk.php" class="footer-link" style="color: black;" 
+                                onmouseover="this.style.color='#3099D5'" 
+                                onmouseout="this.style.color='black'">Corporate Deck</a></li>
+                            <li style="margin-bottom: 3px;"><a href="events.php" class="footer-link" style="color: black;" 
+                                onmouseover="this.style.color='#3099D5'" 
+                                onmouseout="this.style.color='black'">Events</a></li>
+                            <li style="margin-bottom: 3px;"><a href="blog.php" class="footer-link" style="color: black;" 
+                                onmouseover="this.style.color='#3099D5'" 
+                                onmouseout="this.style.color='black'">Blogs</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                        <h5 class="footer-heading">Address</h5>
+                        <ul class="list-unstyled">
+                            <li style="margin-bottom: 3px;"><img src="img/email-signature/V3.png" class="footer-link" style="width: 20px;"> Pune, India</li>
+                            <li style="margin-bottom: 3px;"><img src="img/email-signature/V2.png" class="footer-link" style="width: 20px;"> London, UK</li>
+                            <li style="margin-bottom: 3px;"><img src="img/email-signature/V1.png" class="footer-link" style="width: 20px;"> Delaware, USA</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                        <h5 class="footer-heading">Services</h5>
+                        <ul class="list-unstyled">
+                            <li style="margin-bottom: 5px;"><a href="b2bservice.php" class="footer-link" style="color: black;" 
+                                onmouseover="this.style.color='#3099D5'" 
+                                onmouseout="this.style.color='black'">B2B Lead Generation</a></li>
+                            <li style="margin-bottom: 5px;"><a href="b2badevertising.php" class="footer-link" style="color: black;" 
+                                onmouseover="this.style.color='#3099D5'" 
+                                onmouseout="this.style.color='black'">B2B Advertising</a></li>
+                            <li style="margin-bottom: 5px;"><a href="b2bsdrasaservice.php" class="footer-link" style="color: black;" 
+                                onmouseover="this.style.color='#3099D5'" 
+                                onmouseout="this.style.color='black'">B2B SDR as a Service</a></li>
+                            <li style="margin-bottom: 3px;"><a href="contentsyndication.php" class="footer-link" style="color: black;" 
+                                onmouseover="this.style.color='#3099D5'" 
+                                onmouseout="this.style.color='black'">Content Syndication</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                        <h5 class="footer-heading">Mail Us</h5>
+                        <ul class="list-unstyled">
+                            <li style="margin-bottom: 3px;"><img src="img/email-signature/Mail (1).png" style="width: 30px; margin-left: -4px; margin-bottom: 3px;"> contact@rdigs.com</li>
+                            <h5 class="footer-heading">Telephone</h5>
+                            <li style="margin-bottom: 3px;"><img src="img/email-signature/Call.png" style="width: 30px; margin-left: -4px; margin-bottom: 3px;"> +91-548-404-0734</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                        <h5 class="footer-heading">ISO Certified</h5>
+                        <ul class="list-unstyled">
+                            <li style="margin-bottom: 3px;">
+                                <img src="img/ISO-LOGO.png" class="footer-link" style="width: 120px;"></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- <div class="container-fluid footer wow fadeIn" data-wow-delay="0.2s">
         <div class="container py-5">
             <div class="row g-5">
                 <div class="col-xl-9">
@@ -32,7 +136,7 @@
                                 <div class="footer-item">
                                     <h4 class="text-white mb-4">Useful Links</h4>
                                     <a href="about1.php"><i class="fas fa-angle-right me-2"></i> About Us</a>
-                                    <!-- <a href="features.php"><i class="fas fa-angle-right me-2"></i> Features</a> -->
+                                  
                                     <a href="service.php"><i class="fas fa-angle-right me-2"></i> Services</a>
                                     <a href="faq.php"><i class="fas fa-angle-right me-2"></i> FAQ's</a>
                                     <a href="blog.php"><i class="fas fa-angle-right me-2"></i> Blogs</a>
@@ -122,24 +226,27 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
     <!-- Footer End -->
 
     <!-- Copyright Start -->
-    <div class="container-fluid py-4" style="background-color: #2c3e50;">
-    <div class="container d-flex justify-content-between align-items-center">
+    <div class="container-fluid py-4" style="background-color: white;">
+     <div class="container d-flex justify-content-between align-items-center">
         <div>
-            <a href="https://rdigs.com/" class="border-bottom text-white" target="_blank" rel="noopener noreferrer">
-                <i class="fas fa-copyright text-light me-2"></i>RD Info Global Solutions
+            <span>©2025</span>
+            <a href="https://rdigs.com/" class="border-bottom" style="color: #3099D5;" target="_blank" rel="noopener noreferrer">
+                RD Info Global Solutions
             </a>, All rights reserved.
         </div>
-        <div>
-            <a href="privacypolicy.php" class="text-white me-3" target="_blank" rel="noopener noreferrer">Privacy Policy</a>
-            <a href="ccpa.php" class="text-white me-3" target="_blank" rel="noopener noreferrer">CCPA</a>
-            <a href="terms.php" class="text-white" target="_blank" rel="noopener noreferrer">Terms cnd conditions</a>
+        <div class="d-flex align-items-center">
+            <a href="privacypolicy.php" class="text-black me-3" target="_blank" rel="noopener noreferrer">Privacy Policy</a>
+            <!-- Divider -->
+            <a href="ccpa.php" class="text-black me-3" target="_blank" rel="noopener noreferrer">CCPA</a>
+            <!-- Divider -->
+            <a href="terms.php" class="text-black" target="_blank" rel="noopener noreferrer">Terms & Conditions</a>
         </div>
+     </div>
     </div>
-</div>
 
 
 <!-- model start for corporate deck -->
@@ -154,13 +261,12 @@
 
           <!-- Close Button inside the inner card (top-right) -->
           <button type="button" class="btn p-0 position-absolute"
-                  data-bs-dismiss="modal" aria-label="Close"
-                  style="top: -20px; right: -20px; width: 40px; height: 40px;
-                         background-color: #3099D5; color: white; font-size: 22px;
-                         border-radius: 50%; display: flex; align-items: center; justify-content: center;">
-            ×
-          </button>
-
+        data-bs-dismiss="modal" aria-label="Close"
+        style="top: -20px; right: -20px; width: 50px; height: 50px;
+               background-color: transparent; color: #3099D5; font-size: 30px;
+               display: flex; align-items: center; justify-content: center; border: none;">
+  ×
+</button>
           <!-- Title & Text -->
           <!-- Title & Text -->
         <h2 class="fw-bold text-primary text-start" style="font-size: 24px;">Contact Us</h2>
@@ -218,7 +324,7 @@
     <script src="lib/counterup/counterup.min.js"></script>
     <script src="lib/lightbox/js/lightbox.min.js"></script>
     <script src="lib/owlcarousel/owl.carousel.min.js"></script>
-    <<script>
+    <!-- <<script>
         document.addEventListener("DOMContentLoaded", function () {
             const path = window.location.pathname;
 
@@ -234,7 +340,7 @@
                 }, 3000); // 3000ms = 3 seconds
             }
         });
-    </script>
+    </script> -->
 
 
     <!-- Template Javascript -->

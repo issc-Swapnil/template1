@@ -750,95 +750,161 @@
 }
 
 /* testimonial */
-.feedback-heading {
-  color: #1e73be;
-  font-weight: 600;
-}
-
-.testimonial-title {
-  font-weight: 700;
-  color: #333;
-}
-
 .testimonial-card {
-  background-color: #eaf3fb;
-  border-radius: 15px;
-  padding: 25px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+  padding: 1.5rem;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  height: 100%;
   display: flex;
   flex-direction: column;
-  min-height: 380px;
-  max-height: 380px;
-  height: 100%;
+  justify-content: space-between;
 }
 
 .testimonial-text {
-  flex-grow: 1;
+  margin-bottom: 1rem;
 }
 
 .client-role {
-  color: #1e73be;
-  font-weight: 600;
-  margin-top: -10px;
-}
-
-.client-logo {
-  height: 70px;
-  width: auto;
-  object-fit: contain;
+  color: #3099D5;
+  font-weight: 500;
+  margin-bottom: 1rem;
 }
 
 .logo-container {
   display: flex;
-  align-items: center;
-  justify-content: flex-start;
-  margin-top: auto;
-  height: 50px;
+  justify-content: flex-end;
 }
 
-.carousel-control-prev,
-.carousel-control-next {
-  width: 5%;
+.client-logo {
+  max-width: 100px;
+  height: auto;
+  object-fit: contain;
 }
 
-.carousel-control-prev-icon,
-.carousel-control-next-icon {
-  display: inline-block;
-  width: 24px;
-  height: 24px;
-  background: none;
-}
-
-.carousel-control-prev-icon svg,
-.carousel-control-next-icon svg {
-  fill: #3099D5;
-  width: 100%;
-  height: 100%;
-}
-
-.carousel-control-prev {
-  left: -1.5%;
-}
-
-.carousel-control-next {
-  right: -1.5%;
-}
-
-@media (max-width: 767.98px) {
-  .col-md-5 {
-    flex: 0 0 100%;
-    max-width: 100%;
+/* Mobile and Tablet adjustments (up to 991px) */
+@media (max-width: 991.98px) {
+  /* Each item takes full width */
+  .carousel-item .col-12 {
+      max-width: 100%;
+      flex: 1 0 100%;
   }
 
+  /* Hide carousel controls on smaller screens */
+  .carousel-control-prev,
+  .carousel-control-next {
+      display: none !important;
+  }
+
+  .testimonial-card {
+      margin-bottom: 1.5rem;
+  }
+}
+
+/* Laptops and above (≥992px) */
+@media (min-width: 992px) {
+  /* Each item takes 45% width to show two items per slide */
+  .carousel-item .col-md-5 {
+      flex: 1 0 45%;
+      max-width: 45%;
+  }
+
+  /* Show carousel controls on larger screens */
+  .carousel-control-prev,
+  .carousel-control-next {
+      display: flex !important;
+  }
+
+  /* Adjust carousel controls' positions */
   .carousel-control-prev {
-    left: 0;
+      left: -4rem;
   }
 
   .carousel-control-next {
-    right: 0;
+      right: -4rem;
   }
 }
-
 .carousel-inner {
-  margin-bottom: 4rem; /* Space between cards and navigation */
+  padding: 1.5rem 0;
+}
+
+/* Style the carousel icons */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  width: 40px;
+  height: 40px;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+.carousel-control-prev-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='%233099D5' viewBox='0 0 16 16'%3e%3cpath d='M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z'/%3e%3c/svg%3e");
+}
+
+.carousel-control-next-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='%233099D5' viewBox='0 0 16 16'%3e%3cpath d='M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+}
+
+/* Carousel control buttons outside the cards */
+.carousel-control-prev {
+  left: -4rem;
+}
+
+.carousel-control-next {
+  right: -4rem;
+}
+
+
+/* Footer Scoped Styling */
+.custom-footer {
+  background-color: #DCF6FF;
+}
+
+.custom-footer .footer-link {
+  color: #000;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.custom-footer .footer-link:hover {
+  color: #3099D5;
+}
+
+.custom-footer .footer-heading {
+  font-weight: 600;
+  color: #000;
+}
+
+.custom-footer .footer-text {
+  color: black;
+}
+
+/* Mobile & Tablet Styling */
+@media (max-width: 991px) {
+  .custom-footer .col-md-4,
+  .custom-footer .col-lg-4,
+  .custom-footer .col-lg-8 {
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+  }
+
+  .custom-footer .footer-heading {
+    font-size: 1.1rem;
+  }
+
+  .custom-footer .footer-text {
+    font-size: 0.95rem;
+  }
+
+  .custom-footer .footer-section {
+    margin-bottom: 2rem;
+  }
+
+  .custom-footer h5 {
+    margin-top: 1rem;
+  }
+
+  .custom-footer .row.g-0 {
+    gap: 1rem;
+  }
 }
