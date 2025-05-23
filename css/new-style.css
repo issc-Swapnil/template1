@@ -26,7 +26,7 @@
 /* Fixed size for card */
 .feature-item {
   width: 100%;
-  height: 334px; /* Adjust height as needed */
+  height: 305px; /* Adjust height as needed */
   border-radius: 10px;
   background: var(--bs-white);
   transition: background 0.5s;
@@ -908,3 +908,41 @@
     gap: 1rem;
   }
 }
+
+/* Base styles for footer only */
+#footer .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+/* Footer links */
+#footer a {
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+#footer a:hover {
+    color: #007bff;
+}
+
+/* Responsive styles for footer */
+@media (max-width: 768px) {
+    #footer .container {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 1rem;
+    }
+
+    #footer .d-flex {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0.5rem;
+    }
+
+    #footer .d-flex a {
+        margin-right: 0 !important;
+    }
+}
+

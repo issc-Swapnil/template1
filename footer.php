@@ -62,9 +62,9 @@
                     <div class="col-md-4 mb-4">
                         <h5 class="footer-heading">Address</h5>
                         <ul class="list-unstyled">
-                            <li style="margin-bottom: 3px;"><img src="img/email-signature/V3.png" class="footer-link" style="width: 20px;"> Pune, India</li>
-                            <li style="margin-bottom: 3px;"><img src="img/email-signature/V2.png" class="footer-link" style="width: 20px;"> London, UK</li>
                             <li style="margin-bottom: 3px;"><img src="img/email-signature/V1.png" class="footer-link" style="width: 20px;"> Delaware, USA</li>
+                            <li style="margin-bottom: 3px;"><img src="img/email-signature/V2.png" class="footer-link" style="width: 20px;"> London, UK</li>
+                            <li style="margin-bottom: 3px;"><img src="img/email-signature/V3.png" class="footer-link" style="width: 20px;"> Pune, India</li>
                         </ul>
                     </div>
                     <div class="col-md-4 mb-4">
@@ -89,7 +89,7 @@
                         <ul class="list-unstyled">
                             <li style="margin-bottom: 3px;"><img src="img/email-signature/Mail (1).png" style="width: 30px; margin-left: -4px; margin-bottom: 3px;"> contact@rdigs.com</li>
                             <h5 class="footer-heading">Telephone</h5>
-                            <li style="margin-bottom: 3px;"><img src="img/email-signature/Call.png" style="width: 30px; margin-left: -4px; margin-bottom: 3px;"> +91-548-404-0734</li>
+                            <li style="margin-bottom: 3px;"><img src="img/email-signature/Call.png" style="width: 30px; margin-left: -4px; margin-bottom: 3px;"> +91 848-404-0734</li>
                         </ul>
                     </div>
                     <div class="col-md-4 mb-4">
@@ -230,23 +230,22 @@
     <!-- Footer End -->
 
     <!-- Copyright Start -->
-    <div class="container-fluid py-4" style="background-color: white;">
-     <div class="container d-flex justify-content-between align-items-center">
-        <div>
-            <span>©2025</span>
-            <a href="https://rdigs.com/" class="border-bottom" style="color: #3099D5;" target="_blank" rel="noopener noreferrer">
-                RD Info Global Solutions
-            </a>, All rights reserved.
-        </div>
-        <div class="d-flex align-items-center">
-            <a href="privacypolicy.php" class="text-black me-3" target="_blank" rel="noopener noreferrer">Privacy Policy</a>
-            <!-- Divider -->
-            <a href="ccpa.php" class="text-black me-3" target="_blank" rel="noopener noreferrer">CCPA</a>
-            <!-- Divider -->
-            <a href="terms.php" class="text-black" target="_blank" rel="noopener noreferrer">Terms & Conditions</a>
-        </div>
-     </div>
+    <div id="footer" class="container-fluid py-4" style="background-color: white;">
+  <div class="container d-flex justify-content-between align-items-center">
+    <div>
+      <span>©2025</span>
+      <a href="https://rdigs.com/" class="border-bottom" style="color: #3099D5;" target="_blank" rel="noopener noreferrer">
+        RD Info Global Solutions
+      </a>, All rights reserved.
     </div>
+    <div class="d-flex align-items-center">
+      <a href="privacypolicy.php" class="text-black me-3" target="_blank" rel="noopener noreferrer">Privacy Policy</a>
+      <a href="ccpa.php" class="text-black me-3" target="_blank" rel="noopener noreferrer">CCPA</a>
+      <a href="terms.php" class="text-black" target="_blank" rel="noopener noreferrer">Terms & Conditions</a>
+    </div>
+  </div>
+</div>
+
 
 
 <!-- model start for corporate deck -->
@@ -363,14 +362,31 @@
     </script>
 
 <script>
-  const modal = document.getElementById('contactModal');
-  modal.addEventListener('shown.bs.modal', function () {
-    const backdrop = document.querySelector('.modal-backdrop');
-    if (backdrop) {
-      backdrop.style.backgroundColor = 'white';
-    }
-  });
+    document.getElementById('subscriptionForm').addEventListener('submit', function (event) {
+        event.preventDefault(); // Prevent URL reload
+
+        const email = document.querySelector('input[type="email"]').value.trim();
+        const consent = document.getElementById('consentCheck').checked;
+
+        if (!email || !consent) return; // Validation: silently do nothing if invalid
+
+        // Reset the form if needed
+        this.reset();
+
+        // Close the modal properly using Bootstrap 5
+        const modalEl = document.getElementById('subscribeModal');
+        const modalInstance = bootstrap.Modal.getInstance(modalEl);
+        modalInstance.hide();
+
+        // Wait for transition to end, then ensure backdrop is removed
+        modalEl.addEventListener('hidden.bs.modal', () => {
+            document.body.classList.remove('modal-open');
+            document.querySelectorAll('.modal-backdrop').forEach(el => el.remove());
+        }, { once: true });
+    });
 </script>
+
+
 
 
     </body>
