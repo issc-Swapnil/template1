@@ -21,7 +21,7 @@ include 'header.php';
   </div>
 </div> -->
 
-
+<!-- 
 <style>
   @media (max-width: 991px) {
     .responsive-row {
@@ -53,7 +53,6 @@ include 'header.php';
   <div style="max-width: 1200px; margin: 0 auto;">
     <div class="responsive-row" style="display: flex; align-items: center; justify-content: space-between;">
 
-      <!-- Text -->
       <div class="responsive-text" style="width: 50%; padding-right: 0;">
         <h3 style="font-size: 1.25rem; font-weight: 700; line-height: 1.3; margin-bottom: 12px;">
           Fuel Your B2B Sales Funnel<br>
@@ -64,10 +63,6 @@ include 'header.php';
           Powered by Technology | Driven by Data<br>
           Delivered with a Human Touch
         </h1>
-
-        <!-- <a href="#" style="display: inline-block; background: #000; color: #fff; padding: 12px 32px; border-radius: 50px; text-decoration: none; font-weight: 600;">
-          Discover More…
-        </a> -->
         <a href="#" 
             data-bs-toggle="modal" 
             data-bs-target="#subscribeModal"
@@ -76,11 +71,80 @@ include 'header.php';
         </a>
       </div>
 
-      <!-- Image -->
+    
       <div class="responsive-image" style="width: 50%; display: flex; justify-content: flex-end; align-items: center; padding-left: 0;">
         <img src="img/carousel-2.png" alt="Banner Graphic" style="max-height: 320px; width: auto; object-fit: contain;">
       </div>
 
+    </div>
+  </div>
+</div> -->
+
+
+<div class="carousel-wrapper" style="background-color: #F0F9FD;">
+  <div class="carousel-container">
+    <div class="carousel" id="carousel">
+      <!-- Slide 1 -->
+      <div class="carousel-slide">
+        <div class="left-section">
+          <!-- <h4 >OWN THE</h4> -->
+           <h1 class="text-primary" style="font-weight: 700;">OWN THE</h1>
+           <h1 class="display-4" style="font-weight: 700;">BUYER JOURNEY.</h1>
+          <!-- <h1>BUYER JOURNEY.</h1> -->
+          <p>Leverage Advanced Insights, Personalized ABM,<br>And Precision Targeting To Reach Decision-Makers.</p>
+          <form class="email-form">
+            <input type="email" placeholder="Enter Your Email" required />
+            <button type="submit">Email Now</button>
+          </form>
+          <p>Let's redefine your growth journey.</p>
+        </div>
+        <div class="right-section">
+          <img src="img\homepage-service-images\own.png " alt="Insights Illustration">
+        </div>
+      </div>
+
+      <!-- Slide 2 -->
+      <div class="carousel-slide">
+        <div class="left-section">
+           <h1 class="text-primary" style="font-weight: 700;">IGNITE DEMAND.</h1>
+           <h1 class="display-4" style="font-weight: 700;"> DRIVE GROWTH.</h1>
+          <!-- <h1>BUYER JOURNEY.</h1> -->
+          <p>Fuel your B2B marketing engine with data-driven strategies <br> that  capture attention, spark conversations, and convert <br>intent into revenue.</p>
+          <form class="email-form">
+            <input type="email" placeholder="Enter Your Email" required />
+            <button type="submit">Email Now</button>
+          </form>
+          <p>Let’s redefine your growth journey.</p>
+        </div>
+       <div class="right-section">
+          <img src="img\homepage-service-images\ingnite.png" alt="Insights Illustration">
+        </div>
+      </div>
+
+      <!-- Slide 3 -->
+      <div class="carousel-slide">
+        <div class="left-section">
+            <h1 class="text-primary" style="font-weight: 700;">WASTE NOTHING.</h1>
+           <h1 class="display-4" style="font-weight: 700;">DELIVEER EVERYTHING.</h1>
+          <!-- <h1>BUYER JOURNEY.</h1> -->
+          <p>Eliminate guesswork. Maximize ROI. Scale smarter.</p>
+          <form class="email-form">
+            <input type="email" placeholder="Enter Your Email" required />
+            <button type="submit">Email Now</button>
+          </form>
+          <p>Let’s redefine your growth journey.</p>
+        </div>
+        <div class="right-section">
+          <img src="img\homepage-service-images\ROI.png" alt="Insights Illustration">
+        </div>
+      </div>
+    </div>
+
+    <!-- Indicators -->
+    <div class="carousel-indicators">
+      <span class="active" onclick="moveToSlide(0)"></span>
+      <span onclick="moveToSlide(1)"></span>
+      <span onclick="moveToSlide(2)"></span>
     </div>
   </div>
 </div>
@@ -112,60 +176,68 @@ include 'header.php';
     <!-- carousel end -->
 
     <!-- Feature Start -->
-   <section class="container-fluid feature bg-light" style="padding: 2.75rem !important;">
-    <div class="text-center mx-auto pb-2 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 1125px;">
-        <h4 class="text-primary">Your Growth, Our Mission!</h4>
-        <h1 class="display-4 mb-2">Empowering B2B Brands To Create Demand, Capture Opportunities, And Convert Pipeline</h1>
-    </div>
-    
-    <div class="row g-4">
-        <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.2s">
-            <div class="feature-item p-3">
-                <div class="feature-img mb-2">
-                    <img src="img/homepage-service-images/B2B Lead Generation (1).jpeg" class="img-fluid" alt="B2B Lead Generation">
-                </div>
-                <h4 class="mb-2">B2B Lead Generation</h4>
-                <p class="mb-2">Empower Your Sales Team and Drive Results with Us Account-Based marketing services</p>
-                <a class="btn btn-primary rounded-pill py-2 px-4" href="b2bservice.php">Learn More</a>
-            </div>
-        </div>
-        <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.4s">
-            <div class="feature-item p-3">
-                <div class="feature-img mb-2">
-                    <img src="img/homepage-service-images/B2B Advertising.jpeg" class="img-fluid" alt="B2B Advertising">
-                </div>
-                <h4 class="mb-2">B2B Advertising</h4>
-                <p class="mb-2">Drive Sustainable Growth for Your Sales and Marketing Efforts with Data-Driven Strategies</p>
-                <a class="btn btn-primary rounded-pill py-2 px-4" href="b2badvertising.php">Learn More</a>
-            </div>
-        </div>
-        <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.6s">
-            <div class="feature-item p-3">
-                <div class="feature-img mb-2">
-                    <img src="img/homepage-service-images/B2B SDR as a Service.jpeg" class="img-fluid" alt="B2B SDR as a Service">
-                </div>
-                <h4 class="mb-2">B2B SDR as a Service</h4>
-                <p class="mb-2">Unlock the Power of Precision Marketing with RDIGS’ Intent-Based Marketing Services</p>
-                <a class="btn btn-primary rounded-pill py-2 px-4" href="b2bsdrasaservice.php">Learn More</a>
-            </div>
-        </div>
-        <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.8s">
-            <div class="feature-item p-3">
-                <div class="feature-img mb-2">
-                    <img src="img/homepage-service-images/Content Syndication.jpeg" class="img-fluid" alt="Content Syndication">
-                </div>
-                <h4 class="mb-2">Content Syndication</h4>
-                <p class="mb-2">Now is the time to Propel Your B2B Growth & Boost Your Sales Performance with RDIGS Sales</p>
-                <a class="btn btn-primary rounded-pill py-2 px-4" href="contentsyndication.php">Learn More</a>
-            </div>
-        </div>
-    </div>
+    <div class="container-fluid feature bg-light py-5" style="padding-left: 2.75rem; padding-right: 2.75rem;">
+        <!-- <div class="container py-5"> -->
+            <!-- <div class="text-center mx-auto pb-2 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
+                <h4 class="text-primary">Your Growth, Our Mission!</h4>
+                <h1 class="display-4 mb-2">Empowering B2B Brands To Create Demand, Capture Opportunities, And Convert Pipeline</h1>
+            </div> -->
 
-    <!-- Button Below the Services -->
-    <div class="text-center mt-3">
-        <a href="service.php" class="btn btn-primary rounded-pill py-3 px-5">View All Services</a>
-    </div>
-</section>
+            <div class="text-center mx-auto pb-2 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 1125px;">
+                <h4 class="text-primary">Your Growth, Our Mission!</h4>
+                <h1 class="display-4 mb-2">Empowering B2B Brands To Create Demand, Capture Opportunities, And Convert Pipeline</h1>
+            </div>
+            
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.2s">
+                    <div class="feature-item p-3 pt-0">
+                        <div class="feature-img p-4 mb-2">
+                            <img src="img\homepage-service-images\B2B Lead Generation (1).jpeg" class="img-fluid" alt="B2B Lead Generation">
+                        </div>
+                        <h4 class="mb-2">B2B Lead Generation</h4>
+                        <p class="mb-2">Empower Your Sales Team and Drive Results with Us Account-Based marketing services</p>
+                        <a class="btn btn-primary rounded-pill py-2 px-4" href="b2bservice.php">Learn More</a>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.4s">
+                    <div class="feature-item p-3 pt-0">
+                        <div class="feature-img p-4 mb-2">
+                            <img src="img\homepage-service-images\B2B Advertising.jpeg" class="img-fluid" alt="B2B Advertising">
+                        </div>
+                        <h4 class="mb-2">B2B Advertising</h4>
+                        <p class="mb-2">Drive Sustainable Growth for Your Sales and Marketing Efforts with Data-Driven Strategies</p>
+                        <a class="btn btn-primary rounded-pill py-2 px-4" href="b2badvertising.php">Learn More</a>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.6s">
+                    <div class="feature-item p-3 pt-0">
+                        <div class="feature-img p-4 mb-2">
+                            <img src="img\homepage-service-images\B2B SDR as a Service.jpeg" class="img-fluid" alt="B2B SDR as a Service">
+                        </div>
+                        <h4 class="mb-2">B2B SDR as a Service</h4>
+                        <p class="mb-2">Unlock the Power of Precision Marketing with RDIGS’ Intent-Based Marketing Services</p>
+                        <a class="btn btn-primary rounded-pill py-2 px-4" href="b2bsdrasaservice.php">Learn More</a>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.8s">
+                    <div class="feature-item p-3 pt-0">
+                        <div class="feature-img p-4 mb-2">
+                            <img src="img\homepage-service-images\Content Syndication.jpeg" class="img-fluid" alt="Content Syndication">
+                        </div>
+                        <h4 class="mb-2">Content Syndication</h4>
+                        <p class="mb-2">Now is the time to Propel Your B2B Growth & Boost Your Sales Performance with RDIGS Sales</p>
+                        <a class="btn btn-primary rounded-pill py-2 px-4" href="contentsyndication.php">Learn More</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Button Below the Services -->
+             <div class="text-center mt-3">
+            <a href="service.php" class="btn btn-primary rounded-pill py-2 px-4">View All Services</a>
+        </div>
+           
+        <!-- </div> -->
+</div>
 
     <!-- <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.2s">
                         <div class="feature-item p-4 pt-0">
@@ -196,8 +268,7 @@ include 'header.php';
     <!-- Feature End -->
 
     <!-- About Start -->
-    <div class="container-fluid bg-light about pb-3" style="padding-left: 2.75rem !important;
-    padding-right: 2.75rem !important;">
+    <div class="container-fluid bg-light about pb-3" style="padding-left: 2.75rem; padding-right: 2.75rem;">
         <div class="row g-4">
             <div class="col-xl-6 wow fadeInLeft" data-wow-delay="0.2s">
                 <div class="about-item-content bg-white rounded p-4 h-100">
@@ -351,8 +422,7 @@ include 'header.php';
     <!-- testimonial end -->
 
     <!-- Team Start -->
-    <div class="container-fluid team pb-2" style="padding-left: 2.75rem !important;
-    padding-right: 2.75rem !important;">
+    <div class="container-fluid team pb-2" style="padding-left: 2.75rem; padding-right: 2.75rem;">
         <!-- <div class="container pb-5"> -->
             <div class="text-center mx-auto pb-2 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 897px;">
                 <h4 class="text-primary">Our Expertise, Your Advantage!</h4>
@@ -595,8 +665,8 @@ include 'header.php';
     <!-- FAQs End -->
 
     <!-- Blog Start -->
-    <div class="container-fluid blog py-4" style="padding: 2.75rem !important;">
-        <div class="text-center mx-auto pb-2 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 858px;">
+    <div class="container-fluid blog py-4" style="padding-left: 2.75rem; padding-right: 2.75rem;">
+        <div class="text-center mx-auto pb-2 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 845px;">
             <h4 class="text-primary">From Blog</h4>
             <h1 class="display-4 mb-2">News And Updates</h1>
             <p class="mb-0">

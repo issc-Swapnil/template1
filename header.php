@@ -9,6 +9,7 @@
         <meta content="" name="description">
 
         <!-- Google Web Fonts -->
+         <link rel="icon" href="favicon.png" type="image/png" />
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inter:slnt,wght@-10..0,100..900&display=swap" rel="stylesheet">
@@ -137,7 +138,7 @@
 
         <!-- Middle menu -->
         <div class="collapse navbar-collapse" id="navbarCollapse">
-            <div class="navbar-nav mx-0 mx-lg-auto" style="width: 56% !important; margin-left: -3px !important;">
+            <div class="navbar-nav mx-0 mx-lg-auto" style="width: 55% !important; margin-left: -3px !important;">
                 <a href="/" class="nav-item nav-link">
                     <img src="img/Home-Icon.png" alt="Home" style="width: 23px; height: 23px;">
                 </a>
