@@ -21,7 +21,7 @@ include 'header.php';
   </div>
 </div> -->
 
-
+<!-- 
 <style>
   @media (max-width: 991px) {
     .responsive-row {
@@ -53,7 +53,6 @@ include 'header.php';
   <div style="max-width: 1200px; margin: 0 auto;">
     <div class="responsive-row" style="display: flex; align-items: center; justify-content: space-between;">
 
-      <!-- Text -->
       <div class="responsive-text" style="width: 50%; padding-right: 0;">
         <h3 style="font-size: 1.25rem; font-weight: 700; line-height: 1.3; margin-bottom: 12px;">
           Fuel Your B2B Sales Funnel<br>
@@ -64,17 +63,88 @@ include 'header.php';
           Powered by Technology | Driven by Data<br>
           Delivered with a Human Touch
         </h1>
-
-        <a href="#" style="display: inline-block; background: #000; color: #fff; padding: 12px 32px; border-radius: 50px; text-decoration: none; font-weight: 600;">
-          Discover More..
+        <a href="#" 
+            data-bs-toggle="modal" 
+            data-bs-target="#subscribeModal"
+            style="display: inline-block; background: #000; color: #fff; padding: 12px 32px; border-radius: 50px; text-decoration: none; font-weight: 600;">
+            Discover More…
         </a>
       </div>
 
-      <!-- Image -->
+    
       <div class="responsive-image" style="width: 50%; display: flex; justify-content: flex-end; align-items: center; padding-left: 0;">
         <img src="img/carousel-2.png" alt="Banner Graphic" style="max-height: 320px; width: auto; object-fit: contain;">
       </div>
 
+    </div>
+  </div>
+</div> -->
+
+
+<div class="carousel-wrapper" style="background-color: #F0F9FD;">
+  <div class="carousel-container">
+    <div class="carousel" id="carousel">
+      <!-- Slide 1 -->
+      <div class="carousel-slide">
+        <div class="left-section">
+          <!-- <h4 >OWN THE</h4> -->
+           <h1 class="text-primary" style="font-weight: 700;">OWN THE</h1>
+           <h1 class="display-4" style="font-weight: 700;">BUYER JOURNEY.</h1>
+          <!-- <h1>BUYER JOURNEY.</h1> -->
+          <p>Leverage Advanced Insights, Personalized ABM,<br>And Precision Targeting To Reach Decision-Makers.</p>
+          <form class="email-form">
+            <input type="email" placeholder="Enter Your Email" required />
+            <button type="submit">Email Now</button>
+          </form>
+          <p>Let's redefine your growth journey.</p>
+        </div>
+        <div class="right-section">
+          <img src="img\homepage-service-images\own.png " alt="Insights Illustration">
+        </div>
+      </div>
+
+      <!-- Slide 2 -->
+      <div class="carousel-slide">
+        <div class="left-section">
+           <h1 class="text-primary" style="font-weight: 700;">IGNITE DEMAND.</h1>
+           <h1 class="display-4" style="font-weight: 700;"> DRIVE GROWTH.</h1>
+          <!-- <h1>BUYER JOURNEY.</h1> -->
+          <p>Fuel your B2B marketing engine with data-driven strategies <br> that  capture attention, spark conversations, and convert <br>intent into revenue.</p>
+          <form class="email-form">
+            <input type="email" placeholder="Enter Your Email" required />
+            <button type="submit">Email Now</button>
+          </form>
+          <p>Let’s redefine your growth journey.</p>
+        </div>
+       <div class="right-section">
+          <img src="img\homepage-service-images\ingnite.png" alt="Insights Illustration">
+        </div>
+      </div>
+
+      <!-- Slide 3 -->
+      <div class="carousel-slide">
+        <div class="left-section">
+            <h1 class="text-primary" style="font-weight: 700;">WASTE NOTHING.</h1>
+           <h1 class="display-4" style="font-weight: 700;">DELIVEER EVERYTHING.</h1>
+          <!-- <h1>BUYER JOURNEY.</h1> -->
+          <p>Eliminate guesswork. Maximize ROI. Scale smarter.</p>
+          <form class="email-form">
+            <input type="email" placeholder="Enter Your Email" required />
+            <button type="submit">Email Now</button>
+          </form>
+          <p>Let’s redefine your growth journey.</p>
+        </div>
+        <div class="right-section">
+          <img src="img\homepage-service-images\ROI.png" alt="Insights Illustration">
+        </div>
+      </div>
+    </div>
+
+    <!-- Indicators -->
+    <div class="carousel-indicators">
+      <span class="active" onclick="moveToSlide(0)"></span>
+      <span onclick="moveToSlide(1)"></span>
+      <span onclick="moveToSlide(2)"></span>
     </div>
   </div>
 </div>
@@ -106,15 +176,21 @@ include 'header.php';
     <!-- carousel end -->
 
     <!-- Feature Start -->
-    <div class="container-fluid feature bg-light py-5">
+    <div class="container-fluid feature bg-light py-5" style="padding-left: 2.75rem; padding-right: 2.75rem;">
         <!-- <div class="container py-5"> -->
-            <div class="text-center mx-auto pb-2 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
-                <h4 class="text-primary">Explore Services</h4>
-                <h1 class="display-4 mb-2 ">We Assist Partners To Win New Businesses & Fuel Revenue</h1>
+            <!-- <div class="text-center mx-auto pb-2 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
+                <h4 class="text-primary">Your Growth, Our Mission!</h4>
+                <h1 class="display-4 mb-2">Empowering B2B Brands To Create Demand, Capture Opportunities, And Convert Pipeline</h1>
+            </div> -->
+
+            <div class="text-center mx-auto pb-2 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 1125px;">
+                <h4 class="text-primary">Your Growth, Our Mission!</h4>
+                <h1 class="display-4 mb-2">Empowering B2B Brands To Create Demand, Capture Opportunities, And Convert Pipeline</h1>
             </div>
+            
             <div class="row g-4">
                 <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.2s">
-                    <div class="feature-item p-4 pt-0">
+                    <div class="feature-item p-3 pt-0">
                         <div class="feature-img p-4 mb-2">
                             <img src="img\homepage-service-images\B2B Lead Generation (1).jpeg" class="img-fluid" alt="B2B Lead Generation">
                         </div>
@@ -124,7 +200,7 @@ include 'header.php';
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.4s">
-                    <div class="feature-item p-4 pt-0">
+                    <div class="feature-item p-3 pt-0">
                         <div class="feature-img p-4 mb-2">
                             <img src="img\homepage-service-images\B2B Advertising.jpeg" class="img-fluid" alt="B2B Advertising">
                         </div>
@@ -134,7 +210,7 @@ include 'header.php';
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.6s">
-                    <div class="feature-item p-4 pt-0">
+                    <div class="feature-item p-3 pt-0">
                         <div class="feature-img p-4 mb-2">
                             <img src="img\homepage-service-images\B2B SDR as a Service.jpeg" class="img-fluid" alt="B2B SDR as a Service">
                         </div>
@@ -144,7 +220,7 @@ include 'header.php';
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.8s">
-                    <div class="feature-item p-4 pt-0">
+                    <div class="feature-item p-3 pt-0">
                         <div class="feature-img p-4 mb-2">
                             <img src="img\homepage-service-images\Content Syndication.jpeg" class="img-fluid" alt="Content Syndication">
                         </div>
@@ -156,9 +232,10 @@ include 'header.php';
             </div>
 
             <!-- Button Below the Services -->
-            <div class="text-center mt-3">
-                <a href="service.php" class="btn btn-primary rounded-pill py-3 px-5">View All Services</a>
-            </div>
+             <div class="text-center mt-3">
+            <a href="service.php" class="btn btn-primary rounded-pill py-2 px-4">View All Services</a>
+        </div>
+           
         <!-- </div> -->
 </div>
 
@@ -191,81 +268,80 @@ include 'header.php';
     <!-- Feature End -->
 
     <!-- About Start -->
-    <div class="container-fluid bg-light about pb-3">
-    <div class="row g-4">
-        <div class="col-xl-6 wow fadeInLeft" data-wow-delay="0.2s">
-            <div class="about-item-content bg-white rounded p-4 h-100">
-                <h4 class="text-primary mb-2">About RDIGS</h4>
-                <h1 class="display-4 mb-3">Bridging Tech and Human Connection in Lead Gen</h1>
-                <p class="mb-2">RDIGS was founded by a team of experienced professionals, each with over 15 years in sales
-                    and B2B lead generation. Recognizing a key gap in the market, they set out with a mission to
-                    address it head-on. While driven by technology, RDIGS values the human touch, ensuring each
-                    client benefits from a personalized experience.
-                </p>
-                <p class="text-dark mb-1"><i class="fa fa-check text-primary me-2"></i>Technological Innovation</p>
-                <p class="text-dark mb-1"><i class="fa fa-check text-primary me-2"></i>Human Connection</p>
-                <p class="text-dark mb-1"><i class="fa fa-check text-primary me-2"></i>Personalized Experience</p>
-                <p class="text-dark mb-3"><i class="fa fa-check text-primary me-2"></i>Exceptional Service</p>
-                <a class="btn btn-primary rounded-pill py-2 px-4" href="about1.php">Know More..</a>
+    <div class="container-fluid bg-light about pb-3" style="padding-left: 2.75rem; padding-right: 2.75rem;">
+        <div class="row g-4">
+            <div class="col-xl-6 wow fadeInLeft" data-wow-delay="0.2s">
+                <div class="about-item-content bg-white rounded p-4 h-100">
+                    <h4 class="text-primary mb-2">Our Purpose, Your Progress!</h4>
+                    <h1 class="display-4 mb-3">Learn What Fuels Our Passion for B2B Marketing</h1>
+                    <p class="mb-2">RDIGS was founded by a team of experienced professionals, each with over 15 years in sales
+                        and B2B lead generation. Recognizing a key gap in the market, they set out with a mission to
+                        address it head-on. While driven by technology, RDIGS values the human touch, ensuring each
+                        client benefits from a personalized experience.
+                    </p>
+                    <p class="text-dark mb-1"><i class="fa fa-check text-primary me-2"></i>Technological Innovation</p>
+                    <p class="text-dark mb-1"><i class="fa fa-check text-primary me-2"></i>Human Connection</p>
+                    <p class="text-dark mb-1"><i class="fa fa-check text-primary me-2"></i>Personalized Experience</p>
+                    <p class="text-dark mb-3"><i class="fa fa-check text-primary me-2"></i>Exceptional Service</p>
+                    <a class="btn btn-primary rounded-pill py-2 px-4" href="about1.php">Know More…</a>
+                </div>
             </div>
-        </div>
 
-        <div class="col-xl-6 wow fadeInRight" data-wow-delay="0.2s">
-            <div class="bg-white rounded p-4 h-100">
-                <div class="row g-3 justify-content-center">
-                    <div class="aboutimg mb-3 text-center">
-                        <img src="img/About-US.png" alt="About RDIGS" style="width: 400px; height: auto;" />
-                    </div>
-                    <div class="col-sm-6">
-                        <div class="counter-item bg-light rounded p-2 h-100 text-center">
-                            <div class="counter-counting">
-                                <span class="text-primary fs-2 fw-bold" data-toggle="counter-up">31</span>
-                                <span class="h1 fw-bold text-primary" style="font-size: 31px;">k+</span>
-                            </div>
-                            <h4 class="mb-0 text-dark">Campaigns Executed</h4>
+            <div class="col-xl-6 wow fadeInRight" data-wow-delay="0.2s">
+                <div class="bg-white rounded p-4 h-100">
+                    <div class="row g-3 justify-content-center">
+                        <div class="aboutimg mb-3 text-center">
+                            <img src="img/About-US.png" alt="About RDIGS" style="width: 400px; height: auto;" />
                         </div>
-                    </div>
-                    <div class="col-sm-6">
-                        <div class="counter-item bg-light rounded p-2 h-100 text-center">
-                            <div class="counter-counting">
-                                <span class="text-primary fs-2 fw-bold" data-toggle="counter-up">50</span>
-                                <span class="h1 fw-bold text-primary" style="font-size: 31px;">+</span>
+                        <div class="col-sm-6">
+                            <div class="counter-item bg-light rounded p-2 h-100 text-center">
+                                <div class="counter-counting">
+                                    <span class="text-primary fs-2 fw-bold" data-toggle="counter-up">31</span>
+                                    <span class="h1 fw-bold text-primary" style="font-size: 31px;">k+</span>
+                                </div>
+                                <h4 class="mb-0 text-dark">Campaigns Executed</h4>
                             </div>
-                            <h4 class="mb-0 text-dark">Years Combined Experience</h4>
                         </div>
-                    </div>
-                    <div class="col-sm-6">
-                        <div class="counter-item bg-light rounded p-2 h-100 text-center">
-                            <div class="counter-counting">
-                                <span class="text-primary fs-2 fw-bold" data-toggle="counter-up">100</span>
-                                <span class="h1 fw-bold text-primary" style="font-size: 31px;">+</span>
+                        <div class="col-sm-6">
+                            <div class="counter-item bg-light rounded p-2 h-100 text-center">
+                                <div class="counter-counting">
+                                    <span class="text-primary fs-2 fw-bold" data-toggle="counter-up">50</span>
+                                    <span class="h1 fw-bold text-primary" style="font-size: 31px;">+</span>
+                                </div>
+                                <h4 class="mb-0 text-dark">Years Combined Experience</h4>
                             </div>
-                            <h4 class="mb-0 text-dark">Demand Gen Professionals</h4>
                         </div>
-                    </div>
-                    <div class="col-sm-6">
-                        <div class="counter-item bg-light rounded p-2 h-100 text-center">
-                            <div class="counter-counting">
-                                <span class="text-primary fs-2 fw-bold" data-toggle="counter-up">4.7</span>
-                                <span class="h1 fw-bold text-primary" style="font-size: 31px;">m+</span>
+                        <div class="col-sm-6">
+                            <div class="counter-item bg-light rounded p-2 h-100 text-center">
+                                <div class="counter-counting">
+                                    <span class="text-primary fs-2 fw-bold" data-toggle="counter-up">100</span>
+                                    <span class="h1 fw-bold text-primary" style="font-size: 31px;">+</span>
+                                </div>
+                                <h4 class="mb-0 text-dark">Demand Gen Professionals</h4>
                             </div>
-                            <h4 class="mb-0 text-dark">Millions Leads Delivered</h4>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="counter-item bg-light rounded p-2 h-100 text-center">
+                                <div class="counter-counting">
+                                    <span class="text-primary fs-2 fw-bold" data-toggle="counter-up">4.7</span>
+                                    <span class="h1 fw-bold text-primary" style="font-size: 31px;">m+</span>
+                                </div>
+                                <h4 class="mb-0 text-dark">Leads Delivered</h4>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
 </div>
-
-    <!-- About End -->
+<!-- About End -->
     
-    <!-- Testimonial Start -->
+<!-- Testimonial Start -->
 <!-- Testimonial Start -->
 <div class="container my-5">
     <div class="text-center mb-3">
-        <h1 class="display-4 mb-3">Their Experience, Our Pride</h1>
-        <h4 class="text-primary">Don't Take Our Word for It... Hear It from Our Clients</h4>
+        <h1 class="display-4 mb-3">Their Experience, Our Pride!</h1>
+        <h4 class="text-primary">See What Our Clients Are Saying About Their Growth Journey</h4>
     </div>
 
     <div id="testimonialCarousel" class="carousel slide" data-bs-ride="carousel">
@@ -346,15 +422,11 @@ include 'header.php';
     <!-- testimonial end -->
 
     <!-- Team Start -->
-    <div class="container-fluid team pb-2">
+    <div class="container-fluid team pb-2" style="padding-left: 2.75rem; padding-right: 2.75rem;">
         <!-- <div class="container pb-5"> -->
-            <div class="text-center mx-auto pb-2 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 750px;">
-                <h4 class="text-primary">Our Team</h4>
-                <h1 class="display-4 mb-2">Meet Our Expert Team Members</h1>
-                <!-- <p class="mb-0">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur adipisci facilis
-                    cupiditate recusandae aperiam temporibus corporis itaque quis facere, numquam, ad culpa deserunt
-                    sint dolorem autem obcaecati, ipsam mollitia hic.
-                </p> -->
+            <div class="text-center mx-auto pb-2 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 897px;">
+                <h4 class="text-primary">Our Expertise, Your Advantage!</h4>
+                <h1 class="display-4 mb-2">The Minds Behind The Momentum</h1>
             </div>
             <div class="row g-4">
                 <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.2s">
@@ -593,8 +665,8 @@ include 'header.php';
     <!-- FAQs End -->
 
     <!-- Blog Start -->
-    <div class="container-fluid blog py-4">
-        <div class="text-center mx-auto pb-2 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
+    <div class="container-fluid blog py-4" style="padding-left: 2.75rem; padding-right: 2.75rem;">
+        <div class="text-center mx-auto pb-2 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 845px;">
             <h4 class="text-primary">From Blog</h4>
             <h1 class="display-4 mb-2">News And Updates</h1>
             <p class="mb-0">
@@ -661,7 +733,7 @@ include 'header.php';
 
     <!-- Blog End -->
 <div>
-    <h1 class="display-4 text-center">Corporate Deck</h1>
+    <h1 class="display-4 text-center">Media Deck</h1>
 </div>
 
 <div class="container py-3">
@@ -676,7 +748,7 @@ include 'header.php';
         <p class="text-muted" style="font-size: 1.1rem;">
         We’ve 15+ years of experience in B2B marketing
         </p>
-        <button class="btn mt-4"
+         <button class="btn mt-4"
         style="color: white; border: 1px solid white; background: #3099D5;"
         data-bs-toggle="modal" data-bs-target="#contactModal">
     Download Now
@@ -713,4 +785,3 @@ include 'header.php';
     <?php 
 include 'footer.php'; 
 ?>
-
